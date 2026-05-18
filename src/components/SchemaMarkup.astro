@@ -1,0 +1,199 @@
+---
+import { SITE_CONFIG } from '../data/config';
+
+export interface Props {
+  type: 'home' | 'product' | 'page' | 'faq';
+  title?: string;
+  description?: string;
+  image?: string;
+  datePublished?: string;
+  dateModified?: string;
+  faqData?: Array<{ question: string; answer: string }>;
+}
+
+const {
+  type,
+  title = SITE_CONFIG.titleDefault,
+  description = SITE_CONFIG.descriptionDefault,
+  image = SITE_CONFIG.ogImage,
+  datePublished = '2025-05-18',
+  dateModified = '2026-05-18',
+  faqData = [],
+} = Astro.props;
+
+const canonicalUrl = Astro.url.href;
+
+// Schema: Organization (E-E-A-T)
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: SITE_CONFIG.siteName,
+  alternateName: 'Blog Mounjax Review',
+  url: SITE_CONFIG.domain,
+  logo: `${SITE_CONFIG.domain}/images/logo.png`,
+  sameAs: Object.values(SITE_CONFIG.social).filter(Boolean),
+  contactPoint: {
+    '@type': 'ContactPoint',
+    email: SITE_CONFIG.author.email,
+    contactType: 'customer support',
+    areaServed: 'BR',
+    availableLanguage: 'Portuguese',
+  },
+};
+
+// Schema: WebSite (com Sitelinks Searchbox)
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: SITE_CONFIG.siteName,
+  url: SITE_CONFIG.domain,
+  description: SITE_CONFIG.tagline,
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: `${SITE_CONFIG.domain}/search?q={search_term_string}`,
+    },
+    'query-input': 'required name=search_term_string',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: SITE_CONFIG.siteName,
+    url: SITE_CONFIG.domain,
+  },
+};
+
+// Schema: Product + AggregateRating + Review
+const productSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: `${SITE_CONFIG.product.name} — ${SITE_CONFIG.product.brand}`,
+  image: [image, SITE_CONFIG.product.image],
+  description,
+  sku: SITE_CONFIG.product.sku,
+  brand: {
+    '@type': 'Brand',
+    name: SITE_CONFIG.product.brand,
+  },
+  manufacturer: {
+    '@type': 'Organization',
+    name: SITE_CONFIG.product.brand,
+    url: SITE_CONFIG.product.officialUrl,
+  },
+  offers: {
+    '@type': 'Offer',
+    url: SITE_CONFIG.domain,
+    price: SITE_CONFIG.product.price,
+    priceCurrency: SITE_CONFIG.product.priceCurrency,
+    availability: SITE_CONFIG.product.availability,
+    priceValidUntil: '2026-12-31',
+    seller: {
+      '@type': 'Organization',
+      name: SITE_CONFIG.product.brand,
+      url: SITE_CONFIG.product.officialUrl,
+    },
+  },
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: SITE_CONFIG.product.aggregateRating.ratingValue,
+    bestRating: SITE_CONFIG.product.aggregateRating.bestRating,
+    worstRating: SITE_CONFIG.product.aggregateRating.worstRating,
+    reviewCount: SITE_CONFIG.product.aggregateRating.reviewCount,
+  },
+  review: {
+    '@type': 'Review',
+    name: `Análise Completa do ${SITE_CONFIG.product.name}`,
+    url: canonicalUrl,
+    author: {
+      '@type': 'Organization',
+      name: SITE_CONFIG.siteName,
+      url: SITE_CONFIG.domain,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: SITE_CONFIG.siteName,
+      url: SITE_CONFIG.domain,
+    },
+    datePublished,
+    dateModified,
+    reviewBody: description,
+    reviewRating: {
+      '@type': 'Rating',
+      ratingValue: SITE_CONFIG.product.aggregateRating.ratingValue,
+      bestRating: SITE_CONFIG.product.aggregateRating.bestRating,
+      worstRating: SITE_CONFIG.product.aggregateRating.worstRating,
+    },
+    itemReviewed: {
+      '@type': 'Product',
+      name: SITE_CONFIG.product.name,
+      brand: {
+        '@type': 'Brand',
+        name: SITE_CONFIG.product.brand,
+      },
+    },
+  },
+};
+
+// Schema: WebPage genérico
+const webpageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: title,
+  url: canonicalUrl,
+  description,
+  image,
+  datePublished,
+  dateModified,
+  author: {
+    '@type': 'Organization',
+    name: SITE_CONFIG.author.name,
+    url: SITE_CONFIG.domain,
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: SITE_CONFIG.siteName,
+    url: SITE_CONFIG.domain,
+  },
+  isPartOf: {
+    '@type': 'WebSite',
+    name: SITE_CONFIG.siteName,
+    url: SITE_CONFIG.domain,
+  },
+  inLanguage: SITE_CONFIG.language,
+};
+
+// Schema: FAQPage
+const faqSchema =
+  faqData.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqData.map((faq) => ({
+          '@type': 'Question',
+          name: faq.question,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: faq.answer,
+          },
+        })),
+      }
+    : null;
+
+const homeSchemas = [organizationSchema, websiteSchema, productSchema];
+if (faqSchema) homeSchemas.push(faqSchema);
+
+const schemas: Record<string, any> = {
+  home: homeSchemas,
+  product: [organizationSchema, webpageSchema, productSchema],
+  page: [organizationSchema, webpageSchema],
+  faq: faqSchema ? [organizationSchema, websiteSchema, faqSchema] : [organizationSchema, websiteSchema],
+};
+
+const activeSchemas = schemas[type] || schemas.page;
+---
+
+{
+  activeSchemas.map((schema: any) => (
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  ))
+}

@@ -1,0 +1,82 @@
+---
+import { SITE_CONFIG } from '../data/config';
+
+export interface Props {
+  title: string;
+  description: string;
+  keywords?: string;
+  image?: string;
+  canonical?: string;
+  noindex?: boolean;
+  ogType?: string;
+  ogLocale?: string;
+}
+
+const {
+  title,
+  description,
+  keywords = SITE_CONFIG.keywordsDefault,
+  image = SITE_CONFIG.ogImage,
+  canonical,
+  noindex = false,
+  ogType = 'website',
+  ogLocale = SITE_CONFIG.locale,
+} = Astro.props;
+
+const canonicalUrl = canonical ?? Astro.url.href;
+const pageTitle = title.includes(SITE_CONFIG.siteName)
+  ? title
+  : `${title} | ${SITE_CONFIG.siteName}`;
+---
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="generator" content={Astro.generator} />
+
+<!-- Título e Meta Básicas -->
+<title>{pageTitle}</title>
+<meta name="description" content={description} />
+<meta name="keywords" content={keywords} />
+<meta name="author" content={SITE_CONFIG.author.name} />
+<meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'} />
+<meta name="googlebot" content={noindex ? 'noindex, follow' : 'index, follow'} />
+
+<!-- Canonical -->
+<link rel="canonical" href={canonicalUrl} />
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<meta name="theme-color" content={SITE_CONFIG.themeColor} />
+
+<!-- Preconnect Performance -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+<link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+
+<!-- Open Graph (Facebook / LinkedIn / WhatsApp) -->
+<meta property="og:title" content={pageTitle} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonicalUrl} />
+<meta property="og:site_name" content={SITE_CONFIG.siteName} />
+<meta property="og:image" content={image} />
+<meta property="og:image:alt" content={`Imagem de destaque: ${pageTitle}`} />
+<meta property="og:type" content={ogType} />
+<meta property="og:locale" content={ogLocale} />
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={pageTitle} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={image} />
+<meta name="twitter:image:alt" content={`Imagem de destaque: ${pageTitle}`} />
+
+<!-- Artigo específico (somente quando ogType === 'article') -->
+{ogType === 'article' && (
+  <>
+    <meta property="article:author" content={SITE_CONFIG.author.name} />
+    <meta property="article:publisher" content={SITE_CONFIG.domain} />
+  </>
+)}

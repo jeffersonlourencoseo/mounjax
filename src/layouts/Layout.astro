@@ -1,0 +1,100 @@
+---
+import SEO from '../components/SEO.astro';
+import SchemaMarkup from '../components/SchemaMarkup.astro';
+import WhatsAppBtn from '../components/WhatsAppBtn.astro';
+
+export interface Props {
+  title: string;
+  description: string;
+  keywords?: string;
+  image?: string;
+  canonical?: string;
+  noindex?: boolean;
+  ogType?: string;
+  schemaType?: 'home' | 'product' | 'page' | 'faq';
+  schemaTitle?: string;
+  schemaDesc?: string;
+  schemaImage?: string;
+  schemaFaq?: Array<{ question: string; answer: string }>;
+}
+
+const {
+  title,
+  description,
+  keywords,
+  image,
+  canonical,
+  noindex = false,
+  ogType = 'website',
+  schemaType = 'page',
+  schemaTitle,
+  schemaDesc,
+  schemaImage,
+  schemaFaq,
+} = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <SEO
+    title={title}
+    description={description}
+    keywords={keywords}
+    image={image}
+    canonical={canonical}
+    noindex={noindex}
+    ogType={ogType}
+  />
+
+  <SchemaMarkup
+    type={schemaType}
+    title={schemaTitle || title}
+    description={schemaDesc || description}
+    image={schemaImage || image}
+    faqData={schemaFaq}
+  />
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+
+  <style is:global>
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 88px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    ::selection {
+      background-color: #513F7E;
+      color: #fff;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      text-wrap: balance;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-surface text-brand-dark antialiased">
+  <slot />
+
+  <WhatsAppBtn />
+</body>
+</html>

@@ -1,0 +1,66 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout
+  title="Política de Privacidade | Mounjax Review"
+  description="Leia nossa política de privacidade e saiba como protegemos seus dados."
+  noindex={true}
+  schemaType="page"
+>
+  <Navigation />
+
+  <main class="pt-[72px]">
+    <section class="py-24 lg:py-32">
+      <div class="container mx-auto px-6 lg:px-12 max-w-4xl">
+        <!-- Breadcrumb -->
+        <nav aria-label="Navegação" class="mb-8">
+          <ol class="flex items-center gap-2 text-sm text-brand-dark/50 list-none m-0 p-0">
+            <li>
+              <a href="/" class="inline-flex items-center gap-1 hover:text-brand transition-colors">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                </svg>
+                Início
+              </a>
+            </li>
+            <li class="text-brand-dark/30">/</li>
+            <li class="text-brand-dark font-medium" aria-current="page">Política de Privacidade</li>
+          </ol>
+        </nav>
+
+        <h1 class="font-display text-5xl md:text-6xl font-bold text-brand-dark leading-tight mb-10">Política de Privacidade</h1>
+
+        <div class="prose prose-lg max-w-none">
+          <p class="text-lg text-brand-dark/70 leading-relaxed mb-6">
+            Sua privacidade é importante para nós. Esta política descreve como coletamos, usamos e protegemos suas informações ao visitar o Mounjax Review.
+          </p>
+
+          <h2 class="font-display text-3xl font-bold text-brand-dark mt-12 mb-6">Coleta de Dados</h2>
+          <p class="text-lg text-brand-dark/70 leading-relaxed mb-6">
+            Coletamos apenas dados de navegação anônimos através de cookies para melhorar a experiência do usuário. Não coletamos dados pessoais sem seu consentimento explícito.
+          </p>
+
+          <h2 class="font-display text-3xl font-bold text-brand-dark mt-12 mb-6">Uso de Cookies</h2>
+          <p class="text-lg text-brand-dark/70 leading-relaxed mb-6">
+            Utilizamos cookies para análise de tráfego e personalização de conteúdo. Você pode desativar os cookies nas configurações do seu navegador a qualquer momento.
+          </p>
+
+          <h2 class="font-display text-3xl font-bold text-brand-dark mt-12 mb-6">Links de Terceiros</h2>
+          <p class="text-lg text-brand-dark/70 leading-relaxed mb-6">
+            Nosso site contém links para sites de terceiros (como o site oficial do Mounjax). Não somos responsáveis pelas políticas de privacidade desses sites.
+          </p>
+
+          <h2 class="font-display text-3xl font-bold text-brand-dark mt-12 mb-6">Alterações</h2>
+          <p class="text-lg text-brand-dark/70 leading-relaxed mb-6">
+            Podemos atualizar esta política periodicamente. Recomendamos que você a revise ocasionalmente para se manter informado.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
