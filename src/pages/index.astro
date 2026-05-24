@@ -19,6 +19,11 @@ import Footer from '../components/Footer.astro';
     { question: 'Qual o preço do Mounjax?', answer: 'O Mounjax está disponível em kits promocionais no site oficial: 1 frasco por R$ 147,00; kit com 3 frascos (leve 3 pague 2) por R$ 197,00; kit com 5 frascos por R$ 247,00; e kit com 8 frascos por R$ 377,00. Todos com frete grátis e parcelamento disponível.' },
     { question: 'Mounjax tem reclamações no Reclame Aqui?', answer: 'Até o momento, o Mounjax e a OzenPharma mantêm uma reputação positiva no mercado, com pouquíssimas reclamações registradas no Reclame Aqui. A empresa oferece garantia de 30 dias de risco zero, o que demonstra confiança no produto e respeito ao consumidor.' },
     { question: 'Onde comprar Mounjax com desconto?', answer: 'O desconto oficial e os kits promocionais estão disponíveis apenas no site oficial da OzenPharma (mounjax.com). Não compre em marketplaces para evitar produtos falsificados. O link para a oferta atualizada está disponível na nossa página "Onde Comprar".' },
+    { question: 'Mounjax é aprovado pela Anvisa?', answer: 'O Mounjax é um suplemento alimentar, não um medicamento. Por isso, ele é isento de registro obrigatório na Anvisa, conforme a legislação brasileira vigente para suplementos. O produto é fabricado em instalações certificadas e segue todas as normas de qualidade e segurança alimentar.' },
+    { question: 'Mounjax tem efeito rebote?', answer: 'Não. Como o Mounjax é composto por ingredientes naturais que ajudam a regular o apetite e o metabolismo, não há efeito rebote ao parar o uso. Recomenda-se, no entanto, manter hábitos alimentares saudáveis após o tratamento para consolidar os resultados.' },
+    { question: 'Mounjax funciona para homens também?', answer: 'Sim. A fórmula do Mounjax foi desenvolvida para ambos os sexos. Homens e mulheres podem usar o produto e obter benefícios no controle do apetite, aceleração do metabolismo e queima de gordura.' },
+    { question: 'Posso usar Mounjax se tenho diabetes?', answer: 'Pessoas com diabetes ou outras condições de saúde pré-existentes devem consultar um médico antes de iniciar o uso do Mounjax. O produto contém ingredientes que podem afetar os níveis de glicose, como o Cromo.' },
+    { question: 'O que acontece se eu parar de usar Mounjax?', answer: 'Ao parar de usar o Mounjax, a sensação de saciedade pode diminuir gradualmente. Não há riscos à saúde na interrupção. Para manter os resultados, é recomendado continuar com uma alimentação equilibrada e atividade física regular.' },
   ]}
 >
   <Navigation />
@@ -36,7 +41,7 @@ import Footer from '../components/Footer.astro';
         </span>
 
         <h1 class="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-brand-dark leading-tight mb-10">
-          <em class="text-brand">Mounjax</em><br/>Funciona Mesmo?
+          <em class="text-brand">Mounjax</em> Funciona Mesmo? Análise Completa, Composição e Onde Comprar [2026]
         </h1>
 
         <p class="text-lg md:text-xl text-brand-dark/80 max-w-2xl mx-auto mb-12 leading-relaxed">
@@ -44,12 +49,12 @@ import Footer from '../components/Footer.astro';
           Descubra se o <strong>Mounjax emagrece</strong>, como usar as 12 gotas diárias, a composição com 9 ingredientes ativos e onde comprar com desconto oficial.
         </p>
 
-        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6">
           <a
             href="#onde-comprar"
             class="inline-flex items-center gap-2 text-base font-semibold uppercase tracking-wider text-white bg-gradient-to-r from-brand to-brand-light px-8 py-4 rounded-full hover:shadow-xl hover:-translate-y-0.5 transition-all"
           >
-            Ver Oferta Exclusiva
+            Garantir Meu Kit com 40% OFF
           </a>
           <a
             href="#o-que-e"
@@ -58,6 +63,10 @@ import Footer from '../components/Footer.astro';
             Conhecer o Produto
           </a>
         </div>
+
+        <p class="text-sm text-brand-dark/80 mb-10 max-w-xl mx-auto">
+          <strong>Oferta por tempo limitado:</strong> Kit mais popular (3 potes) com 40% de desconto + Frete Grátis + Ebook e App gratuitos.
+        </p>
 
         <div class="flex flex-wrap items-center justify-center gap-6 md:gap-10">
           <span class="inline-flex items-center gap-2 text-sm text-brand-dark/80">
@@ -209,6 +218,16 @@ import Footer from '../components/Footer.astro';
             Conhecer todos os benefícios em detalhes →
           </a>
         </div>
+
+        <div class="text-center mt-12">
+          <a href="https://app.monetizze.com.br/r/ATX25785612"
+             target="_blank"
+             class="inline-flex items-center gap-2 text-base font-semibold uppercase tracking-wider text-white bg-accent px-8 py-4 rounded-full hover:shadow-xl hover:-translate-y-0.5 transition-all"
+             rel="noopener noreferrer nofollow sponsored">
+            Quero Experimentar com 40% OFF
+          </a>
+          <p class="text-sm text-brand-dark/80 mt-3">Frete Grátis | Garantia 30 Dias | Pagamento Seguro</p>
+        </div>
       </div>
     </section>
 
@@ -332,6 +351,15 @@ import Footer from '../components/Footer.astro';
             Ver todos os depoimentos e resultados →
           </a>
         </div>
+
+        <div class="text-center mt-12">
+          <a href="https://app.monetizze.com.br/r/ATX25785612"
+             target="_blank"
+             class="inline-flex items-center gap-2 text-base font-semibold uppercase tracking-wider text-white bg-brand px-8 py-4 rounded-full hover:shadow-xl hover:-translate-y-0.5 transition-all"
+             rel="noopener noreferrer nofollow sponsored">
+            Quero os Mesmos Resultados
+          </a>
+        </div>
       </div>
     </section>
 
@@ -340,6 +368,25 @@ import Footer from '../components/Footer.astro';
       <div class="container mx-auto px-6 lg:px-12 max-w-4xl">
         <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-accent mb-4">Site oficial com desconto</span>
         <h2 class="font-display text-4xl md:text-5xl font-bold text-brand-dark leading-tight mb-10">Mounjax Preço e Valor — Kits Oficiais com Desconto</h2>
+
+        <div class="flex flex-wrap items-center justify-center gap-6 md:gap-10 mb-10">
+          <span class="inline-flex items-center gap-2 text-sm text-brand-dark/80">
+            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+            Site 100% Seguro (SSL)
+          </span>
+          <span class="inline-flex items-center gap-2 text-sm text-brand-dark/80">
+            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+            Garantia 30 Dias
+          </span>
+          <span class="inline-flex items-center gap-2 text-sm text-brand-dark/80">
+            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+            Frete Grátis Brasil
+          </span>
+          <span class="inline-flex items-center gap-2 text-sm text-brand-dark/80">
+            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+            Pagamento em até 12x
+          </span>
+        </div>
 
         <div class="bg-info-bg border-l-4 border-brand-light p-6 rounded-r-xl mb-10">
           <div class="flex items-start gap-4">
@@ -426,6 +473,10 @@ import Footer from '../components/Footer.astro';
             Acessar Site Oficial da OzenPharma
           </a>
           <p class="text-sm text-brand-dark/90 mt-4">Garantia de 30 dias de risco zero | Pagamento Seguro | Frete Grátis</p>
+          <p class="text-xs text-brand-dark/60 text-center mt-4 flex items-center justify-center gap-2">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd"/></svg>
+            Ambiente 100% seguro. Seus dados estão protegidos.
+          </p>
         </div>
 
         <div class="mt-12 text-center">
@@ -493,6 +544,66 @@ import Footer from '../components/Footer.astro';
               O desconto oficial e os kits promocionais do Mounjax estão disponíveis apenas no site oficial da OzenPharma (mounjax.com). Os preços atualizados são: 1 frasco por R$ 147,00; kit com 3 frascos (leve 3 pague 2) por R$ 197,00; kit com 5 frascos por R$ 247,00; e kit com 8 frascos por R$ 377,00. Todos incluem frete grátis, parcelamento e acesso aos e-books e ao App OzenPharma. Não compre em marketplaces para evitar falsificações.
             </div>
           </details>
+
+          <details class="bg-surface rounded-xl overflow-hidden shadow-sm group">
+            <summary class="flex items-center justify-between p-6 cursor-pointer font-display text-lg font-semibold text-brand-dark list-none">
+              Mounjax é aprovado pela Anvisa?
+              <span class="text-accent text-2xl transition-transform group-open:rotate-45">+</span>
+            </summary>
+            <div class="px-6 pb-6 text-brand-dark/80 leading-relaxed">
+              O Mounjax é um suplemento alimentar, não um medicamento. Por isso, ele é isento de registro obrigatório na Anvisa, conforme a legislação brasileira vigente para suplementos. O produto é fabricado em instalações certificadas e segue todas as normas de qualidade e segurança alimentar.
+            </div>
+          </details>
+
+          <details class="bg-surface rounded-xl overflow-hidden shadow-sm group">
+            <summary class="flex items-center justify-between p-6 cursor-pointer font-display text-lg font-semibold text-brand-dark list-none">
+              Mounjax tem efeito rebote?
+              <span class="text-accent text-2xl transition-transform group-open:rotate-45">+</span>
+            </summary>
+            <div class="px-6 pb-6 text-brand-dark/80 leading-relaxed">
+              Não. Como o Mounjax é composto por ingredientes naturais que ajudam a regular o apetite e o metabolismo, não há efeito rebote ao parar o uso. Recomenda-se, no entanto, manter hábitos alimentares saudáveis após o tratamento para consolidar os resultados.
+            </div>
+          </details>
+
+          <details class="bg-surface rounded-xl overflow-hidden shadow-sm group">
+            <summary class="flex items-center justify-between p-6 cursor-pointer font-display text-lg font-semibold text-brand-dark list-none">
+              Mounjax funciona para homens também?
+              <span class="text-accent text-2xl transition-transform group-open:rotate-45">+</span>
+            </summary>
+            <div class="px-6 pb-6 text-brand-dark/80 leading-relaxed">
+              Sim. A fórmula do Mounjax foi desenvolvida para ambos os sexos. Homens e mulheres podem usar o produto e obter benefícios no controle do apetite, aceleração do metabolismo e queima de gordura.
+            </div>
+          </details>
+
+          <details class="bg-surface rounded-xl overflow-hidden shadow-sm group">
+            <summary class="flex items-center justify-between p-6 cursor-pointer font-display text-lg font-semibold text-brand-dark list-none">
+              Posso usar Mounjax se tenho diabetes?
+              <span class="text-accent text-2xl transition-transform group-open:rotate-45">+</span>
+            </summary>
+            <div class="px-6 pb-6 text-brand-dark/80 leading-relaxed">
+              Pessoas com diabetes ou outras condições de saúde pré-existentes devem consultar um médico antes de iniciar o uso do Mounjax. O produto contém ingredientes que podem afetar os níveis de glicose, como o Cromo.
+            </div>
+          </details>
+
+          <details class="bg-surface rounded-xl overflow-hidden shadow-sm group">
+            <summary class="flex items-center justify-between p-6 cursor-pointer font-display text-lg font-semibold text-brand-dark list-none">
+              O que acontece se eu parar de usar Mounjax?
+              <span class="text-accent text-2xl transition-transform group-open:rotate-45">+</span>
+            </summary>
+            <div class="px-6 pb-6 text-brand-dark/80 leading-relaxed">
+              Ao parar de usar o Mounjax, a sensação de saciedade pode diminuir gradualmente. Não há riscos à saúde na interrupção. Para manter os resultados, é recomendado continuar com uma alimentação equilibrada e atividade física regular.
+            </div>
+          </details>
+        </div>
+
+        <div class="text-center mt-12">
+          <a href="https://app.monetizze.com.br/r/ATX25785612"
+             target="_blank"
+             class="inline-flex items-center gap-2 text-lg font-bold uppercase tracking-wider text-white bg-gradient-to-r from-brand to-brand-light px-10 py-5 rounded-full hover:shadow-2xl hover:-translate-y-1 transition-all"
+             rel="noopener noreferrer nofollow sponsored">
+            Acessar Oferta Exclusiva com Desconto
+          </a>
+          <p class="text-sm text-brand-dark/80 mt-3">Mais de 10.000 unidades vendidas</p>
         </div>
       </div>
     </section>

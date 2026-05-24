@@ -56,6 +56,60 @@ A OzenPharma trabalha com kits promocionais que oferecem maior economia conforme
 | Precisa perder +10 kg | 5 frascos | Tratamento completo com acompanhamento |
 | Divide com família | 8 frascos | Maior economia por unidade |
 
+## Tabela Comparativa dos Kits Mounjax
+
+<div class="overflow-x-auto mb-8">
+  <table class="w-full text-left border-collapse">
+    <thead>
+      <tr class="border-b-2 border-brand/20">
+        <th class="py-3 px-4 font-display text-brand-dark">Kit</th>
+        <th class="py-3 px-4 font-display text-brand-dark">Duração</th>
+        <th class="py-3 px-4 font-display text-brand-dark">Preço</th>
+        <th class="py-3 px-4 font-display text-brand-dark">Economia</th>
+        <th class="py-3 px-4 font-display text-brand-dark">Link</th>
+      </tr>
+    </thead>
+    <tbody class="text-brand-dark/80">
+      <tr class="border-b border-brand/10">
+        <td class="py-3 px-4 font-semibold">1 Frasco</td>
+        <td class="py-3 px-4">30 dias</td>
+        <td class="py-3 px-4 font-bold text-brand">R$ 147,00</td>
+        <td class="py-3 px-4">—</td>
+        <td class="py-3 px-4">
+          <a href="https://app.monetizze.com.br/r/ATX25785612" target="_blank" rel="noopener noreferrer nofollow sponsored" class="text-sm font-semibold text-white bg-accent px-3 py-1.5 rounded-full hover:bg-accent-dark transition-colors">Comprar</a>
+        </td>
+      </tr>
+      <tr class="border-b border-brand/10 bg-brand/5">
+        <td class="py-3 px-4 font-semibold">3 Frascos ⭐ Mais Popular</td>
+        <td class="py-3 px-4">90 dias</td>
+        <td class="py-3 px-4 font-bold text-brand">R$ 197,00</td>
+        <td class="py-3 px-4 font-semibold text-accent">R$ 210,00</td>
+        <td class="py-3 px-4">
+          <a href="https://app.monetizze.com.br/r/ATX25785612" target="_blank" rel="noopener noreferrer nofollow sponsored" class="text-sm font-semibold text-white bg-accent px-3 py-1.5 rounded-full hover:bg-accent-dark transition-colors">Comprar</a>
+        </td>
+      </tr>
+      <tr class="border-b border-brand/10">
+        <td class="py-3 px-4 font-semibold">5 Frascos</td>
+        <td class="py-3 px-4">150 dias</td>
+        <td class="py-3 px-4 font-bold text-brand">R$ 247,00</td>
+        <td class="py-3 px-4 font-semibold text-accent">R$ 488,00</td>
+        <td class="py-3 px-4">
+          <a href="https://app.monetizze.com.br/r/ATX25785612" target="_blank" rel="noopener noreferrer nofollow sponsored" class="text-sm font-semibold text-white bg-accent px-3 py-1.5 rounded-full hover:bg-accent-dark transition-colors">Comprar</a>
+        </td>
+      </tr>
+      <tr class="border-b border-brand/10">
+        <td class="py-3 px-4 font-semibold">8 Frascos</td>
+        <td class="py-3 px-4">240 dias</td>
+        <td class="py-3 px-4 font-bold text-brand">R$ 377,00</td>
+        <td class="py-3 px-4 font-semibold text-accent">R$ 799,00</td>
+        <td class="py-3 px-4">
+          <a href="https://app.monetizze.com.br/r/ATX25785612" target="_blank" rel="noopener noreferrer nofollow sponsored" class="text-sm font-semibold text-white bg-accent px-3 py-1.5 rounded-full hover:bg-accent-dark transition-colors">Comprar</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 ## Bônus Exclusivos da Compra Oficial
 
 Além do produto, a OzenPharma entrega um ecossistema de apoio ao emagrecimento:
