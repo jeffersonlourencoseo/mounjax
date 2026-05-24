@@ -25,7 +25,7 @@ const {
   ogLocale = SITE_CONFIG.locale,
 } = Astro.props;
 
-const canonicalUrl = canonical ?? Astro.url.href;
+const canonicalUrl = canonical ?? (SITE_CONFIG.domain + Astro.url.pathname);
 const pageTitle = title.includes(SITE_CONFIG.siteName)
   ? title
   : `${title} | ${SITE_CONFIG.siteName}`;

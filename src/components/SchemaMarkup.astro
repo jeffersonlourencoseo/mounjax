@@ -10,6 +10,7 @@ export interface Props {
   dateModified?: string;
   faqData?: Array<{ question: string; answer: string }>;
   breadcrumbs?: Array<{ name: string; url: string }>;
+  howToData?: Array<{ name: string; text: string; image?: string }>;
 }
 
 const {
@@ -21,10 +22,14 @@ const {
   dateModified = '2026-05-24',
   faqData = [],
   breadcrumbs = [],
+  howToData = [],
 } = Astro.props;
 
-const canonicalUrl = Astro.url.href;
-const currentPath = Astro.url.pathname;
+const canonicalUrl = SITE_CONFIG.domain + Astro.url.pathname;
+
+// priceValidUntil dinâmico: 31 de dezembro do ano atual + 1
+const currentYear = new Date().getFullYear();
+const priceValidUntil = `${currentYear + 1}-12-31`;
 
 // Schema: Organization (E-E-A-T)
 const organizationSchema = {
@@ -44,7 +49,17 @@ const organizationSchema = {
   },
 };
 
-// Schema: WebSite (sem SearchAction)
+// Schema: Person (autor especialista)
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: SITE_CONFIG.expert.name,
+  jobTitle: SITE_CONFIG.expert.jobTitle,
+  url: SITE_CONFIG.expert.url,
+  description: SITE_CONFIG.expert.description,
+};
+
+// Schema: WebSite
 const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
@@ -58,16 +73,19 @@ const websiteSchema = {
   },
 };
 
-// Schema: Product básico (sem AggregateRating e Review)
+// Schema: Product (com brand correto, SKU e validade dinâmica)
 const productSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: SITE_CONFIG.product.name,
+  sku: SITE_CONFIG.product.sku,
+  mpn: SITE_CONFIG.product.sku,
+  category: SITE_CONFIG.product.category,
   image: [image, SITE_CONFIG.product.image],
   description: 'Suplemento natural em gotas que auxilia na queima de gordura e controle do apetite.',
   brand: {
     '@type': 'Brand',
-    name: SITE_CONFIG.product.name,
+    name: SITE_CONFIG.product.brand,
   },
   offers: {
     '@type': 'Offer',
@@ -75,7 +93,7 @@ const productSchema = {
     price: SITE_CONFIG.product.price,
     priceCurrency: SITE_CONFIG.product.priceCurrency,
     availability: SITE_CONFIG.product.availability,
-    priceValidUntil: '2026-12-31',
+    priceValidUntil,
   },
 };
 
@@ -105,23 +123,28 @@ const webpageSchema = {
     url: SITE_CONFIG.domain,
   },
   inLanguage: SITE_CONFIG.language,
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': canonicalUrl,
+  },
 };
 
-// Schema: Article para páginas de conteúdo
+// Schema: Article para páginas de conteúdo (com ImageObject, Person author e mainEntityOfPage)
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
   headline: title,
   description,
   url: canonicalUrl,
-  image,
+  image: {
+    '@type': 'ImageObject',
+    url: image,
+    width: 1200,
+    height: 630,
+  },
   datePublished,
   dateModified,
-  author: {
-    '@type': 'Organization',
-    name: SITE_CONFIG.siteName,
-    url: SITE_CONFIG.domain,
-  },
+  author: personSchema,
   publisher: {
     '@type': 'Organization',
     name: SITE_CONFIG.siteName,
@@ -129,7 +152,13 @@ const articleSchema = {
     logo: {
       '@type': 'ImageObject',
       url: `${SITE_CONFIG.domain}/images/logo.png`,
+      width: 512,
+      height: 512,
     },
+  },
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': canonicalUrl,
   },
 };
 
@@ -146,6 +175,25 @@ const faqSchema =
             '@type': 'Answer',
             text: faq.answer,
           },
+        })),
+      }
+    : null;
+
+// Schema: HowTo
+const howToSchema =
+  howToData.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'HowTo',
+        name: `Como usar ${SITE_CONFIG.product.name}`,
+        description: 'Guia passo a passo para usar o Mounjax em gotas corretamente.',
+        totalTime: 'P1M',
+        step: howToData.map((step, index) => ({
+          '@type': 'HowToStep',
+          position: index + 1,
+          name: step.name,
+          text: step.text,
+          image: step.image ? { '@type': 'ImageObject', url: step.image } : undefined,
         })),
       }
     : null;
@@ -174,6 +222,7 @@ const breadcrumbSchema = breadcrumbs.length > 0
 
 const homeSchemas = [organizationSchema, websiteSchema, productSchema];
 if (faqSchema) homeSchemas.push(faqSchema);
+if (howToSchema) homeSchemas.push(howToSchema);
 
 const schemas: Record<string, any[]> = {
   home: homeSchemas,

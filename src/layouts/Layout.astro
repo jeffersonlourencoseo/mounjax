@@ -17,6 +17,7 @@ export interface Props {
   schemaImage?: string;
   schemaFaq?: Array<{ question: string; answer: string }>;
   breadcrumbs?: Array<{ name: string; url: string }>;
+  schemaHowTo?: Array<{ name: string; text: string; image?: string }>;
 }
 
 const {
@@ -34,6 +35,7 @@ const {
   schemaImage,
   schemaFaq,
   breadcrumbs,
+  schemaHowTo,
 } = Astro.props;
 ---
 
@@ -58,6 +60,7 @@ const {
     image={schemaImage || image}
     faqData={schemaFaq}
     breadcrumbs={breadcrumbs}
+    howToData={schemaHowTo}
   />
 
   <!-- Preload Performance -->

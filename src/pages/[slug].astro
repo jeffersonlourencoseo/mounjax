@@ -54,7 +54,7 @@ const breadcrumbs = [{ name: page.data.title, url: `https://blogmounjax.com.br/$
           </ol>
         </nav>
 
-        {page.slug === 'o-que-e' && (
+        {isArticle && (
           <div class="bg-warning-bg border border-warning/20 p-4 rounded-xl mb-8">
             <p class="text-sm text-brand-dark/80 leading-relaxed">
               <strong>Aviso importante:</strong> Este site é um review independente. O Mounjax é um suplemento alimentar, não um medicamento. Os resultados podem variar de pessoa para pessoa. Consulte um médico antes de iniciar qualquer tratamento.

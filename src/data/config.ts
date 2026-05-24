@@ -26,6 +26,15 @@ export const SITE_CONFIG = {
     since: '2025',
   },
 
+  // Autor especialista para schemas Article (Person)
+  expert: {
+    name: 'Dra. Ana Luiza Mendes',
+    jobTitle: 'Nutricionista Funcional e Especialista em Suplementação Natural',
+    url: 'https://blogmounjax.com.br/sobre-nos/',
+    description:
+      'Nutricionista funcional com mais de 12 anos de experiência em suplementação natural, emagrecimento saudável e regulagem metabólica.',
+  },
+
   // Redes sociais
   social: {
     instagram: '',
