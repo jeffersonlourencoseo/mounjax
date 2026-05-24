@@ -2,13 +2,14 @@
 import { SITE_CONFIG } from '../data/config';
 
 export interface Props {
-  type: 'home' | 'product' | 'page' | 'faq';
+  type: 'home' | 'product' | 'page' | 'faq' | 'article';
   title?: string;
   description?: string;
   image?: string;
   datePublished?: string;
   dateModified?: string;
   faqData?: Array<{ question: string; answer: string }>;
+  breadcrumbs?: Array<{ name: string; url: string }>;
 }
 
 const {
@@ -16,12 +17,14 @@ const {
   title = SITE_CONFIG.titleDefault,
   description = SITE_CONFIG.descriptionDefault,
   image = SITE_CONFIG.ogImage,
-  datePublished = '2025-05-18',
-  dateModified = '2026-05-18',
+  datePublished = '2026-05-24',
+  dateModified = '2026-05-24',
   faqData = [],
+  breadcrumbs = [],
 } = Astro.props;
 
 const canonicalUrl = Astro.url.href;
+const currentPath = Astro.url.pathname;
 
 // Schema: Organization (E-E-A-T)
 const organizationSchema = {
@@ -41,21 +44,13 @@ const organizationSchema = {
   },
 };
 
-// Schema: WebSite (com Sitelinks Searchbox)
+// Schema: WebSite (sem SearchAction)
 const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   name: SITE_CONFIG.siteName,
   url: SITE_CONFIG.domain,
   description: SITE_CONFIG.tagline,
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: {
-      '@type': 'EntryPoint',
-      urlTemplate: `${SITE_CONFIG.domain}/search?q={search_term_string}`,
-    },
-    'query-input': 'required name=search_term_string',
-  },
   publisher: {
     '@type': 'Organization',
     name: SITE_CONFIG.siteName,
@@ -63,74 +58,24 @@ const websiteSchema = {
   },
 };
 
-// Schema: Product + AggregateRating + Review
+// Schema: Product básico (sem AggregateRating e Review)
 const productSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
-  name: `${SITE_CONFIG.product.name} — ${SITE_CONFIG.product.brand}`,
+  name: SITE_CONFIG.product.name,
   image: [image, SITE_CONFIG.product.image],
-  description,
-  sku: SITE_CONFIG.product.sku,
+  description: 'Suplemento natural em gotas que auxilia na queima de gordura e controle do apetite.',
   brand: {
     '@type': 'Brand',
-    name: SITE_CONFIG.product.brand,
-  },
-  manufacturer: {
-    '@type': 'Organization',
-    name: SITE_CONFIG.product.brand,
-    url: SITE_CONFIG.product.officialUrl,
+    name: SITE_CONFIG.product.name,
   },
   offers: {
     '@type': 'Offer',
-    url: SITE_CONFIG.domain,
+    url: SITE_CONFIG.product.affiliateLink,
     price: SITE_CONFIG.product.price,
     priceCurrency: SITE_CONFIG.product.priceCurrency,
     availability: SITE_CONFIG.product.availability,
     priceValidUntil: '2026-12-31',
-    seller: {
-      '@type': 'Organization',
-      name: SITE_CONFIG.product.brand,
-      url: SITE_CONFIG.product.officialUrl,
-    },
-  },
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: SITE_CONFIG.product.aggregateRating.ratingValue,
-    bestRating: SITE_CONFIG.product.aggregateRating.bestRating,
-    worstRating: SITE_CONFIG.product.aggregateRating.worstRating,
-    reviewCount: SITE_CONFIG.product.aggregateRating.reviewCount,
-  },
-  review: {
-    '@type': 'Review',
-    name: `Análise Completa do ${SITE_CONFIG.product.name}`,
-    url: canonicalUrl,
-    author: {
-      '@type': 'Organization',
-      name: SITE_CONFIG.siteName,
-      url: SITE_CONFIG.domain,
-    },
-    publisher: {
-      '@type': 'Organization',
-      name: SITE_CONFIG.siteName,
-      url: SITE_CONFIG.domain,
-    },
-    datePublished,
-    dateModified,
-    reviewBody: description,
-    reviewRating: {
-      '@type': 'Rating',
-      ratingValue: SITE_CONFIG.product.aggregateRating.ratingValue,
-      bestRating: SITE_CONFIG.product.aggregateRating.bestRating,
-      worstRating: SITE_CONFIG.product.aggregateRating.worstRating,
-    },
-    itemReviewed: {
-      '@type': 'Product',
-      name: SITE_CONFIG.product.name,
-      brand: {
-        '@type': 'Brand',
-        name: SITE_CONFIG.product.brand,
-      },
-    },
   },
 };
 
@@ -162,6 +107,32 @@ const webpageSchema = {
   inLanguage: SITE_CONFIG.language,
 };
 
+// Schema: Article para páginas de conteúdo
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title,
+  description,
+  url: canonicalUrl,
+  image,
+  datePublished,
+  dateModified,
+  author: {
+    '@type': 'Organization',
+    name: SITE_CONFIG.siteName,
+    url: SITE_CONFIG.domain,
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: SITE_CONFIG.siteName,
+    url: SITE_CONFIG.domain,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${SITE_CONFIG.domain}/images/logo.png`,
+    },
+  },
+};
+
 // Schema: FAQPage
 const faqSchema =
   faqData.length > 0
@@ -179,17 +150,43 @@ const faqSchema =
       }
     : null;
 
+// Schema: BreadcrumbList
+const breadcrumbSchema = breadcrumbs.length > 0
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Início',
+          item: `${SITE_CONFIG.domain}/`,
+        },
+        ...breadcrumbs.map((crumb, index) => ({
+          '@type': 'ListItem',
+          position: index + 2,
+          name: crumb.name,
+          item: crumb.url,
+        })),
+      ],
+    }
+  : null;
+
 const homeSchemas = [organizationSchema, websiteSchema, productSchema];
 if (faqSchema) homeSchemas.push(faqSchema);
 
-const schemas: Record<string, any> = {
+const schemas: Record<string, any[]> = {
   home: homeSchemas,
   product: [organizationSchema, webpageSchema, productSchema],
   page: [organizationSchema, webpageSchema],
+  article: [organizationSchema, articleSchema],
   faq: faqSchema ? [organizationSchema, websiteSchema, faqSchema] : [organizationSchema, websiteSchema],
 };
 
-const activeSchemas = schemas[type] || schemas.page;
+let activeSchemas = schemas[type] || schemas.page;
+if (breadcrumbSchema) {
+  activeSchemas = [...activeSchemas, breadcrumbSchema];
+}
 ---
 
 {

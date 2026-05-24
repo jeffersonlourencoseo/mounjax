@@ -1,7 +1,6 @@
 ---
 import SEO from '../components/SEO.astro';
 import SchemaMarkup from '../components/SchemaMarkup.astro';
-import WhatsAppBtn from '../components/WhatsAppBtn.astro';
 
 export interface Props {
   title: string;
@@ -11,11 +10,13 @@ export interface Props {
   canonical?: string;
   noindex?: boolean;
   ogType?: string;
-  schemaType?: 'home' | 'product' | 'page' | 'faq';
+  ogAlt?: string;
+  schemaType?: 'home' | 'product' | 'page' | 'faq' | 'article';
   schemaTitle?: string;
   schemaDesc?: string;
   schemaImage?: string;
   schemaFaq?: Array<{ question: string; answer: string }>;
+  breadcrumbs?: Array<{ name: string; url: string }>;
 }
 
 const {
@@ -26,11 +27,13 @@ const {
   canonical,
   noindex = false,
   ogType = 'website',
+  ogAlt,
   schemaType = 'page',
   schemaTitle,
   schemaDesc,
   schemaImage,
   schemaFaq,
+  breadcrumbs,
 } = Astro.props;
 ---
 
@@ -45,6 +48,7 @@ const {
     canonical={canonical}
     noindex={noindex}
     ogType={ogType}
+    ogAlt={ogAlt}
   />
 
   <SchemaMarkup
@@ -53,6 +57,7 @@ const {
     description={schemaDesc || description}
     image={schemaImage || image}
     faqData={schemaFaq}
+    breadcrumbs={breadcrumbs}
   />
 
   <!-- Fontes self-hosted inline — elimina requisição de CSS externo -->
@@ -168,7 +173,5 @@ const {
 
 <body class="bg-surface text-brand-dark antialiased">
   <slot />
-
-  <WhatsAppBtn />
 </body>
 </html>

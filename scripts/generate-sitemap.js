@@ -10,11 +10,7 @@ const DOMAIN = 'https://blogmounjax.com.br';
 const DIST = resolve(process.cwd(), 'dist');
 
 // Rotas que NÃO devem entrar no sitemap (noindex)
-const EXCLUDED = new Set([
-  '/politica-de-privacidade',
-  '/termos-de-uso',
-  '/politica-de-cookies',
-]);
+const EXCLUDED = new Set([]);
 
 function getRoutes(dir, base = '') {
   const routes = [];
@@ -55,6 +51,8 @@ function getPriority(route) {
   if (route.includes('onde-comprar')) return '0.9';
   if (route.includes('o-que-e') || route.includes('composicao') || route.includes('beneficios')) return '0.9';
   if (route.includes('como-usar') || route.includes('contraindicacoes') || route.includes('depoimentos')) return '0.8';
+  if (route.includes('reclame-aqui') || route.includes('mounjax-gotas')) return '0.8';
+  if (route.includes('politica-de-privacidade') || route.includes('termos-de-uso') || route.includes('politica-de-cookies')) return '0.3';
   return '0.5';
 }
 

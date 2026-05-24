@@ -1,27 +1,83 @@
 ---
-title: "Contraindicações do Mounjax"
-description: "Conheça todas as contraindicações e cuidados antes de usar o Mounjax. Leia antes de comprar!"
-keywords: "mounjax contraindicações, quem não pode tomar mounjax, mounjax efeitos colaterais"
+title: "Contraindicações do Mounjax — Quem Não Pode Usar as Gotas"
+description: "Conheça todas as contraindicações do Mounjax em gotas: gestantes, menores de 16 anos, alérgicos a crustáceos, interações e cuidados obrigatórios antes de comprar."
+keywords: "mounjax contraindicações, mounjax efeitos colaterais, quem não pode tomar mounjax, mounjax gestante, mounjax alergia, mounjax criança"
 order: 5
 navLabel: "Contraindicações"
 ---
 
-# Contraindicações e Cuidados
+# Contraindicações e Cuidados do Mounjax em Gotas
 
-## ⚠️ Atenção com Condições Gástricas
+Embora o Mounjax seja um suplemento composto por **ingredientes 100% naturais**, ele não é indicado para todos os perfis de pessoas. Conhecer as contraindicações e cuidados antes de iniciar o uso é fundamental para sua segurança e para evitar efeitos indesejados.
 
-Pessoas com **gastrite, úlcera ou refluxo gastroesofágico (DRGE)** devem consultar um médico antes de usar o Mounjax, pois a Alcachofra e Alcachofra Negra podem irritar a mucosa gástrica.
+## ⚠️ Alergia a Crustáceos e Hipersensibilidade
 
-## ⚠️ Interações Medicamentosas
+Pessoas com **alergia a crustáceos** ou hipersensibilidade conhecida a qualquer componente da fórmula devem **evitar o uso** do Mounjax. Sempre leia o rótulo completo do produto antes da primeira ingestão.
 
-Quem faz uso de **anticoagulantes** (ex: varfarina) ou tem **hipotireoidismo** deve evitar o uso sem orientação médica devido à presença de Alcachofra na fórmula.
+Se você tem histórico de reações alérgicas a suplementos alimentares, consulte um médico ou nutricionista antes de começar.
+
+## ⚠️ Condições de Saúde Pré-existentes
+
+Quem possui as seguintes condições deve evitar o uso sem supervisão médica:
+
+- **Problemas cardíacos** não controlados
+- **Doenças renais** em tratamento
+- **Doenças crônicas graves** em atividade (como diabetes descompensada, hipertensão arterial severa)
+- **Tumores** ou histórico de câncer em tratamento ativo
+- **Pressão arterial descontrolada**
+- **Hepatopatias graves** sem acompanhamento
+
+O Mounjax é 100% natural, mas doenças em atividade exigem avaliação profissional para garantir que os ativos termogênicos e diuréticos não interfiram no tratamento medicamentoso.
 
 ## Contraindicações Absolutas
 
-- Crianças menores de 3 anos
-- Gestantes
-- Mulheres lactantes (amamentação)
-- Pessoas com hipersensibilidade a qualquer componente da fórmula
-- Pacientes com doenças graves em atividade
+A OzenPharma determina que o Mounjax em gotas é **contraindicado** para:
 
-> **Importante:** Sempre consulte um médico antes de iniciar qualquer suplementação, especialmente se você faz uso de medicamentos ou possui condições de saúde pré-existentes.
+- **Crianças e adolescentes menores de 16 anos**
+- **Gestantes** (uso proibido durante toda a gravidez)
+- **Mulheres lactantes** com bebês menores de 6 meses (após os 6 meses, consultar médico)
+- **Pessoas com alergia a crustáceos** ou hipersensibilidade a componentes da fórmula
+- **Pacientes com doenças graves em atividade** sem supervisão médica
+
+## Interações Medicamentosas
+
+O Mounjax contém ativos que podem interagir com certos medicamentos:
+
+- **Anticoagulantes** (varfarina, heparina): a Cúrcuma e o Café Verde possuem leve efeito antiplaquetário
+- **Medicamentos para diabetes**: o Cromo e o Feno Grego reduzem a glicose, podendo potencializar o efeito de hipoglicemiantes orais
+- **Medicamentos para tireoide**: a Soja e alguns fitoquímicos podem interferir na absorção de levotiroxina
+- **Anti-hipertensivos**: o efeito diurético de alguns componentes pode potencializar a ação de medicamentos para pressão
+
+Se você faz uso de qualquer medicamento contínuo, **consulte seu médico** antes de iniciar o Mounjax. Leve a composição do produto (disponível em nossa página de [composição](/composicao/)) para a consulta.
+
+## Efeitos Colaterais Possíveis
+
+Por ser natural, o Mounjax é bem tolerado pela maioria dos usuários. No entanto, alguns efeitos leves podem ocorrer nos primeiros dias de adaptação:
+
+- **Leve desconforto gastrointestinal** (gases, borborigmos)
+- **Mudança na frequência intestinal** (maior evacuação devido às fibras)
+- **Sensação de calor leve** (efeito termogênico normal do DHC)
+- **Boca seca** (aumente a ingestão de água)
+
+Esses sintomas costumam desaparecer espontaneamente entre 3 e 7 dias de uso.
+
+## Quando Procurar um Médico?
+
+Suspenda o uso imediatamente e procure atendimento médico se apresentar:
+
+- Coceira generalizada, inchaço nos lábios ou dificuldade para respirar (sinais de alergia)
+- Dor abdominal intensa ou persistente
+- Tonturas, palpitações ou desmaios
+- Sangue nas fezes ou vômitos
+
+## Recomendações Gerais de Segurança
+
+- Não exceda a dose de 12 gotas por dia
+- Não use o Mounjax como substituto de refeições
+- Combine o uso com alimentação equilibrada e hidratação adequada
+- Mantenha o frasco fora do alcance de crianças
+- Não utilize se o lacre de segurança estiver violado
+
+> **Aviso legal:** O Mounjax é 100% natural e seguro para o consumo da população adulta saudável. As declarações aqui não foram avaliadas pela ANVISA. O produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença. Se estiver em tratamento médico, consulte seu médico antes de usar qualquer suplemento.
+
+Se você não se enquadra nas contraindicações, o próximo passo é entender [onde comprar](/onde-comprar/) o Mounjax original com garantia e desconto oficial. Para conhecer a fórmula completa antes de decidir, acesse a página de [composição](/composicao/).

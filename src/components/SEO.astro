@@ -9,6 +9,7 @@ export interface Props {
   canonical?: string;
   noindex?: boolean;
   ogType?: string;
+  ogAlt?: string;
   ogLocale?: string;
 }
 
@@ -20,6 +21,7 @@ const {
   canonical,
   noindex = false,
   ogType = 'website',
+  ogAlt,
   ogLocale = SITE_CONFIG.locale,
 } = Astro.props;
 
@@ -27,6 +29,28 @@ const canonicalUrl = canonical ?? Astro.url.href;
 const pageTitle = title.includes(SITE_CONFIG.siteName)
   ? title
   : `${title} | ${SITE_CONFIG.siteName}`;
+
+const currentPath = Astro.url.pathname;
+
+const ogAltTexts: Record<string, string> = {
+  '/': 'Mounjax Review — Análise Completa do Suplemento',
+  '/o-que-e/': 'O que é o Mounjax — Suplemento Natural em Gotas',
+  '/composicao/': 'Composição do Mounjax — 9 Ingredientes Naturais',
+  '/beneficios/': 'Benefícios do Mounjax — Queima de Gordura e Saciedade',
+  '/como-usar/': 'Como Usar Mounjax — 12 Gotas por Dia',
+  '/contraindicacoes/': 'Contraindicações do Mounjax',
+  '/onde-comprar/': 'Onde Comprar Mounjax Original com Desconto',
+  '/depoimentos/': 'Depoimentos de Quem Usou Mounjax',
+  '/sobre-nos/': 'Sobre o Blog Mounjax',
+  '/contato/': 'Contato — Blog Mounjax',
+};
+
+const resolvedOgAlt = ogAlt ?? ogAltTexts[currentPath] ?? `Imagem de destaque: ${pageTitle}`;
+
+const articleSlugs = ['/o-que-e/', '/composicao/', '/beneficios/', '/como-usar/', '/contraindicacoes/'];
+const isArticle = ogType === 'article' || articleSlugs.includes(currentPath);
+const publishedTime = '2026-05-24';
+const modifiedTime = '2026-05-24';
 ---
 
 <meta charset="UTF-8" />
@@ -60,8 +84,8 @@ const pageTitle = title.includes(SITE_CONFIG.siteName)
 <meta property="og:url" content={canonicalUrl} />
 <meta property="og:site_name" content={SITE_CONFIG.siteName} />
 <meta property="og:image" content={image} />
-<meta property="og:image:alt" content={`Imagem de destaque: ${pageTitle}`} />
-<meta property="og:type" content={ogType} />
+<meta property="og:image:alt" content={resolvedOgAlt} />
+<meta property="og:type" content={isArticle ? 'article' : ogType} />
 <meta property="og:locale" content={ogLocale} />
 
 <!-- Twitter Cards -->
@@ -69,12 +93,46 @@ const pageTitle = title.includes(SITE_CONFIG.siteName)
 <meta name="twitter:title" content={pageTitle} />
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={image} />
-<meta name="twitter:image:alt" content={`Imagem de destaque: ${pageTitle}`} />
+<meta name="twitter:image:alt" content={resolvedOgAlt} />
 
-<!-- Artigo específico (somente quando ogType === 'article') -->
-{ogType === 'article' && (
+<!-- Artigo específico (somente quando ogType === 'article' ou página de conteúdo) -->
+{isArticle && (
   <>
+    <meta property="article:published_time" content={publishedTime} />
+    <meta property="article:modified_time" content={modifiedTime} />
     <meta property="article:author" content={SITE_CONFIG.author.name} />
     <meta property="article:publisher" content={SITE_CONFIG.domain} />
+    <meta property="article:section" content="Saúde e Suplementação" />
   </>
 )}
+
+<!-- Google Tag Manager -->
+<script is:inline src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+
+<!-- Event tracking para cliques em afiliado -->
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.body.addEventListener('click', function(e) {
+      var el = e.target.closest('a');
+      if (!el) return;
+      var href = el.getAttribute('href') || '';
+      if (href.indexOf('app.monetizze.com.br/r/ATX25785612') > -1) {
+        var location = 'generic';
+        if (el.closest('#onde-comprar')) location = 'onde-comprar';
+        else if (el.closest('footer')) location = 'footer';
+        else if (el.closest('section#o-que-e')) location = 'o-que-e';
+        else if (document.querySelector('section.relative.min-h-\[90vh\]') && el.closest('section.relative.min-h-\[90vh\]')) location = 'cta-hero';
+        else if (document.querySelector('main') && el.closest('main')) location = 'homepage';
+        if (typeof gtag === 'function') {
+          gtag('event', 'click_afiliado', { location: location });
+        }
+      }
+    });
+  });
+</script>
