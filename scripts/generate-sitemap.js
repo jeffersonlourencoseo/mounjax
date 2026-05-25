@@ -9,12 +9,8 @@ import { join, resolve } from 'path';
 const DOMAIN = 'https://blogmounjax.com.br';
 const DIST = resolve(process.cwd(), 'dist');
 
-// Rotas que NÃO devem entrar no sitemap (noindex)
-const EXCLUDED = new Set([
-  '/politica-de-privacidade',
-  '/termos-de-uso',
-  '/politica-de-cookies',
-]);
+// Rotas que NÃO devem entrar no sitemap
+const EXCLUDED = new Set([]);
 
 function getRoutes(dir, base = '') {
   const routes = [];

@@ -1,5 +1,5 @@
 ---
-title: "Como Usar o Mounjax em Gotas — Dosagem, Horário e Duração"
+title: "Como Usar Mounjax: Dosagem, Horário e Duração [Guia]"
 description: "Aprenda como usar o Mounjax corretamente: dosagem de 12 gotas por dia, melhor horário para tomar, duração do tratamento e dicas para maximizar resultados."
 keywords: "mounjax como usar, mounjax gotas como tomar, dosagem mounjax, como tomar mounjax, mounjax em gotas, mounjax horario, mounjax duração"
 order: 4
@@ -8,11 +8,11 @@ navLabel: "Como Usar"
 
 # Como Usar o Mounjax em Gotas
 
-O Mounjax é um suplemento alimentar em gotas desenvolvido pela OzenPharma. Sua praticidade é um dos grandes diferenciais: não precisa engolir cápsulas grandes, basta medir a dose com o conta-gotas e ingerir. Abaixo, você encontra o guia completo de como usar o Mounjax para obter os melhores resultados.
+O Mounjax é um suplemento alimentar em gotas desenvolvido pelo fabricante. Sua praticidade é um dos grandes diferenciais: não precisa engolir cápsulas grandes, basta medir a dose com o conta-gotas e ingerir. Abaixo, você encontra o guia completo de como usar o Mounjax para obter os melhores resultados.
 
 ## Dosagem Recomendada
 
-A dosagem oficial recomendada pela OzenPharma é de **12 gotas por dia**.
+A dosagem oficial recomendada pela Mounjax é de **12 gotas por dia**.
 
 - Use o conta-gotas que acompanha o frasco para medir a quantidade exata
 - Não exceda a dose recomendada sem orientação médica
@@ -47,7 +47,7 @@ A duração ideal varia conforme o objetivo:
 | Resultados consistentes | 90 dias | 3 frascos |
 | Transformação completa | 150+ dias | 5+ frascos |
 
-A OzenPharma recomenda o uso por pelo menos **90 dias** (3 meses) para que o organismo se adapte completamente aos ativos e os resultados se consolidem. O metabolismo é um processo biológico que exige tempo para reequilibrar-se.
+A Mounjax recomenda o uso por pelo menos **90 dias** (3 meses) para que o organismo se adapte completamente aos ativos e os resultados se consolidem. O metabolismo é um processo biológico que exige tempo para reequilibrar-se.
 
 ## Dicas para Maximizar Resultados
 

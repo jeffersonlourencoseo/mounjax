@@ -1,5 +1,5 @@
 ---
-title: "Contraindicações do Mounjax — Quem Não Pode Usar as Gotas"
+title: "Contraindicações do Mounjax: Quem Não Pode Usar?"
 description: "Conheça todas as contraindicações do Mounjax em gotas: gestantes, menores de 16 anos, alérgicos a crustáceos, interações e cuidados obrigatórios antes de comprar."
 keywords: "mounjax contraindicações, mounjax efeitos colaterais, quem não pode tomar mounjax, mounjax gestante, mounjax alergia, mounjax criança"
 order: 5
@@ -31,7 +31,7 @@ O Mounjax é 100% natural, mas doenças em atividade exigem avaliação profissi
 
 ## Contraindicações Absolutas
 
-A OzenPharma determina que o Mounjax em gotas é **contraindicado** para:
+O site oficial do Mounjax determina que o produto em gotas é **contraindicado** para:
 
 - **Crianças e adolescentes menores de 16 anos**
 - **Gestantes** (uso proibido durante toda a gravidez)

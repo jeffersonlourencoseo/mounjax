@@ -1,6 +1,6 @@
 ---
-title: "Depoimentos de Quem Usou Mounjax — Resultados Reais em Gotas"
-description: "Veja depoimentos honestos de quem usou o Mounjax em gotas da OzenPharma. Resultados reais sobre emagrecimento, saciedade, compulsão alimentar e disposição."
+title: "Depoimentos Mounjax: Resultados Reais de Quem Usou"
+description: "Veja depoimentos honestos de quem usou o Mounjax em gotas. Resultados reais sobre emagrecimento, saciedade, compulsão alimentar e disposição."
 keywords: "mounjax depoimentos, mounjax resultados, mounjax antes e depois, mounjax emagrece depoimento, mounjax funciona depoimento, mounjax gotas depoimentos"
 order: 6
 navLabel: "Depoimentos"

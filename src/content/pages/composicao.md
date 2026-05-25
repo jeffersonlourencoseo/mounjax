@@ -1,5 +1,5 @@
 ---
-title: "Composição do Mounjax — Conheça os 9 Ingredientes da Fórmula em Gotas"
+title: "Composição do Mounjax: 9 Ingredientes Naturais Explicados"
 description: "Conheça a composição completa do Mounjax: Feno Grego, Cúrcuma, Inulina, Picolinato de Cromo, Vitamina B12, D3, DHC, Café Verde e Colina. Veja como cada um ajuda no emagrecimento."
 keywords: "mounjax composição, mounjax em gotas, mounjax ingredientes, feno grego emagrece, cúrcuma emagrece, café verde emagrece, dhc termogênico, colina emagrece"
 order: 2
@@ -8,7 +8,7 @@ navLabel: "Composição"
 
 # Composição do Mounjax — Fórmula com 9 Ativos Naturais
 
-O Mounjax combina **9 ingredientes naturais** cuidadosamente selecionados pela OzenPharma para agir em sinergia na **ignição metabólica**, **limpeza interna** e **controle da compulsão alimentar**. Tudo isso em uma apresentação prática de **gotas**.
+O Mounjax combina **9 ingredientes naturais** cuidadosamente selecionados pela Mounjax para agir em sinergia na **ignição metabólica**, **limpeza interna** e **controle da compulsão alimentar**. Tudo isso em uma apresentação prática de **gotas**.
 
 Abaixo, detalhamos cada componente da fórmula, sua função biológica e como contribui para o processo de emagrecimento.
 
