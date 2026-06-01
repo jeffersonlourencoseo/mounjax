@@ -124,7 +124,35 @@ O Mounjax fornece **Vitaminas B12 e D3**, que:
 
 ## ✅ Mounjax Funciona Mesmo? O Que Dizem os Usuários
 
-Além da ação científica dos ingredientes, os depoimentos de usuários reforçam os benefícios:
+Além da ação científica dos ingredientes, os depoimentos de usuários reais mostram resultados visíveis e documentados.
+
+### 📸 Antes e Depois de Quem Usou Mounjax
+
+Veja abaixo fotos reais de mulheres que transformaram seus corpos com a fórmula natural em gotas do Mounjax. Esses resultados não são milagres — são o reflexo da consistência diária e da ação combinada dos 9 ingredientes:
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;margin:2rem 0;">
+
+  <div style="border-radius:12px;overflow:hidden;box-shadow:0 4px 15px rgba(0,0,0,0.1);">
+    <img src="/images/antes-depois-4.png" alt="Antes e depois Mounjax - Resultado real 4" style="width:100%;height:250px;object-fit:cover;" loading="lazy" />
+    <div style="padding:1rem;background:#fff;text-align:center;">
+      <p style="margin:0;font-weight:600;color:#1a1a2e;">Resultado em 3 meses</p>
+      <p style="margin:0.25rem 0 0;font-size:0.85rem;color:rgba(26,26,46,0.6);">Redução de medidas visível, barriga mais lisa</p>
+    </div>
+  </div>
+
+  <div style="border-radius:12px;overflow:hidden;box-shadow:0 4px 15px rgba(0,0,0,0.1);">
+    <img src="/images/antes-depois-5.jpg" alt="Antes e depois Mounjax - Resultado real 5" style="width:100%;height:250px;object-fit:cover;" loading="lazy" />
+    <div style="padding:1rem;background:#fff;text-align:center;">
+      <p style="margin:0;font-weight:600;color:#1a1a2e;">Transformação em 4 meses</p>
+      <p style="margin:0.25rem 0 0;font-size:0.85rem;color:rgba(26,26,46,0.6);">Voltou a usar roupas de antes da gravidez</p>
+    </div>
+  </div>
+
+</div>
+
+Essas imagens mostram que os benefícios descritos acima — saciedade, metabolismo acelerado, controle da compulsão e mais energia — se traduzem em resultados reais no corpo.
+
+### 📊 Linha do Tempo dos Resultados
 
 | Período | Resultados Mais Comuns |
 |---|---|
