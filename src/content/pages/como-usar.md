@@ -6,7 +6,7 @@ order: 4
 navLabel: "Como Usar"
 ---
 
-# Como Usar o Mounjax em Gotas
+# Como Usar Mounjax em Gotas — Dosagem, Horário e Duração
 
 O Mounjax é um suplemento alimentar em gotas desenvolvido pela **OzenPharma**. Sua praticidade é um dos grandes diferenciais: não precisa engolir cápsulas grandes, basta medir a dose com o conta-gotas e ingerir. Abaixo, você encontra o guia completo de como usar o Mounjax para obter os melhores resultados — incluindo o ecossistema de apoio (App, aulas e grupo VIP) que acompanha a compra oficial.
 

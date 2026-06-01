@@ -6,7 +6,7 @@ order: 1
 navLabel: "O que é"
 ---
 
-# O que é o Mounjax e Para que Serve?
+# O que é Mounjax? Pra que Serve e Como Funciona [2026]
 
 O **Mounjax** é um suplemento alimentar natural desenvolvido pela **OzenPharma**, apresentado em **gotas** (30ml por frasco) e formulado com **9 componentes ativos** que trabalham em sinergia para acelerar o metabolismo, controlar o apetite e auxiliar na queima de gordura.
 

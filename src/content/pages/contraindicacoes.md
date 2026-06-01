@@ -6,7 +6,7 @@ order: 5
 navLabel: "Contraindicações"
 ---
 
-# Contraindicações e Cuidados do Mounjax em Gotas
+# Contraindicações do Mounjax: Quem Não Pode Usar as Gotas?
 
 Embora o Mounjax seja um suplemento composto por **ingredientes 100% naturais**, ele não é indicado para todos os perfis de pessoas. Conhecer as contraindicações e cuidados antes de iniciar o uso é fundamental para sua segurança e para evitar efeitos indesejados.
 

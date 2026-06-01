@@ -6,7 +6,7 @@ order: 6
 navLabel: "Depoimentos"
 ---
 
-# Depoimentos de Quem Usou Mounjax em Gotas
+# Mounjax Funciona Mesmo? Depoimentos Reais de Quem Usou
 
 Nada fala mais alto do que a experiência de quem já viveu a transformação. Abaixo, reunimos relatos realistas baseados no perfil demográfico real do público do Mounjax — mulheres entre 24 e 50 anos, mães ocupadas, que já tentaram de tudo e finalmente encontraram uma alternativa natural.
 
