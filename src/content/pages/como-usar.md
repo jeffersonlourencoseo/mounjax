@@ -65,19 +65,19 @@ O metabolismo é um processo biológico que exige tempo para reequilibrar-se. E 
 
 ## 💡 Dicas para Maximizar Resultados
 
-**1. Hidrate-se bem**
+**1. Hidrate-se bem**  
 Beba pelo menos 2 litros de água por dia. A ação do Feno Grego e da Inulina depende de hidratação adequada.
 
-**2. Alimentação equilibrada**
+**2. Alimentação equilibrada**  
 O Mounjax ajuda a reduzir o apetite, mas não substitui uma dieta saudável. Priorize proteínas, vegetais e gorduras boas. Use os e-books "250 Receitas Low Carb" e "Como Montar Marmitas Fitness" do ecossistema OzenPharma.
 
-**3. Atividade física regular**
+**3. Atividade física regular**  
 Caminhadas de 30 minutos, 3 vezes por semana, já aceleram os resultados. No App OzenPharma, você encontra 30 videoaulas de personal trainer para fazer em casa.
 
-**4. Consistência diária**
+**4. Consistência diária**  
 Não pule doses nos fins de semana. A regularidade é fundamental para manter níveis estáveis dos ingredientes no sangue. O Grupo VIP no Facebook (1.400+ membros) ajuda a manter a motivação diária.
 
-**5. Sono de qualidade**
+**5. Sono de qualidade**  
 Durma 7 a 8 horas por noite. O metabolismo de gordura acontece intensamente durante o sono reparador. As aulas da psicóloga no App ajudam a controlar a ansiedade que rouba o sono.
 
 ---

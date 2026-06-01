@@ -39,8 +39,8 @@ A OzenPharma trabalha com kits promocionais que oferecem maior economia conforme
 
 ### 1 Frasco — Tratamento Inicial (30 dias)
 
-- **Preço:** 12x R$ 14,76 no cartão
-- **À vista:** R$ 147,00
+- <span style="font-size:1.25rem;color:#e74c3c;font-weight:700;">12x R$ 14,76</span> <span style="font-size:0.85rem;color:rgba(26,26,46,0.5);">no cartão</span>
+- <span style="font-size:0.85rem;color:rgba(26,26,46,0.5);">À vista R$ 147,00</span>
 - **Incluso:** Frete Grátis + 1 E-book Bônus + Acesso ao App OzenPharma
 
 <div class="text-center my-6">
@@ -57,8 +57,8 @@ A OzenPharma trabalha com kits promocionais que oferecem maior economia conforme
 
 ### 3 Frascos — Leve 3 Pague 2 (90 dias) ⭐ Mais Popular
 
-- **Preço:** 12x R$ 19,78 no cartão
-- **À vista:** R$ 197,00
+- <span style="font-size:1.25rem;color:#e74c3c;font-weight:700;">12x R$ 19,78</span> <span style="font-size:0.85rem;color:rgba(26,26,46,0.5);">no cartão</span>
+- <span style="font-size:0.85rem;color:rgba(26,26,46,0.5);">À vista R$ 197,00</span>
 - **Economia:** R$ 210,00 em relação à compra avulsa
 - **Incluso:** Frete Grátis + 7 E-books Bônus + App com Aulas + Grupo VIP Facebook
 
@@ -76,8 +76,8 @@ A OzenPharma trabalha com kits promocionais que oferecem maior economia conforme
 
 ### 5 Frascos — Tratamento Completo (150 dias)
 
-- **Preço:** 12x R$ 24,80 no cartão
-- **À vista:** R$ 247,00
+- <span style="font-size:1.25rem;color:#e74c3c;font-weight:700;">12x R$ 24,80</span> <span style="font-size:0.85rem;color:rgba(26,26,46,0.5);">no cartão</span>
+- <span style="font-size:0.85rem;color:rgba(26,26,46,0.5);">À vista R$ 247,00</span>
 - **Incluso:** Frete Grátis + 7 E-books + App + Acompanhamento Nutricionista
 
 <div class="text-center my-6">
@@ -94,8 +94,8 @@ A OzenPharma trabalha com kits promocionais que oferecem maior economia conforme
 
 ### 8 Frascos — Família ou Revenda (240 dias)
 
-- **Preço:** 12x R$ 37,85 no cartão
-- **À vista:** R$ 377,00
+- <span style="font-size:1.25rem;color:#e74c3c;font-weight:700;">12x R$ 37,85</span> <span style="font-size:0.85rem;color:rgba(26,26,46,0.5);">no cartão</span>
+- <span style="font-size:0.85rem;color:rgba(26,26,46,0.5);">À vista R$ 377,00</span>
 - **Incluso:** Frete Grátis + Todos os Bônus Exclusivos + App OzenPharma + Grupo VIP + Suporte Prioritário
 
 <div class="text-center my-6">
