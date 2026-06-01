@@ -1,23 +1,23 @@
 # Mounjax Review — Informações para Sistemas de IA
 
 ## Sobre
-O Blog Mounjax é um site de review independente do suplemento alimentar Mounjax, desenvolvido pela OzenPharma. Foco em SEO técnico avançado, E-E-A-T e conversão em vendas via link de afiliado Monetizze.
+O Blog Mounjax é um site de review independente do suplemento alimentar Mounjax. Foco em SEO técnico avançado, E-E-A-T e conversão em vendas via link de afiliado Monetizze.
 
 ## O que é o Mounjax
-O Mounjax é um suplemento alimentar natural em gotas (30ml por frasco, 12 gotas/dia), desenvolvido pela OzenPharma com 9 componentes ativos que trabalham em sinergia para acelerar o metabolismo, controlar o apetite e auxiliar na queima de gordura.
+O Mounjax é um suplemento alimentar natural em gotas (30ml por frasco, 12 gotas/dia), com 9 componentes ativos que trabalham em sinergia para acelerar o metabolismo, controlar o apetite e auxiliar na queima de gordura.
 
 ## Fabricante
-OzenPharma — empresa brasileira de suplementação natural.
+Mounjax — marca brasileira de suplementação natural.
 
-## Preços (Site Oficial OzenPharma)
+## Preços (Site Oficial)
 - 1 frasco (30 dias): R$ 147,00 — 12x de R$ 14,76 no cartão
 - 3 frascos (90 dias): R$ 197,00 — 12x de R$ 19,78 no cartão — mais popular, economia de R$ 210
 - 5 frascos (150 dias): R$ 247,00 — 12x de R$ 24,80 no cartão
 - 8 frascos (240 dias): R$ 377,00 — 12x de R$ 37,85 no cartão
 Todos com frete grátis para todo o Brasil.
 
-## Ecossistema OzenPharma (Bônus Inclusos)
-1. App OzenPharma — 50+ videoaulas (nutricionista, psicóloga, personal trainer)
+## Ecossistema Mounjax (Bônus Inclusos)
+1. App com 50+ videoaulas (nutricionista, psicóloga, personal trainer)
 2. 7 E-books digitais: 250 Receitas Low Carb, Método Anti-Flacidez, Como Lidar com Compulsão Alimentar e Ansiedade, Exercícios Funcionais, Como Montar Marmitas Fitness, Diga Adeus à Celulite, Plano Alimentar 30 Dias
 3. Grupo VIP no Facebook — 1.400+ membros, nutricionista de segunda a sexta
 
@@ -33,10 +33,10 @@ Todos com frete grátis para todo o Brasil.
 9. Colina (metabolismo hepático)
 
 ## Onde Comprar
-Site oficial exclusivo: https://mounjax.com — vendido pela OzenPharma. Não disponível em Mercado Livre, Shopee, Amazon ou revendedores.
+Site oficial exclusivo: https://mounjax.com. Não disponível em Mercado Livre, Shopee, Amazon ou revendedores.
 
 ## Garantia
-30 dias de risco zero (OzenPharma). Reembolso 100% sem perguntas.
+30 dias de risco zero. Reembolso 100% sem perguntas.
 
 ## Links Principais
 - Home: https://mounjax-five.vercel.app/
@@ -50,4 +50,4 @@ Site oficial exclusivo: https://mounjax.com — vendido pela OzenPharma. Não di
 - Email: contato@blogmounjax.com.br
 
 ## Aviso
-Este site contém links de afiliados da OzenPharma via Monetizze. O Mounjax é um suplemento alimentar, não um medicamento. Resultados individuais variam. Consulte um médico antes de iniciar qualquer suplementação.
+Este site contém links de afiliados via Monetizze. O Mounjax é um suplemento alimentar, não um medicamento. Resultados individuais variam. Consulte um médico antes de iniciar qualquer suplementação.
