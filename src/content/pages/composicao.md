@@ -8,9 +8,22 @@ navLabel: "Composição"
 
 Você já leu o rótulo de um suplemento e não entendeu metade do que estava escrito?
 
-A OzenPharma resolveu isso. O Mounjax combina **9 ingredientes naturais** cuidadosamente selecionados para agir em sinergia na **ignição metabólica**, **limpeza interna** e **controle da compulsão alimentar** — tudo em **12 gotas diárias**.
+O Mounjax resolveu isso. Ele combina **9 ingredientes naturais** cuidadosamente selecionados para agir em sinergia na **ignição metabólica**, **limpeza interna** e **controle da compulsão alimentar** — tudo em **12 gotas diárias**.
 
 Abaixo, explicamos cada componente de forma simples: o que é, como funciona no seu corpo e como ajuda no emagrecimento.
+
+<div class="text-center my-8">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
+     target="_blank"
+     rel="noopener noreferrer nofollow sponsored"
+     style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
+  >
+    Site oficial Mounjax com desconto →
+  </a>
+  <p style="font-size:0.85rem;color:rgba(26,26,46,0.6);margin-top:0.75rem;">
+    Frete Grátis | Garantia 30 Dias | 12x no cartão
+  </p>
+</div>
 
 ---
 
@@ -54,6 +67,19 @@ Sua principal função é:
 
 > Um intestino saudável está diretamente ligado a um metabolismo mais eficiente.
 
+<div class="text-center my-8">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
+     target="_blank"
+     rel="noopener noreferrer nofollow sponsored"
+     style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
+  >
+    Site oficial Mounjax com desconto →
+  </a>
+  <p style="font-size:0.85rem;color:rgba(26,26,46,0.6);margin-top:0.75rem;">
+    Frete Grátis | Garantia 30 Dias | 12x no cartão
+  </p>
+</div>
+
 ---
 
 ## ⚡ 4. Picolinato de Cromo (Cr)
@@ -91,6 +117,19 @@ Pesquisas recentes mostram que ela:
 - Reforça o sistema imunológico, protegendo contra adoecimentos que interrompem a rotina
 - Auxilia na manutenção da **massa magra** durante o emagrecimento
 - Melhora a saúde cardiovascular
+
+<div class="text-center my-8">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
+     target="_blank"
+     rel="noopener noreferrer nofollow sponsored"
+     style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
+  >
+    Site oficial Mounjax com desconto →
+  </a>
+  <p style="font-size:0.85rem;color:rgba(26,26,46,0.6);margin-top:0.75rem;">
+    Frete Grátis | Garantia 30 Dias | 12x no cartão
+  </p>
+</div>
 
 ---
 
@@ -134,9 +173,9 @@ No processo de emagrecimento, ela:
 
 ---
 
-## 🔬 Sinergia da Fórmula OzenPharma
+## 🔬 Sinergia da Fórmula
 
-A força do Mounjax não está em um único ingrediente, mas na **combinação estratégica** dos 9 componentes — uma abordagem que a OzenPharma chama de "ação multidirecional":
+A força do Mounjax não está em um único ingrediente, mas na **combinação estratégica** dos 9 componentes — uma abordagem de "ação multidirecional":
 
 | Pilar | Ingredientes Principais | Efeito no Organismo |
 |---|---|---|
@@ -147,26 +186,20 @@ A força do Mounjax não está em um único ingrediente, mas na **combinação e
 
 Essa abordagem multidirecional é o que diferencia o Mounjax de suplementos com fórmulas simples e ingredientes isolados. Tudo isso concentrado em **12 gotas diárias** de fácil ingestão.
 
----
-
-## 🛒 Quer Experimentar a Fórmula da OzenPharma?
-
-A fórmula completa do Mounjax está disponível apenas no site oficial da OzenPharma.
-
-Cada kit inclui frete grátis, parcelamento em até 12x e acesso ao ecossistema completo (App + 50+ aulas + 7 e-books + Grupo VIP).
-
 <div class="text-center my-8">
   <a href="https://app.monetizze.com.br/r/ATX25785612"
      target="_blank"
      rel="noopener noreferrer nofollow sponsored"
      style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
   >
-    Site oficial OzenPharma com desconto →
+    Site oficial Mounjax com desconto →
   </a>
   <p style="font-size:0.85rem;color:rgba(26,26,46,0.6);margin-top:0.75rem;">
     Frete Grátis | Garantia 30 Dias | 12x no cartão
   </p>
 </div>
+
+---
 
 Agora que você conhece cada ingrediente, descubra como eles se traduzem em resultados reais na página de [benefícios do Mounjax](/beneficios/). Para entender a forma de uso ideal das gotas, leia nosso guia de [como usar](/como-usar/).
 

@@ -6,11 +6,24 @@ order: 4
 navLabel: "Como Usar"
 ---
 
-O Mounjax é um suplemento alimentar em gotas desenvolvido pela **OzenPharma**.
+O Mounjax é um suplemento alimentar em gotas desenvolvido com fórmula natural de 9 ingredientes ativos.
 
 Sua praticidade é um dos grandes diferenciais: não precisa engolir cápsulas grandes, basta medir a dose com o conta-gotas e ingerir.
 
 Abaixo, você encontra o guia completo de como usar o Mounjax para obter os melhores resultados — incluindo o ecossistema de apoio (App, aulas e grupo VIP) que acompanha a compra oficial.
+
+<div class="text-center my-8">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
+     target="_blank"
+     rel="noopener noreferrer nofollow sponsored"
+     style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
+  >
+    Site oficial Mounjax com desconto →
+  </a>
+  <p style="font-size:0.85rem;color:rgba(26,26,46,0.6);margin-top:0.75rem;">
+    Frete Grátis | Garantia 30 Dias | 12x no cartão
+  </p>
+</div>
 
 ---
 
@@ -33,6 +46,19 @@ Aplique as 12 gotas diretamente sob a língua, aguarde 30 segundos e depois engu
 
 ### Opção 2: Diluído em Água
 Coloque as 12 gotas em um copo com água (aproximadamente 200ml), misture e beba. Essa é a forma mais indicada para quem prefere evitar o gosto concentrado.
+
+<div class="text-center my-8">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
+     target="_blank"
+     rel="noopener noreferrer nofollow sponsored"
+     style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
+  >
+    Site oficial Mounjax com desconto →
+  </a>
+  <p style="font-size:0.85rem;color:rgba(26,26,46,0.6);margin-top:0.75rem;">
+    Frete Grátis | Garantia 30 Dias | 12x no cartão
+  </p>
+</div>
 
 ---
 
@@ -57,9 +83,9 @@ A duração ideal varia conforme o objetivo:
 | Resultados consistentes | 90 dias | 3 frascos |
 | Transformação completa | 150+ dias | 5+ frascos |
 
-A OzenPharma recomenda o uso por pelo menos **90 dias** (3 meses) para que o organismo se adapte completamente aos ativos e os resultados se consolidem.
+A recomendação oficial é o uso por pelo menos **90 dias** (3 meses) para que o organismo se adapte completamente aos ativos e os resultados se consolidem.
 
-O metabolismo é um processo biológico que exige tempo para reequilibrar-se. E com o **App OzenPharma**, você tem 50+ videoaulas (nutricionista, psicóloga e personal trainer) para acompanhar cada fase.
+O metabolismo é um processo biológico que exige tempo para reequilibrar-se. E com o **App Mounjax**, você tem 50+ videoaulas (nutricionista, psicóloga e personal trainer) para acompanhar cada fase.
 
 ---
 
@@ -69,16 +95,29 @@ O metabolismo é um processo biológico que exige tempo para reequilibrar-se. E 
 Beba pelo menos 2 litros de água por dia. A ação do Feno Grego e da Inulina depende de hidratação adequada.
 
 **2. Alimentação equilibrada**  
-O Mounjax ajuda a reduzir o apetite, mas não substitui uma dieta saudável. Priorize proteínas, vegetais e gorduras boas. Use os e-books "250 Receitas Low Carb" e "Como Montar Marmitas Fitness" do ecossistema OzenPharma.
+O Mounjax ajuda a reduzir o apetite, mas não substitui uma dieta saudável. Priorize proteínas, vegetais e gorduras boas. Use os e-books "250 Receitas Low Carb" e "Como Montar Marmitas Fitness" do ecossistema Mounjax.
 
 **3. Atividade física regular**  
-Caminhadas de 30 minutos, 3 vezes por semana, já aceleram os resultados. No App OzenPharma, você encontra 30 videoaulas de personal trainer para fazer em casa.
+Caminhadas de 30 minutos, 3 vezes por semana, já aceleram os resultados. No App Mounjax, você encontra 30 videoaulas de personal trainer para fazer em casa.
 
 **4. Consistência diária**  
 Não pule doses nos fins de semana. A regularidade é fundamental para manter níveis estáveis dos ingredientes no sangue. O Grupo VIP no Facebook (1.400+ membros) ajuda a manter a motivação diária.
 
 **5. Sono de qualidade**  
 Durma 7 a 8 horas por noite. O metabolismo de gordura acontece intensamente durante o sono reparador. As aulas da psicóloga no App ajudam a controlar a ansiedade que rouba o sono.
+
+<div class="text-center my-8">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
+     target="_blank"
+     rel="noopener noreferrer nofollow sponsored"
+     style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
+  >
+    Site oficial Mounjax com desconto →
+  </a>
+  <p style="font-size:0.85rem;color:rgba(26,26,46,0.6);margin-top:0.75rem;">
+    Frete Grátis | Garantia 30 Dias | 12x no cartão
+  </p>
+</div>
 
 ---
 
@@ -104,10 +143,10 @@ Durma 7 a 8 horas por noite. O metabolismo de gordura acontece intensamente dura
 
 O kit ideal para iniciantes é o de **3 frascos (90 dias)** — o mais vendido e com melhor custo-benefício.
 
-Cada kit oficial da OzenPharma inclui:
+Cada kit oficial inclui:
 - Frete grátis para todo o Brasil
 - Parcelamento em até 12x no cartão
-- App OzenPharma + 50+ aulas
+- App Mounjax + 50+ aulas
 - 7 e-books digitais
 - Grupo VIP no Facebook
 
@@ -117,7 +156,7 @@ Cada kit oficial da OzenPharma inclui:
      rel="noopener noreferrer nofollow sponsored"
      style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
   >
-    Site oficial OzenPharma com desconto →
+    Site oficial Mounjax com desconto →
   </a>
   <p style="font-size:0.85rem;color:rgba(26,26,46,0.6);margin-top:0.75rem;">
     Frete Grátis | Garantia 30 Dias | 12x no cartão

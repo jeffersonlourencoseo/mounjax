@@ -13,11 +13,24 @@ Se você chegou até aqui, provavelmente já pesquisou sobre o Mounjax e quer sa
 
 Esta página traz todas as informações atualizadas sobre valores, kits, descontos e como evitar falsificações.
 
+<div class="text-center my-8">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
+     target="_blank"
+     rel="noopener noreferrer nofollow sponsored"
+     style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
+  >
+    Site oficial Mounjax com desconto →
+  </a>
+  <p style="font-size:0.85rem;color:rgba(26,26,46,0.6);margin-top:0.75rem;">
+    Frete Grátis | Garantia 30 Dias | 12x no cartão
+  </p>
+</div>
+
 ---
 
 ## ⚠️ Evite Falsificações
 
-O Mounjax original em gotas **só é vendido pelo site oficial da OzenPharma** (mounjax.com).
+O Mounjax original em gotas **só é vendido pelo site oficial** (mounjax.com).
 
 Não compre em:
 
@@ -33,7 +46,7 @@ Produtos vendidos fora do canal oficial podem ser falsificados, adulterados, ven
 
 ## 💰 Mounjax Preço — Kits Oficiais Atualizados
 
-A OzenPharma trabalha com kits promocionais que oferecem maior economia conforme a quantidade de frascos.
+O Mounjax trabalha com kits promocionais que oferecem maior economia conforme a quantidade de frascos.
 
 ---
 
@@ -41,7 +54,7 @@ A OzenPharma trabalha com kits promocionais que oferecem maior economia conforme
 
 - <span style="font-size:1.25rem;color:#e74c3c;font-weight:700;">12x R$ 14,76</span> <span style="font-size:0.85rem;color:rgba(26,26,46,0.5);">no cartão</span>
 - <span style="font-size:0.85rem;color:rgba(26,26,46,0.5);">À vista R$ 147,00</span>
-- **Incluso:** Frete Grátis + 1 E-book Bônus + Acesso ao App OzenPharma
+- **Incluso:** Frete Grátis + 1 E-book Bônus + Acesso ao App
 
 <div class="text-center my-6">
   <a href="https://app.monetizze.com.br/r/ATX25785612"
@@ -96,7 +109,7 @@ A OzenPharma trabalha com kits promocionais que oferecem maior economia conforme
 
 - <span style="font-size:1.25rem;color:#e74c3c;font-weight:700;">12x R$ 37,85</span> <span style="font-size:0.85rem;color:rgba(26,26,46,0.5);">no cartão</span>
 - <span style="font-size:0.85rem;color:rgba(26,26,46,0.5);">À vista R$ 377,00</span>
-- **Incluso:** Frete Grátis + Todos os Bônus Exclusivos + App OzenPharma + Grupo VIP + Suporte Prioritário
+- **Incluso:** Frete Grátis + Todos os Bônus Exclusivos + App + Grupo VIP + Suporte Prioritário
 
 <div class="text-center my-6">
   <a href="https://app.monetizze.com.br/r/ATX25785612"
@@ -119,13 +132,26 @@ A OzenPharma trabalha com kits promocionais que oferecem maior economia conforme
 | Precisa perder +10 kg | 5 frascos | Tratamento completo com acompanhamento |
 | Divide com família | 8 frascos | Maior economia por unidade |
 
+<div class="text-center my-8">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
+     target="_blank"
+     rel="noopener noreferrer nofollow sponsored"
+     style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
+  >
+    Site oficial Mounjax com desconto →
+  </a>
+  <p style="font-size:0.85rem;color:rgba(26,26,46,0.6);margin-top:0.75rem;">
+    Frete Grátis | Garantia 30 Dias | 12x no cartão
+  </p>
+</div>
+
 ---
 
 ## 🎁 Bônus Exclusivos da Compra Oficial
 
-Além do produto, a OzenPharma entrega um ecossistema completo de apoio ao emagrecimento:
+Além do produto, o Mounjax entrega um ecossistema completo de apoio ao emagrecimento:
 
-**1. App OzenPharma** com 50+ videoaulas de nutricionista, psicóloga e personal trainer
+**1. App Mounjax** com 50+ videoaulas de nutricionista, psicóloga e personal trainer
 
 **2. 7 E-books digitais exclusivos:**
 - 250 Receitas Low Carb
@@ -146,7 +172,7 @@ Além do produto, a OzenPharma entrega um ecossistema completo de apoio ao emagr
 
 ## 🛡️ Garantia de Satisfação de 30 Dias (Risco Zero)
 
-A OzenPharma oferece uma **garantia de 30 dias de risco zero**.
+O Mounjax oferece uma **garantia de 30 dias de risco zero**.
 
 Se você não sentir resultados, não se adaptar ao produto ou simplesmente não ficar satisfeita, basta solicitar o reembolso dentro do prazo.
 
@@ -154,7 +180,7 @@ Se você não sentir resultados, não se adaptar ao produto ou simplesmente não
 - Sem burocracia ou perguntas embaraçosas
 - O reembolso é processado diretamente pela plataforma de pagamento
 
-Essa política demonstra a confiança da OzenPharma na qualidade e eficácia do Mounjax.
+Essa política demonstra a confiança na qualidade e eficácia do Mounjax.
 
 ---
 
@@ -190,7 +216,7 @@ Os bônus digitais (e-books e app) são enviados automaticamente por e-mail apó
      rel="noopener noreferrer nofollow sponsored"
      style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
   >
-    Site oficial OzenPharma com desconto →
+    Site oficial Mounjax com desconto →
   </a>
   <p style="font-size:0.85rem;color:rgba(26,26,46,0.6);margin-top:0.75rem;">
     Frete Grátis | Garantia 30 Dias | 12x no cartão

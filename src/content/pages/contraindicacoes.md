@@ -8,7 +8,20 @@ navLabel: "Contraindicações"
 
 O Mounjax é composto por ingredientes **100% naturais** e é bem tolerado pela maioria das pessoas. No entanto, como todo suplemento alimentar, possui contraindicações e precauções que devem ser respeitadas.
 
-Este guia traz **tudo o que você precisa saber** antes de começar a usar as gotas da OzenPharma.
+Este guia traz **tudo o que você precisa saber** antes de começar a usar as gotas.
+
+<div class="text-center my-8">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
+     target="_blank"
+     rel="noopener noreferrer nofollow sponsored"
+     style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
+  >
+    Site oficial Mounjax com desconto →
+  </a>
+  <p style="font-size:0.85rem;color:rgba(26,26,46,0.6);margin-top:0.75rem;">
+    Frete Grátis | Garantia 30 Dias | 12x no cartão
+  </p>
+</div>
 
 ---
 
@@ -45,6 +58,19 @@ Alguns ingredientes termogênicos podem afetar a pressão arterial. Manter a hip
 
 ### Alergias Alimentares
 Mesmo que não seja alérgica a crustáceos, quem possui alergias alimentares múltiplas deve ler o rótulo completo e consultar um alergista antes de iniciar.
+
+<div class="text-center my-8">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
+     target="_blank"
+     rel="noopener noreferrer nofollow sponsored"
+     style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
+  >
+    Site oficial Mounjax com desconto →
+  </a>
+  <p style="font-size:0.85rem;color:rgba(26,26,46,0.6);margin-top:0.75rem;">
+    Frete Grátis | Garantia 30 Dias | 12x no cartão
+  </p>
+</div>
 
 ---
 
@@ -109,25 +135,19 @@ Para minimizar riscos e maximizar resultados:
 4. **Guarde em local fresco** — ao abrigo de luz solar direta
 5. **Agite antes de usar** — para distribuir os ativos uniformemente
 
----
-
-## 🛒 Ainda Pode Usar o Mounjax?
-
-Se você não se enquadra em nenhuma contraindicação e está pronta para começar, o próximo passo é adquirir o produto original da OzenPharma.
-
-Cada kit inclui frete grátis, parcelamento em até 12x e acesso ao ecossistema completo (App + 50+ aulas + 7 e-books + Grupo VIP).
-
 <div class="text-center my-8">
   <a href="https://app.monetizze.com.br/r/ATX25785612"
      target="_blank"
      rel="noopener noreferrer nofollow sponsored"
      style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
   >
-    Site oficial OzenPharma com desconto →
+    Site oficial Mounjax com desconto →
   </a>
   <p style="font-size:0.85rem;color:rgba(26,26,46,0.6);margin-top:0.75rem;">
     Frete Grátis | Garantia 30 Dias | 12x no cartão
   </p>
 </div>
+
+---
 
 Se ainda tem dúvidas, leia nossa página completa de [como usar](/como-usar/) as gotas ou conheça os [benefícios](/beneficios/) da fórmula.
