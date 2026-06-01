@@ -12,11 +12,11 @@ export const SITE_CONFIG = {
   locale: 'pt_BR',
 
   // SEO Defaults
-  titleDefault: 'Mounjax Funciona? Preço, Composição e Onde Comprar 2026',
+  titleDefault: 'Mounjax Funciona? Análise 2026 da OzenPharma — 12 Gotas/Dia',
   descriptionDefault:
-    'Descubra se o Mounjax realmente funciona. Análise completa da fórmula em gotas, preço, benefícios, contraindicações e onde comprar com desconto oficial. Leia antes de usar!',
+    'Mounjax em gotas da OzenPharma: 12 gotas por dia, 9 ingredientes naturais, App com aulas e e-books de bônus. Veja preços, kits com até 40% OFF e garantia de 30 dias.',
   keywordsDefault:
-    'mounjax funciona, mounjax funciona mesmo, o que é mounjax, pra que serve o mounjax, mounjax preço, mounjax valor, mounjax para emagrecer, mounjax para que serve, mounjax gotas, mounjax em gotas, mounjax emagrece, mounjax reclame aqui',
+    'mounjax funciona, mounjax funciona mesmo, o que é mounjax, pra que serve o mounjax, mounjax preço, mounjax valor, mounjax para emagrecer, mounjax para que serve, mounjax gotas, mounjax em gotas, mounjax emagrece, mounjax reclame aqui, mounjax onde comprar, mounjax desconto, mounjax ozenpharma',
 
   // Branding & E-E-A-T
   author: {
@@ -46,7 +46,7 @@ export const SITE_CONFIG = {
   // Produto review
   product: {
     name: 'Mounjax',
-    brand: 'Mounjax',
+    brand: 'OzenPharma',
     category: 'Suplemento Alimentar em Gotas',
     officialUrl: 'https://mounjax.com',
     affiliateLink: 'https://app.monetizze.com.br/r/ATX25785612',
@@ -66,8 +66,8 @@ export const SITE_CONFIG = {
   // Afiliados & Disclaimer
   affiliate: {
     disclaimer:
-      'Este site contém links de afiliados. Ao comprar por nossos links, podemos receber uma comissão, sem custo adicional para você.',
-    partner: 'Mounjax — Programa de Afiliados',
+      'Este site contém links de afiliados da OzenPharma via Monetizze. Ao comprar por nossos links, podemos receber uma comissão, sem custo adicional para você.',
+    partner: 'OzenPharma — Programa de Afiliados Monetizze',
   },
 
   // Performance & SEO
