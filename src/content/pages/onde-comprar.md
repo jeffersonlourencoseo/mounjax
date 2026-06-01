@@ -8,46 +8,134 @@ navLabel: "Onde Comprar"
 
 # Mounjax Preço e Valor — Onde Comprar Original com Desconto
 
-Se você chegou até aqui, provavelmente já pesquisou sobre o Mounjax e quer saber: **qual o preço do Mounjax?** e **onde comprar com segurança?** Esta página traz todas as informações atualizadas sobre valores, kits, descontos e como evitar falsificações.
+Se você chegou até aqui, provavelmente já pesquisou sobre o Mounjax e quer saber:
+
+- **Qual o preço do Mounjax?**
+- **Onde comprar com segurança?**
+
+Esta página traz todas as informações atualizadas sobre valores, kits, descontos e como evitar falsificações.
+
+---
 
 ## ⚠️ Evite Falsificações
 
-O Mounjax original em gotas **só é vendido pelo site oficial da OzenPharma** (mounjax.com). Não compre em:
+O Mounjax original em gotas **só é vendido pelo site oficial da OzenPharma** (mounjax.com).
 
-- Mercado Livre
-- Shopee
-- Amazon Marketplace
-- Sites de descontos não autorizados
-- Revendedores individuais em redes sociais
+Não compre em:
+
+- ❌ Mercado Livre
+- ❌ Shopee
+- ❌ Amazon Marketplace
+- ❌ Sites de descontos não autorizados
+- ❌ Revendedores individuais em redes sociais
 
 Produtos vendidos fora do canal oficial podem ser falsificados, adulterados, vencidos ou armazenados de forma inadequada — colocando sua saúde em risco e anulando qualquer direito à garantia.
 
-## Mounjax Preço — Kits Oficiais Atualizados
+---
 
-A OzenPharma trabalha com kits promocionais que oferecem maior economia conforme a quantidade de frascos. Veja os valores atualizados:
+## 💰 Mounjax Preço — Kits Oficiais Atualizados
+
+A OzenPharma trabalha com kits promocionais que oferecem maior economia conforme a quantidade de frascos.
 
 ### 1 Frasco — Tratamento Inicial (30 dias)
-- **Preço:** R$ 147,00
-- **Parcelamento:** em até 12x no cartão
-- **Incluso:** Frete Grátis + 1 E-book Bônus + Acesso ao App OzenPharma
+
+<div class="bg-surface border-2 border-brand/10 p-6 rounded-2xl text-center mb-6">
+  <p class="text-sm text-brand-dark/70 mb-2">30 dias de uso | 30ml em gotas</p>
+  <p class="font-display text-4xl font-bold text-accent mb-1">12x R$ 14,76</p>
+  <p class="text-xs text-brand-dark/60 mb-4">ou R$ 147,00 à vista</p>
+  <ul class="text-sm text-brand-dark/80 space-y-1 mb-4 text-left inline-block">
+    <li>✅ Frete Grátis</li>
+    <li>✅ 1 E-book Bônus</li>
+    <li>✅ Acesso ao App OzenPharma</li>
+  </ul>
+  <br/>
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
+     target="_blank"
+     rel="noopener noreferrer nofollow sponsored"
+     class="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-white bg-brand px-6 py-3 rounded-full hover:shadow-lg hover:-translate-y-0.5 transition-all"
+  >
+    Comprar 1 Frasco →
+  </a>
+</div>
+
+---
 
 ### 3 Frascos — Leve 3 Pague 2 (90 dias) ⭐ Mais Popular
-- **Preço:** R$ 197,00
-- **Economia:** R$ 210,00 em relação à compra avulsa
-- **Parcelamento:** em até 12x no cartão
-- **Incluso:** Frete Grátis + 7 E-books Bônus + App com Aulas + Grupo VIP Facebook
+
+<div class="bg-gradient-to-br from-brand/5 to-brand-light/5 border-2 border-accent p-6 rounded-2xl text-center relative overflow-hidden mb-6">
+  <span class="inline-block bg-danger text-white text-xs font-bold uppercase tracking-wider px-4 py-1 rounded-full mb-3">🔥 Mais Vendido</span>
+  <p class="text-sm text-brand-dark/70 mb-2">90 dias de uso | Melhor custo-benefício</p>
+  <p class="text-xs text-danger font-semibold mb-2">⏰ Economia de R$ 210,00 — desconto aplicado automaticamente</p>
+  <p class="font-display text-4xl font-bold text-accent mb-1">12x R$ 19,78</p>
+  <p class="text-xs text-brand-dark/60 mb-4">ou R$ 197,00 à vista</p>
+  <ul class="text-sm text-brand-dark/80 space-y-1 mb-4 text-left inline-block">
+    <li>✅ Frete Grátis</li>
+    <li>✅ 7 E-books Bônus</li>
+    <li>✅ App OzenPharma com 50+ Aulas</li>
+    <li>✅ Grupo VIP Facebook (1.400+ membros)</li>
+    <li>✅ Suporte Nutricionista (seg a sex)</li>
+    <li>✅ Garantia 30 Dias</li>
+  </ul>
+  <br/>
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
+     target="_blank"
+     rel="noopener noreferrer nofollow sponsored"
+     class="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-white bg-accent px-6 py-3 rounded-full hover:shadow-lg hover:-translate-y-0.5 transition-all"
+  >
+    Comprar Kit 3 Frascos →
+  </a>
+</div>
+
+---
 
 ### 5 Frascos — Tratamento Completo (150 dias)
-- **Preço:** R$ 247,00
-- **Parcelamento:** em até 12x no cartão
-- **Incluso:** Frete Grátis + 7 E-books + App + Acompanhamento Nutricionista
+
+<div class="bg-surface border-2 border-brand/10 p-6 rounded-2xl text-center mb-6">
+  <p class="text-sm text-brand-dark/70 mb-2">150 dias de uso | Resultados consistentes</p>
+  <p class="font-display text-4xl font-bold text-accent mb-1">12x R$ 24,80</p>
+  <p class="text-xs text-brand-dark/60 mb-4">ou R$ 247,00 à vista</p>
+  <ul class="text-sm text-brand-dark/80 space-y-1 mb-4 text-left inline-block">
+    <li>✅ Frete Grátis</li>
+    <li>✅ 7 E-books Bônus + Aulas VIP</li>
+    <li>✅ Grupo VIP + Suporte Nutricionista</li>
+  </ul>
+  <br/>
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
+     target="_blank"
+     rel="noopener noreferrer nofollow sponsored"
+     class="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-white bg-brand px-6 py-3 rounded-full hover:shadow-lg hover:-translate-y-0.5 transition-all"
+  >
+    Comprar 5 Frascos →
+  </a>
+</div>
+
+---
 
 ### 8 Frascos — Família ou Revenda (240 dias)
-- **Preço:** R$ 377,00
-- **Parcelamento:** 12x de R$ 37,85 ou R$ 377 à vista
-- **Incluso:** Frete Grátis + Todos os Bônus Exclusivos + App OzenPharma + Grupo VIP + Suporte Prioritário
 
-## Qual Kit Escolher?
+<div class="bg-surface border-2 border-brand/10 p-6 rounded-2xl text-center mb-6">
+  <p class="text-sm text-brand-dark/70 mb-2">240 dias de uso | Maior economia</p>
+  <p class="font-display text-4xl font-bold text-accent mb-1">12x R$ 37,85</p>
+  <p class="text-xs text-brand-dark/60 mb-4">ou R$ 377,00 à vista</p>
+  <ul class="text-sm text-brand-dark/80 space-y-1 mb-4 text-left inline-block">
+    <li>✅ Frete Grátis</li>
+    <li>✅ Todos os Bônus Exclusivos</li>
+    <li>✅ App OzenPharma + Grupo VIP</li>
+    <li>✅ Suporte Prioritário</li>
+  </ul>
+  <br/>
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
+     target="_blank"
+     rel="noopener noreferrer nofollow sponsored"
+     class="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-white bg-brand px-6 py-3 rounded-full hover:shadow-lg hover:-translate-y-0.5 transition-all"
+  >
+    Comprar 8 Frascos →
+  </a>
+</div>
+
+---
+
+## 🎯 Qual Kit Escolher?
 
 | Seu Objetivo | Kit Recomendado | Por Quê? |
 |---|---|---|
@@ -56,70 +144,18 @@ A OzenPharma trabalha com kits promocionais que oferecem maior economia conforme
 | Precisa perder +10 kg | 5 frascos | Tratamento completo com acompanhamento |
 | Divide com família | 8 frascos | Maior economia por unidade |
 
-## Tabela Comparativa dos Kits Mounjax
+---
 
-<div class="overflow-x-auto mb-8">
-  <table class="w-full text-left border-collapse">
-    <thead>
-      <tr class="border-b-2 border-brand/20">
-        <th class="py-3 px-4 font-display text-brand-dark">Kit</th>
-        <th class="py-3 px-4 font-display text-brand-dark">Duração</th>
-        <th class="py-3 px-4 font-display text-brand-dark">Preço</th>
-        <th class="py-3 px-4 font-display text-brand-dark">Economia</th>
-        <th class="py-3 px-4 font-display text-brand-dark">Link</th>
-      </tr>
-    </thead>
-    <tbody class="text-brand-dark/80">
-      <tr class="border-b border-brand/10">
-        <td class="py-3 px-4 font-semibold">1 Frasco</td>
-        <td class="py-3 px-4">30 dias</td>
-        <td class="py-3 px-4 font-bold text-brand">R$ 147,00</td>
-        <td class="py-3 px-4">—</td>
-        <td class="py-3 px-4">
-          <a href="https://app.monetizze.com.br/r/ATX25785612" target="_blank" rel="noopener noreferrer nofollow sponsored" class="text-sm font-semibold text-white bg-accent px-3 py-1.5 rounded-full hover:bg-accent-dark transition-colors">Comprar</a>
-        </td>
-      </tr>
-      <tr class="border-b border-brand/10 bg-brand/5">
-        <td class="py-3 px-4 font-semibold">3 Frascos ⭐ Mais Popular</td>
-        <td class="py-3 px-4">90 dias</td>
-        <td class="py-3 px-4 font-bold text-brand">R$ 197,00</td>
-        <td class="py-3 px-4 font-semibold text-accent">R$ 210,00</td>
-        <td class="py-3 px-4">
-          <a href="https://app.monetizze.com.br/r/ATX25785612" target="_blank" rel="noopener noreferrer nofollow sponsored" class="text-sm font-semibold text-white bg-accent px-3 py-1.5 rounded-full hover:bg-accent-dark transition-colors">Comprar</a>
-        </td>
-      </tr>
-      <tr class="border-b border-brand/10">
-        <td class="py-3 px-4 font-semibold">5 Frascos</td>
-        <td class="py-3 px-4">150 dias</td>
-        <td class="py-3 px-4 font-bold text-brand">R$ 247,00</td>
-        <td class="py-3 px-4 font-semibold text-accent">R$ 488,00</td>
-        <td class="py-3 px-4">
-          <a href="https://app.monetizze.com.br/r/ATX25785612" target="_blank" rel="noopener noreferrer nofollow sponsored" class="text-sm font-semibold text-white bg-accent px-3 py-1.5 rounded-full hover:bg-accent-dark transition-colors">Comprar</a>
-        </td>
-      </tr>
-      <tr class="border-b border-brand/10">
-        <td class="py-3 px-4 font-semibold">8 Frascos</td>
-        <td class="py-3 px-4">240 dias</td>
-        <td class="py-3 px-4 font-bold text-brand">R$ 377,00</td>
-        <td class="py-3 px-4 font-semibold text-accent">R$ 799,00</td>
-        <td class="py-3 px-4">
-          <a href="https://app.monetizze.com.br/r/ATX25785612" target="_blank" rel="noopener noreferrer nofollow sponsored" class="text-sm font-semibold text-white bg-accent px-3 py-1.5 rounded-full hover:bg-accent-dark transition-colors">Comprar</a>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+## 🎁 Bônus Exclusivos da Compra Oficial
 
-## Bônus Exclusivos da Compra Oficial
-
-Além do produto, a OzenPharma entrega um ecossistema completo de apoio ao emagrecimento, incluindo:
+Além do produto, a OzenPharma entrega um ecossistema completo de apoio ao emagrecimento:
 
 1. **App OzenPharma** com 50+ videoaulas de nutricionista, psicóloga e personal trainer
-2. **7 E-books digitais exclusivos**:
+2. **7 E-books digitais exclusivos:**
    - 250 Receitas Low Carb
    - Método Anti-Flacidez
    - Como Lidar com Compulsão Alimentar e Ansiedade
-   - Exercícios Funcionais
+   - Exercícios Funcionais para Casa
    - Como Montar Marmitas Fitness
    - Diga Adeus à Celulite
    - Plano Alimentar de 30 Dias
@@ -127,9 +163,13 @@ Além do produto, a OzenPharma entrega um ecossistema completo de apoio ao emagr
 4. **Frete Grátis** para todo o Brasil
 5. **Pagamento seguro** via Monetizze com criptografia SSL
 
-## Garantia de Satisfação de 30 Dias (Risco Zero)
+---
 
-A OzenPharma oferece uma **garantia de 30 dias de risco zero**. Se você não sentir resultados, não se adaptar ao produto ou simplesmente não ficar satisfeita, basta solicitar o reembolso dentro do prazo.
+## 🛡️ Garantia de Satisfação de 30 Dias (Risco Zero)
+
+A OzenPharma oferece uma **garantia de 30 dias de risco zero**.
+
+Se você não sentir resultados, não se adaptar ao produto ou simplesmente não ficar satisfeita, basta solicitar o reembolso dentro do prazo.
 
 - Receba **100% do valor pago** de volta
 - Sem burocracia ou perguntas embaraçosas
@@ -137,7 +177,9 @@ A OzenPharma oferece uma **garantia de 30 dias de risco zero**. Se você não se
 
 Essa política demonstra a confiança da OzenPharma na qualidade e eficácia do Mounjax.
 
-## Por que Comprar no Site Oficial?
+---
+
+## ✅ Por que Comprar no Site Oficial?
 
 - ✅ Produto 100% original e autêntico
 - ✅ Garantia de satisfação de 30 dias
@@ -147,7 +189,9 @@ Essa política demonstra a confiança da OzenPharma na qualidade e eficácia do 
 - ✅ Suporte ao cliente dedicado
 - ✅ Ofertas e descontos exclusivos não disponíveis em outros canais
 
-## Como Funciona a Compra?
+---
+
+## 📦 Como Funciona a Compra?
 
 1. Clique no botão abaixo para acessar o site oficial
 2. Escolha o kit que melhor atende seu objetivo
@@ -157,11 +201,20 @@ Essa política demonstra a confiança da OzenPharma na qualidade e eficácia do 
 
 Os bônus digitais (e-books e app) são enviados automaticamente por e-mail após a confirmação da compra.
 
+---
+
 > **Dica:** O kit com 3 frascos (Leve 3 Pague 2) é o mais vendido e oferece o melhor equilíbrio entre investimento e resultado. Com 90 dias de tratamento, você permite que o organismo se adapte completamente aos ativos e consolide os benefícios.
 
-<a href="https://app.monetizze.com.br/r/ATX25785612" target="_blank" rel="noopener noreferrer nofollow sponsored" class="inline-flex items-center gap-2 text-base font-semibold uppercase tracking-wider text-white bg-accent px-8 py-4 rounded-full hover:bg-accent-dark transition-colors shadow-lg hover:shadow-xl hover:-translate-y-0.5">
-  Acessar Site Oficial do Mounjax
-</a>
+<div class="text-center my-8">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
+     target="_blank"
+     rel="noopener noreferrer nofollow sponsored"
+     class="inline-flex items-center gap-2 text-base font-semibold uppercase tracking-wider text-white bg-accent px-8 py-4 rounded-full hover:shadow-xl hover:-translate-y-0.5 transition-all"
+  >
+    Site oficial OzenPharma com desconto →
+  </a>
+  <p class="text-sm text-brand-dark/70 mt-3">Frete Grátis | Garantia 30 Dias | 12x no cartão</p>
+</div>
 
 ---
 
