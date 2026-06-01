@@ -6,8 +6,6 @@ order: 3
 navLabel: "Benefícios"
 ---
 
-# Mounjax Emagrece? Veja os 5 Benefícios de Quem Usou
-
 A pergunta que não quer calar entre quem descobre o produto é: **"Mounjax emagrece?"**
 
 A resposta curta é **sim** — mas o emagrecimento acontece de forma natural, gradual e sustentável, desde que combinado com hábitos saudáveis.
@@ -118,21 +116,21 @@ Além da ação científica dos ingredientes, os depoimentos de usuários refor�
 
 ## 🛒 Quer Experimentar os Benefícios do Mounjax?
 
-A fórmula completa da OzenPharma está disponível apenas no site oficial. Cada kit inclui frete grátis, parcelamento em até 12x e acesso ao ecossistema completo:
+A fórmula completa da OzenPharma está disponível apenas no site oficial.
 
-- **App OzenPharma** com 50+ videoaulas
-- **7 E-books digitais** exclusivos
-- **Grupo VIP** no Facebook com 1.400+ mulheres
+Cada kit inclui frete grátis, parcelamento em até 12x e acesso ao ecossistema completo (App + 50+ aulas + 7 e-books + Grupo VIP).
 
 <div class="text-center my-8">
   <a href="https://app.monetizze.com.br/r/ATX25785612"
      target="_blank"
      rel="noopener noreferrer nofollow sponsored"
-     class="inline-flex items-center gap-2 text-base font-semibold uppercase tracking-wider text-white bg-accent px-8 py-4 rounded-full hover:shadow-xl hover:-translate-y-0.5 transition-all"
+     style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
   >
     Site oficial OzenPharma com desconto →
   </a>
-  <p class="text-sm text-brand-dark/70 mt-3">Frete Grátis | Garantia 30 Dias | 12x no cartão</p>
+  <p style="font-size:0.85rem;color:rgba(26,26,46,0.6);margin-top:0.75rem;">
+    Frete Grátis | Garantia 30 Dias | 12x no cartão
+  </p>
 </div>
 
 Quer saber como aproveitar todos esses benefícios? Confira nosso guia de [como usar](/como-usar/) as 12 gotas diárias corretamente. Se ainda tem dúvidas se o produto é seguro para você, leia as [contraindicações](/contraindicacoes/) completas. Para conhecer a fórmula por trás desses resultados, visite a página de [composição](/composicao/).

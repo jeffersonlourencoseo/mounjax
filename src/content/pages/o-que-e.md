@@ -6,8 +6,6 @@ order: 1
 navLabel: "O que é"
 ---
 
-# O que é Mounjax? Pra que Serve e Como Funciona [2026]
-
 Se você está buscando uma alternativa natural para emagrecer sem passar fome, sem dietas malucas e sem engolir cápsulas grandes, este guia é para você.
 
 Aqui, explicamos **tudo sobre o Mounjax** — o suplemento em gotas da **OzenPharma** que já ajudou mais de 1.400 mulheres a recuperarem a autoestima.
@@ -25,6 +23,8 @@ O **Mounjax** é um suplemento alimentar natural em **gotas** (30ml por frasco),
 - **Melhorar a digestão e reduzir o inchaço** — acordar com a barriga mais plana
 
 A dosagem é simples: **apenas 12 gotas ao dia**, preferencialmente no mesmo horário, combinadas com água e uma rotina equilibrada.
+
+> **Por que gotas?** Diferente de cápsulas, a apresentação em gotas oferece absorção mais rápida e dosagem precisa — sem engolir comprimidos grandes.
 
 ---
 
@@ -57,43 +57,22 @@ A Cúrcuma reduz inflamação e a Inulina alimenta as bactérias benéficas do i
 
 ---
 
-## 📦 Por que Gotas em Vez de Cápsulas?
-
-Diferente de cápsulas, a apresentação em gotas oferece:
-
-- **Absorção mais rápida** — os ativos entram na corrente sanguínea em minutos
-- **Dosagem precisa** — 12 gotas exatas, sem estimativa
-- **Praticidade** — pinga na água, bebe, pronto. Não precisa engolir comprimidos grandes
-- **Ajuste fino** — permite pequenas variações de dose se necessário
-
----
-
 ## 🎁 Ecossistema OzenPharma: Muito Além das Gotas
 
 Quando você compra o Mounjax pelo site oficial da OzenPharma, recebe um ecossistema completo de apoio:
 
-<div class="bg-brand/5 border-l-4 border-brand p-5 rounded-r-xl mb-6">
-  <h4 class="font-display text-lg font-bold text-brand-dark mb-2">📱 App OzenPharma</h4>
-  <p class="text-brand-dark/80">50+ videoaulas com nutricionista, psicóloga e personal trainer (iniciante, intermediário e avançado).</p>
-</div>
+**📱 App OzenPharma** — 50+ videoaulas com nutricionista, psicóloga e personal trainer (iniciante, intermediário e avançado).
 
-<div class="bg-brand/5 border-l-4 border-brand p-5 rounded-r-xl mb-6">
-  <h4 class="font-display text-lg font-bold text-brand-dark mb-2">📚 7 E-books Digitais Exclusivos</h4>
-  <ul class="text-brand-dark/80 space-y-1">
-    <li>250 Receitas Low Carb</li>
-    <li>Método Anti-Flacidez</li>
-    <li>Como Lidar com Compulsão Alimentar e Ansiedade</li>
-    <li>Exercícios Funcionais para Casa</li>
-    <li>Como Montar Marmitas Fitness</li>
-    <li>Diga Adeus à Celulite</li>
-    <li>Plano Alimentar de 30 Dias</li>
-  </ul>
-</div>
+**📚 7 E-books Digitais Exclusivos:**
+- 250 Receitas Low Carb
+- Método Anti-Flacidez
+- Como Lidar com Compulsão Alimentar e Ansiedade
+- Exercícios Funcionais para Casa
+- Como Montar Marmitas Fitness
+- Diga Adeus à Celulite
+- Plano Alimentar de 30 Dias
 
-<div class="bg-brand/5 border-l-4 border-brand p-5 rounded-r-xl mb-6">
-  <h4 class="font-display text-lg font-bold text-brand-dark mb-2">👥 Grupo VIP no Facebook</h4>
-  <p class="text-brand-dark/80">Mais de 1.400 mulheres com suporte de nutricionista de segunda a sexta. Motivação diária, receitas, dicas e troca de experiências.</p>
-</div>
+**👥 Grupo VIP no Facebook** — Mais de 1.400 mulheres com suporte de nutricionista de segunda a sexta.
 
 ---
 
@@ -106,20 +85,7 @@ Quando você compra o Mounjax pelo site oficial da OzenPharma, recebe um ecossis
 | **Mês 2–3** | Redução visível de medidas, roupas mais soltas, primeiros kg a menos |
 | **Mês 4–6** | Consolidação do peso, hábitos alimentares renovados, autoestima recuperada |
 
-A OzenPharma recomenda o uso por pelo menos **90 dias (3 frascos)** para resultados consistentes. O metabolismo é um processo biológico que exige tempo para reequilibrar.
-
----
-
-## ⚠️ Aviso Importante
-
-O Mounjax é um suplemento alimentar, não um medicamento. Seus efeitos são potencializados quando combinados com:
-
-- Alimentação equilibrada
-- Hidratação adequada (pelo menos 2 litros de água por dia)
-- Sono de qualidade (7 a 8 horas por noite)
-- Atividade física moderada (caminhadas de 30 minutos, 3x por semana)
-
-Resultados variam de pessoa para pessoa. Consulte um médico antes de iniciar qualquer suplementação.
+A OzenPharma recomenda o uso por pelo menos **90 dias (3 frascos)** para resultados consistentes.
 
 ---
 
@@ -131,11 +97,17 @@ O Mounjax original só é vendido pelo **site oficial da OzenPharma** (mounjax.c
   <a href="https://app.monetizze.com.br/r/ATX25785612"
      target="_blank"
      rel="noopener noreferrer nofollow sponsored"
-     class="inline-flex items-center gap-2 text-base font-semibold uppercase tracking-wider text-white bg-accent px-8 py-4 rounded-full hover:shadow-xl hover:-translate-y-0.5 transition-all"
+     style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
   >
     Site oficial OzenPharma com desconto →
   </a>
-  <p class="text-sm text-brand-dark/70 mt-3">Frete Grátis | Garantia 30 Dias | 12x no cartão</p>
+  <p style="font-size:0.85rem;color:rgba(26,26,46,0.6);margin-top:0.75rem;">
+    Frete Grátis | Garantia 30 Dias | 12x no cartão
+  </p>
 </div>
+
+---
+
+> **Aviso importante:** O Mounjax é um suplemento alimentar, não um medicamento. Seus efeitos são potencializados quando combinados com alimentação equilibrada, hidratação adequada, sono de qualidade e atividade física moderada. Resultados variam de pessoa para pessoa. Consulte um médico antes de iniciar qualquer suplementação.
 
 Agora que você entende o que é o Mounjax, conheça a [composição completa dos 9 ingredientes](/composicao/), veja os [benefícios detalhados](/beneficios/) ou leia o guia de [como usar](/como-usar/) as gotas corretamente.

@@ -6,8 +6,6 @@ order: 6
 navLabel: "Depoimentos"
 ---
 
-# Mounjax Funciona Mesmo? Depoimentos Reais de Quem Usou
-
 Nada fala mais alto do que a experiência de quem já viveu a transformação.
 
 Abaixo, reunimos relatos realistas baseados no perfil demográfico real do público do Mounjax — mulheres entre 24 e 50 anos, mães ocupadas, que já tentaram de tudo e finalmente encontraram uma alternativa natural.
@@ -20,26 +18,28 @@ Abaixo, reunimos relatos realistas baseados no perfil demográfico real do públ
 
 Veja as transformações de mulheres que usaram o Mounjax da OzenPharma seguindo o protocolo de 12 gotas por dia:
 
-<div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
-  <div class="bg-surface rounded-2xl overflow-hidden shadow-sm border border-brand/5">
-    <img src="/images/antes-depois-1.jpg" alt="Antes e depois Mounjax - Resultado real Fernanda" class="w-full h-64 object-cover" loading="lazy" />
-    <div class="p-4 text-center">
-      <p class="text-sm font-semibold text-brand-dark">Fernanda Lima, 34 anos</p>
-      <p class="text-xs text-brand-dark/70">3 meses de uso · Kit 3 frascos</p>
+<div class="text-center my-8">
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem;">
+    <div style="background:#fff;border-radius:1rem;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06);border:1px solid rgba(45,156,219,0.1);">
+      <img src="/images/antes-depois-1.jpg" alt="Antes e depois Mounjax - Fernanda" style="width:100%;height:250px;object-fit:cover;" loading="lazy" />
+      <div style="padding:1rem;text-align:center;">
+        <p style="font-weight:600;color:#1a1a2e;margin:0;">Fernanda Lima, 34 anos</p>
+        <p style="font-size:0.8rem;color:rgba(26,26,46,0.6);margin:0.25rem 0 0;">3 meses · Kit 3 frascos</p>
+      </div>
     </div>
-  </div>
-  <div class="bg-surface rounded-2xl overflow-hidden shadow-sm border border-brand/5">
-    <img src="/images/antes-depois-2.jpg" alt="Antes e depois Mounjax - Resultado real Patrícia" class="w-full h-64 object-cover" loading="lazy" />
-    <div class="p-4 text-center">
-      <p class="text-sm font-semibold text-brand-dark">Patrícia Menezes, 45 anos</p>
-      <p class="text-xs text-brand-dark/70">4 meses de uso · Kit 5 frascos</p>
+    <div style="background:#fff;border-radius:1rem;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06);border:1px solid rgba(45,156,219,0.1);">
+      <img src="/images/antes-depois-2.jpg" alt="Antes e depois Mounjax - Patrícia" style="width:100%;height:250px;object-fit:cover;" loading="lazy" />
+      <div style="padding:1rem;text-align:center;">
+        <p style="font-weight:600;color:#1a1a2e;margin:0;">Patrícia Menezes, 45 anos</p>
+        <p style="font-size:0.8rem;color:rgba(26,26,46,0.6);margin:0.25rem 0 0;">4 meses · Kit 5 frascos</p>
+      </div>
     </div>
-  </div>
-  <div class="bg-surface rounded-2xl overflow-hidden shadow-sm border border-brand/5">
-    <img src="/images/antes-depois-3.jpg" alt="Antes e depois Mounjax - Resultado real Camila" class="w-full h-64 object-cover" loading="lazy" />
-    <div class="p-4 text-center">
-      <p class="text-sm font-semibold text-brand-dark">Camila Rocha, 29 anos</p>
-      <p class="text-xs text-brand-dark/70">2 meses de uso · Kit 3 frascos</p>
+    <div style="background:#fff;border-radius:1rem;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06);border:1px solid rgba(45,156,219,0.1);">
+      <img src="/images/antes-depois-3.jpg" alt="Antes e depois Mounjax - Camila" style="width:100%;height:250px;object-fit:cover;" loading="lazy" />
+      <div style="padding:1rem;text-align:center;">
+        <p style="font-weight:600;color:#1a1a2e;margin:0;">Camila Rocha, 29 anos</p>
+        <p style="font-size:0.8rem;color:rgba(26,26,46,0.6);margin:0.25rem 0 0;">2 meses · Kit 3 frascos</p>
+      </div>
     </div>
   </div>
 </div>
@@ -131,11 +131,13 @@ Cada kit inclui:
   <a href="https://app.monetizze.com.br/r/ATX25785612"
      target="_blank"
      rel="noopener noreferrer nofollow sponsored"
-     class="inline-flex items-center gap-2 text-base font-semibold uppercase tracking-wider text-white bg-accent px-8 py-4 rounded-full hover:shadow-xl hover:-translate-y-0.5 transition-all"
+     style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
   >
     Site oficial OzenPharma com desconto →
   </a>
-  <p class="text-sm text-brand-dark/70 mt-3">Frete Grátis | Garantia 30 Dias | 12x no cartão</p>
+  <p style="font-size:0.85rem;color:rgba(26,26,46,0.6);margin-top:0.75rem;">
+    Frete Grátis | Garantia 30 Dias | 12x no cartão
+  </p>
 </div>
 
 > **Lembrete:** O Mounjax não é um medicamento milagroso. Ele é um acelerador de resultados para quem já está disposta a cuidar da alimentação e da saúde. Os depoimentos mostram o que é possível quando o suplemento é combinado com comprometimento pessoal.
