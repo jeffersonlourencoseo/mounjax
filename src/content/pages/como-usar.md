@@ -8,11 +8,11 @@ navLabel: "Como Usar"
 
 # Como Usar o Mounjax em Gotas
 
-O Mounjax é um suplemento alimentar em gotas desenvolvido pelo fabricante. Sua praticidade é um dos grandes diferenciais: não precisa engolir cápsulas grandes, basta medir a dose com o conta-gotas e ingerir. Abaixo, você encontra o guia completo de como usar o Mounjax para obter os melhores resultados.
+O Mounjax é um suplemento alimentar em gotas desenvolvido pela **OzenPharma**. Sua praticidade é um dos grandes diferenciais: não precisa engolir cápsulas grandes, basta medir a dose com o conta-gotas e ingerir. Abaixo, você encontra o guia completo de como usar o Mounjax para obter os melhores resultados — incluindo o ecossistema de apoio (App, aulas e grupo VIP) que acompanha a compra oficial.
 
 ## Dosagem Recomendada
 
-A dosagem oficial recomendada pela Mounjax é de **12 gotas por dia**.
+A dosagem oficial recomendada é de **12 gotas por dia**.
 
 - Use o conta-gotas que acompanha o frasco para medir a quantidade exata
 - Não exceda a dose recomendada sem orientação médica
@@ -47,15 +47,15 @@ A duração ideal varia conforme o objetivo:
 | Resultados consistentes | 90 dias | 3 frascos |
 | Transformação completa | 150+ dias | 5+ frascos |
 
-A Mounjax recomenda o uso por pelo menos **90 dias** (3 meses) para que o organismo se adapte completamente aos ativos e os resultados se consolidem. O metabolismo é um processo biológico que exige tempo para reequilibrar-se.
+A OzenPharma recomenda o uso por pelo menos **90 dias** (3 meses) para que o organismo se adapte completamente aos ativos e os resultados se consolidem. O metabolismo é um processo biológico que exige tempo para reequilibrar-se. E com o **App OzenPharma**, você tem 50+ videoaulas (nutricionista, psicóloga e personal trainer) para acompanhar cada fase.
 
 ## Dicas para Maximizar Resultados
 
 1. **Hidrate-se bem**: beba pelo menos 2 litros de água por dia. A ação do Feno Grego e da Inulina depende de hidratação adequada.
-2. **Alimentação equilibrada**: o Mounjax ajuda a reduzir o apetite, mas não substitui uma dieta saudável. Priorize proteínas, vegetais e gorduras boas.
-3. **Atividade física regular**: caminhadas de 30 minutos, 3 vezes por semana, já aceleram os resultados consideravelmente.
-4. **Consistência diária**: não pule doses nos fins de semana. A regularidade é fundamental para manter níveis estáveis dos ingredientes no sangue.
-5. **Sono de qualidade**: durma 7 a 8 horas por noite. O metabolismo de gordura acontece intensamente durante o sono reparador.
+2. **Alimentação equilibrada**: o Mounjax ajuda a reduzir o apetite, mas não substitui uma dieta saudável. Priorize proteínas, vegetais e gorduras boas. Use o e-book "250 Receitas Low Carb" e "Como Montar Marmitas Fitness" do ecossistema OzenPharma.
+3. **Atividade física regular**: caminhadas de 30 minutos, 3 vezes por semana, já aceleram os resultados. No App OzenPharma, você encontra 30 videoaulas de personal trainer (iniciante, intermediário e avançado) para fazer em casa.
+4. **Consistência diária**: não pule doses nos fins de semana. A regularidade é fundamental para manter níveis estáveis dos ingredientes no sangue. O Grupo VIP no Facebook (1.400+ membros) ajuda a manter a motivação diária.
+5. **Sono de qualidade**: durma 7 a 8 horas por noite. O metabolismo de gordura acontece intensamente durante o sono reparador. As aulas da psicóloga no App ajudam a controlar a ansiedade que rouba o sono.
 
 ## O Que Esperar no Primeiro Mês
 

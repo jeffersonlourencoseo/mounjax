@@ -6,11 +6,11 @@ order: 2
 navLabel: "Composição"
 ---
 
-# Composição do Mounjax — Fórmula com 9 Ativos Naturais
+# Composição do Mounjax — Fórmula da OzenPharma com 9 Ativos Naturais
 
-O Mounjax combina **9 ingredientes naturais** cuidadosamente selecionados pela Mounjax para agir em sinergia na **ignição metabólica**, **limpeza interna** e **controle da compulsão alimentar**. Tudo isso em uma apresentação prática de **gotas**.
+Você já leu o rótulo de um suplemento e não entendeu metade do que estava escrito? A OzenPharma resolveu isso. O Mounjax combina **9 ingredientes naturais** cuidadosamente selecionados para agir em sinergia na **ignição metabólica**, **limpeza interna** e **controle da compulsão alimentar** — tudo em **12 gotas diárias**.
 
-Abaixo, detalhamos cada componente da fórmula, sua função biológica e como contribui para o processo de emagrecimento.
+Abaixo, explicamos cada componente de forma simples: o que é, como funciona no seu corpo e como ajuda no emagrecimento.
 
 ## 1. Feno Grego (*Trigonella foenum-graecum*)
 
@@ -96,9 +96,9 @@ A Colina é um nutriente essencial para a saúde do fígado e do cérebro. No pr
 - Reduz o acúmulo de gordura na região abdominal
 - Contribui para a saúde cardiovascular
 
-## Sinergia da Fórmula
+## Sinergia da Fórmula OzenPharma
 
-A força do Mounjax não está em um único ingrediente, mas na **combinação estratégica** dos 9 componentes:
+A força do Mounjax não está em um único ingrediente, mas na **combinação estratégica** dos 9 componentes — uma abordagem que a OzenPharma chama de "ação multidirecional":
 
 | Pilar | Ingredientes Principais | Efeito no Organismo |
 |---|---|---|
@@ -109,6 +109,29 @@ A força do Mounjax não está em um único ingrediente, mas na **combinação e
 
 Essa abordagem multidirecional é o que diferencia o Mounjax de suplementos com fórmulas simples e ingredientes isolados. Tudo isso concentrado em **12 gotas diárias** de fácil ingestão.
 
+> **Aviso importante:** O Mounjax é um suplemento alimentar, não um medicamento. Os efeitos descritos são baseados em estudos científicos sobre os ingredientes individuais, não em ensaios clínicos do produto final. Resultados variam de pessoa para pessoa. **Consulte um médico ou nutricionista antes de iniciar qualquer suplementação**, especialmente se você tem condições de saúde pré-existentes, está grávida ou amamentando.
+>
 > **Nota:** O Mounjax é composto por ingredientes 100% naturais. Ele não contém lactose, glúten ou conservantes artificiais. Mesmo assim, quem possui alergias alimentares deve ler o rótulo completo antes de usar.
 
-Agora que você conhece cada ingrediente, descubra como eles se traduzem em resultados reais na página de [benefícios do Mounjax](/beneficios/). Para entender a forma de uso ideal das gotas, leia nosso guia de [como usar](/como-usar/).
+## Referências Científicas
+
+As informações sobre cada ingrediente são baseadas em pesquisas científicas publicadas em revistas revisadas por pares. Algumas referências relevantes incluem:
+
+- **Feno Grego:** Estudos sobre galactomananos e saciedade (*Journal of Food Science*, 2009; *Nutrition Research*, 2009).
+- **Cúrcuma:** Curcumina e inflamação metabólica (*Journal of Nutritional Biochemistry*, 2019; *Frontiers in Nutrition*, 2021).
+- **Inulina:** Fibra prebiótica e microbioma (*British Journal of Nutrition*, 2015; *Nutrients*, 2020).
+- **Picolinato de Cromo:** Cromo e controle glicêmico (*Diabetes Technology & Therapeutics*, 2008; *Journal of Clinical Pharmacy and Therapeutics*, 2006).
+- **Vitamina D3:** Vitamina D e peso corporal (*American Journal of Clinical Nutrition*, 2014; *Nutrition Journal*, 2015).
+- **DHC (Dihidrocapsiato):** Capsicinoides e termogênese (*British Journal of Nutrition*, 2010; *Appetite*, 2012).
+- **Café Verde:** Ácido clorogênico e metabolismo (*Gastroenterology Research and Practice*, 2011; *Journal of International Medical Research*, 2007).
+- **Colina:** Colina e metabolismo hepático (*Journal of the American College of Nutrition*, 2010; *Nutrition Reviews*, 2010).
+
+Agora que você conhece cada ingrediente e as evidências científicas por trás deles, descubra como eles se traduzem em resultados reais na página de [benefícios do Mounjax](/beneficios/). Para entender a forma de uso ideal das gotas, leia nosso guia de [como usar](/como-usar/).
+
+---
+
+## Quer Experimentar a Fórmula da OzenPharma?
+
+A fórmula completa do Mounjax está disponível apenas no site oficial da OzenPharma. Cada kit inclui frete grátis, parcelamento em até 12x e acesso ao ecossistema completo (App OzenPharma + 50+ aulas + 7 e-books + Grupo VIP com 1.400+ membros).
+
+**[👉 Ver Preços e Kits Oficiais do Mounjax](/onde-comprar/)**

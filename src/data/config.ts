@@ -5,14 +5,14 @@
 
 export const SITE_CONFIG = {
   // Domínio e identidade
-  domain: 'https://blogmounjax.com.br',
+  domain: 'https://mounjax-five.vercel.app',
   siteName: 'Blog Mounjax',
   tagline: 'Análise Independente do Suplemento Mounjax',
   language: 'pt-BR',
   locale: 'pt_BR',
 
   // SEO Defaults
-  titleDefault: 'Mounjax Funciona? Preço, Gotas, Composição e Onde Comprar [2026]',
+  titleDefault: 'Mounjax Funciona? Preço, Composição e Onde Comprar 2026',
   descriptionDefault:
     'Descubra se o Mounjax realmente funciona. Análise completa da fórmula em gotas, preço, benefícios, contraindicações e onde comprar com desconto oficial. Leia antes de usar!',
   keywordsDefault:
@@ -30,7 +30,7 @@ export const SITE_CONFIG = {
   expert: {
     name: 'Dra. Ana Luiza Mendes',
     jobTitle: 'Nutricionista Funcional e Especialista em Suplementação Natural',
-    url: 'https://blogmounjax.com.br/sobre-nos/',
+    url: 'https://mounjax-five.vercel.app/sobre-nos/',
     description:
       'Nutricionista funcional com mais de 12 anos de experiência em suplementação natural, emagrecimento saudável e regulagem metabólica.',
   },
@@ -54,7 +54,7 @@ export const SITE_CONFIG = {
     priceCurrency: 'BRL',
     availability: 'https://schema.org/InStock',
     sku: 'MOUNJAX-30ML-GOTAS',
-    image: 'https://blogmounjax.com.br/images/mounjax-produto.jpg',
+    image: 'https://mounjax-five.vercel.app/images/mounjax-produto.jpg',
     aggregateRating: {
       ratingValue: '4.8',
       bestRating: '5',
@@ -71,7 +71,7 @@ export const SITE_CONFIG = {
   },
 
   // Performance & SEO
-  ogImage: 'https://blogmounjax.com.br/images/og-default.jpg',
+  ogImage: 'https://mounjax-five.vercel.app/images/og-default.jpg',
   twitterHandle: '',
   themeColor: '#513F7E',
 } as const;

@@ -6,7 +6,7 @@
 import { readdirSync, statSync, writeFileSync, existsSync } from 'fs';
 import { join, resolve } from 'path';
 
-const DOMAIN = 'https://blogmounjax.com.br';
+const DOMAIN = 'https://mounjax-five.vercel.app';
 const DIST = resolve(process.cwd(), 'dist');
 
 // Rotas que NÃO devem entrar no sitemap

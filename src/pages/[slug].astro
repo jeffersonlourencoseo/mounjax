@@ -19,18 +19,18 @@ const articleSlugs = ['o-que-e', 'composicao', 'beneficios', 'como-usar', 'contr
 const isArticle = articleSlugs.includes(page.slug);
 const schemaType = isArticle ? 'article' : 'page';
 
-const breadcrumbs = [{ name: page.data.title, url: `https://blogmounjax.com.br/${page.slug}/` }];
+const breadcrumbs = [{ name: page.data.title, url: `https://mounjax-five.vercel.app/${page.slug}/` }];
 ---
 
 <Layout
   title={`${page.data.title}`}
   description={page.data.description}
   keywords={page.data.keywords}
-  image={`https://blogmounjax.com.br/images/og-${page.slug}.jpg`}
+  image={`https://mounjax-five.vercel.app/images/og-${page.slug}.jpg`}
   schemaType={schemaType}
   schemaTitle={page.data.title}
   schemaDesc={page.data.description}
-  schemaImage={`https://blogmounjax.com.br/images/og-${page.slug}.jpg`}
+  schemaImage={`https://mounjax-five.vercel.app/images/og-${page.slug}.jpg`}
   breadcrumbs={breadcrumbs}
 >
   <Navigation />

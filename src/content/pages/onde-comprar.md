@@ -12,7 +12,7 @@ Se você chegou até aqui, provavelmente já pesquisou sobre o Mounjax e quer sa
 
 ## ⚠️ Evite Falsificações
 
-O Mounjax original em gotas **só é vendido pelo site oficial do Mounjax** (mounjax.com). Não compre em:
+O Mounjax original em gotas **só é vendido pelo site oficial da OzenPharma** (mounjax.com). Não compre em:
 
 - Mercado Livre
 - Shopee
@@ -24,12 +24,12 @@ Produtos vendidos fora do canal oficial podem ser falsificados, adulterados, ven
 
 ## Mounjax Preço — Kits Oficiais Atualizados
 
-A Mounjax trabalha com kits promocionais que oferecem maior economia conforme a quantidade de frascos. Veja os valores atualizados:
+A OzenPharma trabalha com kits promocionais que oferecem maior economia conforme a quantidade de frascos. Veja os valores atualizados:
 
 ### 1 Frasco — Tratamento Inicial (30 dias)
 - **Preço:** R$ 147,00
 - **Parcelamento:** em até 12x no cartão
-- **Incluso:** Frete Grátis + 1 E-book Bônus + Acesso ao App Mounjax
+- **Incluso:** Frete Grátis + 1 E-book Bônus + Acesso ao App OzenPharma
 
 ### 3 Frascos — Leve 3 Pague 2 (90 dias) ⭐ Mais Popular
 - **Preço:** R$ 197,00
@@ -44,8 +44,8 @@ A Mounjax trabalha com kits promocionais que oferecem maior economia conforme a 
 
 ### 8 Frascos — Família ou Revenda (240 dias)
 - **Preço:** R$ 377,00
-- **Parcelamento:** em até 12x no cartão
-- **Incluso:** Frete Grátis + Todos os Bônus + Suporte Prioritário
+- **Parcelamento:** 12x de R$ 37,85 ou R$ 377 à vista
+- **Incluso:** Frete Grátis + Todos os Bônus Exclusivos + App OzenPharma + Grupo VIP + Suporte Prioritário
 
 ## Qual Kit Escolher?
 
@@ -112,10 +112,10 @@ A Mounjax trabalha com kits promocionais que oferecem maior economia conforme a 
 
 ## Bônus Exclusivos da Compra Oficial
 
-Além do produto, a Mounjax entrega um ecossistema de apoio ao emagrecimento:
+Além do produto, a OzenPharma entrega um ecossistema completo de apoio ao emagrecimento, incluindo:
 
-1. **App Mounjax** com aulas de nutricionista, psicóloga e personal trainer
-2. **7 E-books digitais**:
+1. **App OzenPharma** com 50+ videoaulas de nutricionista, psicóloga e personal trainer
+2. **7 E-books digitais exclusivos**:
    - 250 Receitas Low Carb
    - Método Anti-Flacidez
    - Como Lidar com Compulsão Alimentar e Ansiedade
@@ -123,19 +123,19 @@ Além do produto, a Mounjax entrega um ecossistema de apoio ao emagrecimento:
    - Como Montar Marmitas Fitness
    - Diga Adeus à Celulite
    - Plano Alimentar de 30 Dias
-3. **Grupo VIP no Facebook** com suporte diário de nutricionista (segunda a sexta)
+3. **Grupo VIP no Facebook** com mais de 1.400 membros e suporte diário de nutricionista (segunda a sexta)
 4. **Frete Grátis** para todo o Brasil
 5. **Pagamento seguro** via Monetizze com criptografia SSL
 
 ## Garantia de Satisfação de 30 Dias (Risco Zero)
 
-A Mounjax oferece uma **garantia incondicional de 30 dias**. Se você não sentir resultados, não se adaptar ao produto ou simplesmente não ficar satisfeita, basta solicitar o reembolso dentro do prazo.
+A OzenPharma oferece uma **garantia de 30 dias de risco zero**. Se você não sentir resultados, não se adaptar ao produto ou simplesmente não ficar satisfeita, basta solicitar o reembolso dentro do prazo.
 
 - Receba **100% do valor pago** de volta
 - Sem burocracia ou perguntas embaraçosas
 - O reembolso é processado diretamente pela plataforma de pagamento
 
-Essa política demonstra a confiança da marca na qualidade e eficácia do Mounjax.
+Essa política demonstra a confiança da OzenPharma na qualidade e eficácia do Mounjax.
 
 ## Por que Comprar no Site Oficial?
 

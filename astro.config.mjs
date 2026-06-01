@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 
 export default defineConfig({
-  site: 'https://blogmounjax.com.br',
+  site: 'https://mounjax-five.vercel.app',
   compressHTML: true,
   integrations: [
     tailwind(),

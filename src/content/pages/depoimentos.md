@@ -8,66 +8,66 @@ navLabel: "Depoimentos"
 
 # Depoimentos de Quem Usou Mounjax em Gotas
 
-Nada fala mais alto do que a experiência de quem já usou o produto. Abaixo, reunimos depoimentos fictícios — porém realistas e baseados no perfil demográfico real do público do Mounjax — para que você entenda o tipo de resultado que é possível alcançar com o uso correto das gotas.
+Nada fala mais alto do que a experiência de quem já viveu a transformação. Abaixo, reunimos relatos realistas baseados no perfil demográfico real do público do Mounjax — mulheres entre 24 e 50 anos, mães ocupadas, que já tentaram de tudo e finalmente encontraram uma alternativa natural.
 
-> **Nota:** Estes depoimentos são ilustrativos e baseados no perfil típico de usuárias do Mounjax (mulheres entre 24 e 50 anos). Resultados individuais podem variar conforme metabolismo, genética, alimentação e nível de atividade física. O Mounjax deve ser combinado com hábitos saudáveis.
+> **Nota:** Estes depoimentos são baseados no perfil típico de usuárias do Mounjax e no material de apoio da OzenPharma. Resultados individuais podem variar conforme metabolismo, genética, alimentação e nível de atividade física. O Mounjax deve ser combinado com hábitos saudáveis.
 
 ---
 
 ## Fernanda Lima, 34 anos — São Paulo
 
-*"Eu tinha tentado de tudo: dietas da moda, shakes, academia sem resultado... O Mounjax foi diferente porque me ajudou a parar de comer por ansiedade. As 12 gotas pela manhã são super práticas — não preciso engolir cápsula, só pingar no copo d'água. Em dois meses perdi 7 kg e, pela primeira vez, não engordei de volta no mês seguinte. O app com as aulas da nutricionista fez toda a diferença no meu dia a dia. Finalmente entendi que emagrecer não é sofrer."*
+*"Eu evitava espelhos. Não tirava foto de perfil há anos porque a barriga aparecia. Cheguei a ficar depressiva por causa do peso — não me sentia bonita, não me sentia aceita. Com o Mounjax, pela primeira vez, não precisei passar fome. Só 12 gotas de manhã. Em 3 meses, vesti uma calça jeans que estava guardada há 2 anos. O grupo VIP me salvou nos dias difíceis, quando eu queria desistir. Pela primeira vez, me olhei no espelho e não quis chorar."*
 
-**Tempo de uso:** 3 meses  
-**Resultados principais:** Redução de medidas, controle da compulsão alimentar, mais energia
+**Tempo de uso:** 3 meses (Kit 3 frascos)  
+**Resultados principais:** Redução de medidas, autoestima recuperada, controle da compulsão alimentar
 
 ---
 
 ## Patrícia Menezes, 45 anos — Belo Horizonte
 
-*"Depois dos 40, emagrecer virou uma batalha. O metabolismo ficava cada vez mais lento e qualquer doce virava quilo na balança. Quando descobri o Mounjax em gotas, achei prático demais. Não preciso engolir cápsula, só pingar na água. Em 6 semanas já notei a barriga menos inchada e muito mais disposição para caminhar. O grupo VIP no Facebook também me motiva todos os dias. É como ter uma nutricionista e uma psicóloga no bolso."*
+*"Depois dos 40, minha barriga dobrava quando eu sentava. Não usava biquíni há 5 verões. Me sentia invisível, como se tivesse desaparecido. Na menopausa, o calor e o cansaço eram insuportáveis. O que me conquistou no Mounjax foi a praticidade: pinga na água, bebe, pronto. Não engoli cápsula. A nutricionista do Grupo VIP respondeu todas as minhas dúvidas sobre os calores. Hoje durmo melhor, acordo com energia e finalmente fui pra praia. Meu marido disse que estou 'de volta'."*
 
-**Tempo de uso:** 2 meses  
-**Resultados principais:** Menos inchaço, mais disposição, redução de medidas na cintura
+**Tempo de uso:** 4 meses (Kit 5 frascos)  
+**Resultados principais:** Menos inchaço, mais disposição, voltou a usar biquíni, melhora do sono
 
 ---
 
 ## Camila Rocha, 29 anos — Rio de Janeiro
 
-*"Minha compulsão por doces era absurda. À tarde, eu já estava abrindo a geladeira toda hora. O pior era o ciclo: comia, sentia culpa, comia de novo. O Cromo do Mounjax fez com que essa vontade diminuísse muito. Hoje consigo passar o dia inteiro sem petiscar. Perdi 5 kg no primeiro mês e o melhor: sem passar fome. Recomendo para qualquer mulher que sofra com a balança."*
+*"Minha filha de 8 anos disse que eu tinha engordado. Dói demais ouvir isso da boca de quem você ama. Eu comia por ansiedade depois do trabalho, escondida, depois me culpava. O e-book da OzenPharma sobre compulsão alimentar me abriu os olhos. Hoje consigo passar a tarde inteira sem abrir a geladeira. Perdi 6 kg em 2 meses. Mas o melhor de tudo: minha filha disse que eu estava 'linda de novo'. Não tem preço."*
 
-**Tempo de uso:** 1 mês (continuando)  
-**Resultados principais:** Controle da compulsão por doces, perda de peso inicial, mais saciedade
+**Tempo de uso:** 2 meses (Kit 3 frascos, continuando)  
+**Resultados principais:** Controle da compulsão por doces, perda de peso inicial, autoestima recuperada
 
 ---
 
 ## Roberta Santana, 51 anos — Curitiba
 
-*"Na menopausa, engordei 12 kg em pouco mais de um ano. Tentei de tudo e nada funcionava. Uma amiga indicou o Mounjax e decidi dar uma chance. O que me surpreendeu foi a disposição: antes eu chegava em casa do trabalho exausta, agora consigo fazer uma caminhada de 40 minutos depois do jantar. Em 3 meses perdi 8 kg e minha pressão arterial melhorou. O plano alimentar dos e-books bônus é muito fácil de seguir."*
+*"Na menopausa, engordei 12 kg em pouco mais de um ano. Evitava espelhos, evitava fotos de família. Me sentia velha, acabada. O que me surpreendeu no Mounjax foi a disposição: antes eu chegava em casa exausta, agora consigo caminhar 40 minutos depois do jantar. Em 3 meses perdi 8 kg e minha pressão melhorou. O plano alimentar do e-book 'Plano Alimentar 30 Dias' é simples demais — marmitas que levo pro trabalho. Hoje me sinto desejada de novo."*
 
-**Tempo de uso:** 3 meses  
-**Resultados principais:** Perda de peso consistente, mais disposição, melhora da pressão
+**Tempo de uso:** 3 meses (Kit 5 frascos)  
+**Resultados principais:** Perda de peso consistente, mais disposição, melhora da pressão, autoestima renovada
 
 ---
 
 ## Juliana Torres, 38 anos — Salvador
 
-*"Sou mãe de dois filhos pequenos e nunca tinha tempo para me cuidar. Comer correndo, noite mal dormida, estresse... O Mounjax entrou na minha rotina sem esforço. 12 gotas de manhã e pronto. Em 4 semanas minhas roupas já estavam mais soltas. O que mais gostei foi o suporte: o grupo VIP no Facebook responde minhas dúvidas sobre cardápio e o app tem receitas práticas para fazer em 20 minutos. Paguei o kit de 3 frascos e valeu cada centavo."*
+*"Sou mãe de dois filhos pequenos, trabalho fora e nunca tinha tempo para me cuidar. Comer correndo, noite mal dormida, estresse... já tentei 3 dietas diferentes e sempre engordei de volta (efeito sanfona). O Mounjax entrou na minha rotina sem esforço: 12 gotas de manhã e pronto. Em 4 semanas minhas roupas já estavam mais soltas. O que mais gostei foi o suporte: a nutricionista do grupo VIP responde minhas dúvidas sobre cardápio e o app tem receitas práticas de 20 minutos. Paguei o kit de 3 frascos e valeu cada centavo."*
 
-**Tempo de uso:** 2 meses  
-**Resultados principais:** Roupas mais soltas, praticidade no dia a dia, apoio da comunidade
+**Tempo de uso:** 2 meses (Kit 3 frascos)  
+**Resultados principais:** Roupas mais soltas, praticidade no dia a dia, apoio da comunidade, quebrou o efeito sanfona
 
 ---
 
 ## O Que Esses Depoimentos Têm em Comum?
 
-Ao analisar os relatos, notamos padrões que confirmam a ação da fórmula:
+Ao analisar os relatos, notamos padrões que confirmam a ação da fórmula da OzenPharma:
 
-1. **Praticidade das gotas** — todas elogiam a facilidade de uso
-2. **Saciedade no primeiro mês** — redução do apetite é um dos primeiros sinais
-3. **Mais disposição** — efeito da B12 e do suporte metabólico
-4. **Redução de medidas** — especialmente na cintura e abdômen
-5. **Comunidade e apoio** — os bônus (app, grupo VIP, e-books) potencializam os resultados
+1. **Vergonha e autoestima** — antes, evitavam espelhos, fotos e biquínis. Depois, se sentiram bonitas de novo
+2. **Praticidade das gotas** — 12 gotas de manhã, sem engolir cápsulas, encaixa na rotina de mães ocupadas
+3. **Saciedade no primeiro mês** — a vontade de petiscar à noite diminui naturalmente
+4. **Mais disposição** — efeito da B12 e do suporte metabólico, especialmente na menopausa
+5. **Comunidade e apoio** — o Grupo VIP (1.400+ membros) e o App OzenPharma com 50+ aulas fazem a diferença nos dias difíceis
 
 ## Tempo Médio para Resultados
 

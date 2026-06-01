@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://blogmounjax.com.br/sitemap-index.xml
+Sitemap: https://mounjax-five.vercel.app/sitemap-index.xml

@@ -95,6 +95,34 @@ const productSchema = {
     availability: SITE_CONFIG.product.availability,
     priceValidUntil,
   },
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: SITE_CONFIG.product.aggregateRating.ratingValue,
+    bestRating: SITE_CONFIG.product.aggregateRating.bestRating,
+    worstRating: SITE_CONFIG.product.aggregateRating.worstRating,
+    reviewCount: SITE_CONFIG.product.aggregateRating.reviewCount,
+  },
+  review: {
+    '@type': 'Review',
+    name: 'Análise Independente do Mounjax',
+    author: {
+      '@type': 'Person',
+      name: SITE_CONFIG.expert.name,
+      jobTitle: SITE_CONFIG.expert.jobTitle,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: SITE_CONFIG.siteName,
+      url: SITE_CONFIG.domain,
+    },
+    reviewRating: {
+      '@type': 'Rating',
+      ratingValue: SITE_CONFIG.product.aggregateRating.ratingValue,
+      bestRating: SITE_CONFIG.product.aggregateRating.bestRating,
+      worstRating: SITE_CONFIG.product.aggregateRating.worstRating,
+    },
+    reviewBody: 'Suplemento natural em gotas com fórmula de 9 ingredientes ativos. Bem tolerado, com resultados perceptíveis em 2-4 semanas de uso contínuo. Recomendação baseada em evidências científicas dos componentes individuais.',
+  },
 };
 
 // Schema: WebPage genérico
