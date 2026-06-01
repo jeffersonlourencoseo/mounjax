@@ -7,12 +7,6 @@ export default defineConfig({
   integrations: [
     tailwind(),
   ],
-  vite: {
-    build: {
-      cssCodeSplit: false,
-      assetsInlineLimit: 35000,
-    },
-  },
   i18n: {
     defaultLocale: 'pt-BR',
     locales: ['pt-BR'],
