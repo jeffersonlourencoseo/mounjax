@@ -107,13 +107,35 @@ const modifiedTime = '2026-05-24';
   </>
 )}
 
-<!-- Google Tag Manager — carregamento assíncrono para não bloquear renderização -->
-<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<!-- Google Tag Manager — carregado após first paint para não bloquear renderização -->
 <script is:inline>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-XXXXXXXXXX');
+
+  function loadGtag() {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX';
+    s.async = true;
+    document.head.appendChild(s);
+  }
+
+  if ('requestIdleCallback' in window) {
+    window.requestIdleCallback(loadGtag, { timeout: 3000 });
+  } else {
+    window.addEventListener('load', function() {
+      setTimeout(loadGtag, 2000);
+    });
+  }
+
+  // Fila de eventos para cliques antes do GTag carregar
+  window._gtagQueue = window._gtagQueue || [];
+  var origGtag = gtag;
+  window.gtag = function() {
+    window._gtagQueue.push(arguments);
+    origGtag.apply(null, arguments);
+  };
 </script>
 
 <!-- Event tracking para cliques em afiliado -->

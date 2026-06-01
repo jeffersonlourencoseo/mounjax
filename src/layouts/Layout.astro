@@ -53,16 +53,6 @@ const {
     ogAlt={ogAlt}
   />
 
-  <SchemaMarkup
-    type={schemaType}
-    title={schemaTitle || title}
-    description={schemaDesc || description}
-    image={schemaImage || image}
-    faqData={schemaFaq}
-    breadcrumbs={breadcrumbs}
-    howToData={schemaHowTo}
-  />
-
   <!-- Preload Performance: apenas fontes críticas para first paint -->
   <link rel="preload" href="/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/fonts/inter-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin />
@@ -148,5 +138,16 @@ const {
       Comprar com Desconto
     </a>
   </div>
+
+  <!-- Schema JSON-LD — movido para o final do body para não bloquear renderização -->
+  <SchemaMarkup
+    type={schemaType}
+    title={schemaTitle || title}
+    description={schemaDesc || description}
+    image={schemaImage || image}
+    faqData={schemaFaq}
+    breadcrumbs={breadcrumbs}
+    howToData={schemaHowTo}
+  />
 </body>
 </html>
