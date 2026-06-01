@@ -76,6 +76,10 @@ const modifiedTime = '2026-05-24';
 <!-- Preconnect Performance -->
 <link rel="preconnect" href={SITE_CONFIG.domain} />
 <link rel="dns-prefetch" href={SITE_CONFIG.domain} />
+<link rel="preconnect" href="https://www.googletagmanager.com" />
+<link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+<link rel="preconnect" href="https://www.google-analytics.com" />
+<link rel="dns-prefetch" href="https://www.google-analytics.com" />
 
 <!-- Open Graph (Facebook / LinkedIn / WhatsApp) -->
 <meta property="og:title" content={pageTitle} />
@@ -105,8 +109,8 @@ const modifiedTime = '2026-05-24';
   </>
 )}
 
-<!-- Google Tag Manager -->
-<script is:inline src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<!-- Google Tag Manager — carregamento assíncrono para não bloquear renderização -->
+<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
 <script is:inline>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}

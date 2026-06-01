@@ -63,10 +63,10 @@ const {
     howToData={schemaHowTo}
   />
 
-  <!-- Preload Performance -->
+  <!-- Preload Performance: apenas fontes críticas para first paint -->
   <link rel="preload" href="/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="preload" href="/fonts/cormorant-garamond-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="preload" href="/images/og-default.jpg" as="image" fetchpriority="high" />
+  <link rel="preload" href="/fonts/inter-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/fonts/cormorant-garamond-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <!-- Fontes self-hosted inline — elimina requisição de CSS externo -->
   <style is:inline>
