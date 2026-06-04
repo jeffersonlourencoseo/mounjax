@@ -5,7 +5,7 @@
 
 export const SITE_CONFIG = {
   // Domínio e identidade
-  domain: 'https://mounjax-five.vercel.app',
+  domain: 'https://www.portalmounjax.com.br',
   siteName: 'Blog Mounjax',
   tagline: 'Análise Independente do Suplemento Mounjax',
   language: 'pt-BR',
@@ -30,7 +30,7 @@ export const SITE_CONFIG = {
   expert: {
     name: 'Dra. Ana Luiza Mendes',
     jobTitle: 'Nutricionista Funcional e Especialista em Suplementação Natural',
-    url: 'https://mounjax-five.vercel.app/sobre-nos/',
+    url: 'https://www.portalmounjax.com.br/sobre-nos/',
     description:
       'Nutricionista funcional com mais de 12 anos de experiência em suplementação natural, emagrecimento saudável e regulagem metabólica.',
   },
@@ -54,7 +54,7 @@ export const SITE_CONFIG = {
     priceCurrency: 'BRL',
     availability: 'https://schema.org/InStock',
     sku: 'MOUNJAX-30ML-GOTAS',
-    image: 'https://mounjax-five.vercel.app/images/mounjax-produto.jpg',
+    image: 'https://www.portalmounjax.com.br/images/mounjax-produto.jpg',
     aggregateRating: {
       ratingValue: '4.8',
       bestRating: '5',
@@ -71,7 +71,7 @@ export const SITE_CONFIG = {
   },
 
   // Performance & SEO
-  ogImage: 'https://mounjax-five.vercel.app/images/og-default.jpg',
+  ogImage: 'https://www.portalmounjax.com.br/images/og-default.jpg',
   twitterHandle: '',
   themeColor: '#513F7E',
 } as const;
