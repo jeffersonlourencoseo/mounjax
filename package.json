@@ -8,11 +8,13 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "postbuild": "node scripts/async-css-postbuild.js && node scripts/generate-sitemap.js",
+    "postbuild": "node scripts/async-css-postbuild.mjs",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "create-site": "node scripts/create-new-site.js"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.7.3",
     "@astrojs/tailwind": "^5.1.5",
     "@fontsource/cormorant-garamond": "^5.2.11",
     "@fontsource/inter": "^5.2.8",
