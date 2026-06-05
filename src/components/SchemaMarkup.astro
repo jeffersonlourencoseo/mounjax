@@ -94,6 +94,26 @@ const productSchema = {
     priceCurrency: SITE_CONFIG.product.priceCurrency,
     availability: SITE_CONFIG.product.availability,
     priceValidUntil,
+    hasMerchantReturnPolicy: {
+      '@type': 'MerchantReturnPolicy',
+      returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
+      merchantReturnDays: 30,
+      returnMethod: 'https://schema.org/ReturnByMail',
+      returnFees: 'https://schema.org/FreeReturn',
+    },
+    shippingDetails: {
+      '@type': 'ShippingDetails',
+      shippingRate: {
+        '@type': 'MonetaryAmount',
+        value: '0',
+        currency: 'BRL',
+      },
+      shippingDestination: {
+        '@type': 'DefinedRegion',
+        addressCountry: 'BR',
+      },
+      shippingLabel: 'Frete Grátis Brasil',
+    },
   },
   aggregateRating: {
     '@type': 'AggregateRating',
