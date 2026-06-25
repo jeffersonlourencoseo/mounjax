@@ -107,7 +107,7 @@ const modifiedTime = '2026-05-24';
   </>
 )}
 
-<!-- Google Tag Manager — carregado após first paint para não bloquear renderização -->
+<!-- Google Tag Manager — carregado de forma não bloqueante após first paint/interação -->
 <script is:inline>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -115,19 +115,27 @@ const modifiedTime = '2026-05-24';
   gtag('config', 'G-44Y4HNY57K');
 
   function loadGtag() {
+    if (window._gtagLoaded) return;
+    window._gtagLoaded = true;
     var s = document.createElement('script');
     s.src = 'https://www.googletagmanager.com/gtag/js?id=G-44Y4HNY57K';
     s.async = true;
+    s.defer = true;
+    s.fetchPriority = 'low';
     document.head.appendChild(s);
   }
 
+  // Carrega assim que o navegador estiver ocioso ou o usuário interagir
   if ('requestIdleCallback' in window) {
-    window.requestIdleCallback(loadGtag, { timeout: 3000 });
+    window.requestIdleCallback(loadGtag, { timeout: 5000 });
   } else {
     window.addEventListener('load', function() {
-      setTimeout(loadGtag, 2000);
+      setTimeout(loadGtag, 3000);
     });
   }
+  ['scroll','mousemove','click','keydown','touchstart'].forEach(function(evt) {
+    window.addEventListener(evt, loadGtag, { once: true, passive: true });
+  });
 
   // Fila de eventos para cliques antes do GTag carregar
   window._gtagQueue = window._gtagQueue || [];
