@@ -61,10 +61,13 @@ const {
   <link rel="preconnect" href="https://app.monetizze.com.br" />
   <link rel="dns-prefetch" href="https://app.monetizze.com.br" />
 
-  <!-- Preload Performance: apenas fontes críticas para first paint -->
+  <!-- Preload Performance: fontes críticas para first paint -->
   <link rel="preload" href="/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin fetchpriority="high" />
   <link rel="preload" href="/fonts/inter-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin fetchpriority="high" />
   <link rel="preload" href="/fonts/cormorant-garamond-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin fetchpriority="high" />
+
+  <!-- Ajuste de métricas de fonte para prevenir layout shift no swap -->
+  <link rel="stylesheet" href="/fonts/font-metrics.css" />
 
   <!-- Fontes críticas inline — apenas 3 variantes para first paint -->
   <style is:inline>
@@ -131,6 +134,12 @@ const {
         animation-iteration-count: 1 !important;
         transition-duration: 0.01ms !important;
       }
+    }
+
+    /* Garante áreas de toque mínimas em links e botões */
+    a, button {
+      min-height: 44px;
+      min-width: 44px;
     }
   </style>
 </head>

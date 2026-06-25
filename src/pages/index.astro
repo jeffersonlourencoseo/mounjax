@@ -29,24 +29,24 @@ import Footer from '../components/Footer.astro';
 
   <main class="pt-[72px]">
     <!-- HERO -->
-    <section class="relative min-h-[90vh] flex items-center justify-center overflow-hidden" style="contain: layout paint;">
+    <section class="hero-section relative min-h-[90vh] flex items-center justify-center overflow-hidden" style="contain: layout paint;">
       <div class="absolute inset-0 bg-gradient-to-br from-brand/5 via-surface to-brand-light/5"></div>
-      <div class="hero-orb absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-brand/10 rounded-full blur-[100px] animate-orb"></div>
-      <div class="hero-orb absolute bottom-[-5%] left-[-5%] w-[400px] h-[400px] bg-accent/10 rounded-full blur-[100px] animate-orb animate-orb-delay"></div>
+      <div class="hero-orb hero-orb-top" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb-bottom" aria-hidden="true"></div>
 
       <div class="relative z-10 container mx-auto px-6 lg:px-12 text-center max-w-4xl">
-        <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-accent mb-6">
+        <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-brand mb-6">
           Suplemento Natural em Gotas
         </span>
 
         <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-brand-dark leading-tight mb-10">
           <em class="text-brand">Mounjax Funciona?</em> Análise 2026 — 12 Gotas/Dia
         </h1>
-        <p class="text-xl md:text-2xl text-brand-dark/80 max-w-2xl mx-auto mb-10 leading-relaxed">
+        <p class="text-xl md:text-2xl text-brand-dark max-w-2xl mx-auto mb-10 leading-relaxed">
           Mounjax em gotas: a fórmula natural que já ajudou mais de <strong>1.400 mulheres</strong> a vestir o biquíni de novo. Só <strong>12 gotas por dia</strong> + App com 50+ aulas + 7 e-books de bônus.
         </p>
 
-        <p class="text-base md:text-lg text-brand-dark/70 max-w-2xl mx-auto mb-10 leading-relaxed">
+        <p class="text-base md:text-lg text-brand-dark/90 max-w-2xl mx-auto mb-10 leading-relaxed">
           Se você evita espelhos, não tira foto de perfil e já tentou de tudo — descubra por que 12 gotas de manhã podem ser o que faltava para o metabolismo reagir, sem dietas malucas.
         </p>
 
@@ -65,20 +65,20 @@ import Footer from '../components/Footer.astro';
           </a>
         </div>
 
-        <p class="text-sm text-brand-dark/80 mb-10 max-w-xl mx-auto">
-          <strong>🔥 Oferta por tempo limitado:</strong> Kit mais popular (3 potes) com 40% de desconto + Frete Grátis + App com 50+ aulas + 7 E-books. <span class="text-accent font-semibold">Economia de R$ 210,00.</span>
+        <p class="text-sm text-brand-dark mb-10 max-w-xl mx-auto">
+          <strong>🔥 Oferta por tempo limitado:</strong> Kit mais popular (3 potes) com 40% de desconto + Frete Grátis + App com 50+ aulas + 7 E-books. <span class="text-brand font-semibold">Economia de R$ 210,00.</span>
         </p>
 
         <div class="flex flex-wrap items-center justify-center gap-6 md:gap-10">
-          <span class="inline-flex items-center gap-2 text-sm text-brand-dark/80">
+          <span class="inline-flex items-center gap-2 text-sm text-brand-dark">
             <svg class="w-4 h-4 text-success" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
             100% Natural
           </span>
-          <span class="inline-flex items-center gap-2 text-sm text-brand-dark/80">
+          <span class="inline-flex items-center gap-2 text-sm text-brand-dark">
             <svg class="w-4 h-4 text-success" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
             Fórmula Exclusiva
           </span>
-          <span class="inline-flex items-center gap-2 text-sm text-brand-dark/80">
+          <span class="inline-flex items-center gap-2 text-sm text-brand-dark">
             <svg class="w-4 h-4 text-success" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
             Garantia de Satisfação
           </span>
@@ -89,10 +89,10 @@ import Footer from '../components/Footer.astro';
     <!-- O QUE É -->
     <section id="o-que-e" class="py-24 lg:py-32 content-visibility">
       <div class="container mx-auto px-6 lg:px-12 max-w-4xl">
-        <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-accent mb-4">Conhecendo o produto</span>
+        <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-brand mb-4">Conhecendo o produto</span>
         <h2 class="font-display text-3xl md:text-4xl font-bold text-brand-dark leading-tight mb-10">O que é o Mounjax? Pra que Serve?</h2>
 
-        <div class="prose prose-lg max-w-none text-brand-dark/80">
+        <div class="prose prose-lg max-w-none text-brand-dark">
           <p class="text-lg leading-relaxed mb-6">
             O <strong>Mounjax</strong> é um suplemento alimentar natural em <strong>gotas</strong> (30ml por frasco), <strong>desenvolvido com fórmula exclusiva</strong> com 9 componentes ativos que trabalham em sinergia para acelerar o metabolismo, controlar o apetite e auxiliar na queima de gordura.
           </p>
@@ -104,7 +104,7 @@ import Footer from '../components/Footer.astro';
           </p>
           <div class="bg-brand/5 border-l-4 border-brand p-5 rounded-r-xl mb-6">
             <h3 class="font-display text-lg font-bold text-brand-dark mb-2">🎁 Ecossistema Mounjax incluso na compra oficial:</h3>
-            <ul class="text-brand-dark/80 space-y-1 text-base">
+            <ul class="text-brand-dark space-y-1 text-base">
               <li>📱 <strong>App Mounjax</strong> — 50+ videoaulas (nutricionista, psicóloga e personal)</li>
               <li>📚 <strong>7 E-books digitais</strong> (receitas low carb, anti-flacidez, compulsão, marmitas, celulite, exercícios, plano 30 dias)</li>
               <li>👥 <strong>Grupo VIP Facebook</strong> — 1.400+ mulheres com suporte de nutricionista (seg a sex)</li>
@@ -113,7 +113,7 @@ import Footer from '../components/Footer.astro';
         </div>
 
         <div class="mt-10 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-          <a href="/o-que-e/" class="inline-flex items-center gap-2 text-base font-medium text-brand hover:text-accent transition-colors">
+          <a href="/o-que-e/" class="inline-flex items-center gap-2 text-base font-medium text-brand hover:text-brand transition-colors min-h-[48px]">
             Ler análise completa sobre o que é o Mounjax e para que serve →
           </a>
           <a href="https://app.monetizze.com.br/r/ATX25785612"
@@ -130,9 +130,9 @@ import Footer from '../components/Footer.astro';
     <section id="composicao" class="py-24 lg:py-32 bg-surface-alt content-visibility">
       <div class="container mx-auto px-6 lg:px-12">
         <div class="text-center max-w-3xl mx-auto mb-16">
-          <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-accent mb-4">Fórmula exclusiva em gotas</span>
+          <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-brand mb-4">Fórmula exclusiva em gotas</span>
           <h2 class="font-display text-3xl md:text-4xl font-bold text-brand-dark leading-tight mb-6">Composição do Mounjax — 9 Ingredientes Naturais</h2>
-          <p class="text-lg text-brand-dark/80 leading-relaxed">
+          <p class="text-lg text-brand-dark leading-relaxed">
             O Mounjax combina <strong>9 ingredientes naturais</strong> cuidadosamente selecionados para agir em sinergia na ignição metabólica, limpeza interna e controle da compulsão alimentar. Tudo isso em uma apresentação prática de <strong>gotas</strong>.
           </p>
         </div>
@@ -159,13 +159,13 @@ import Footer from '../components/Footer.astro';
                   <span class="text-xs italic text-brand-dark/90">{ing.sci}</span>
                 </div>
               </div>
-              <p class="text-sm text-brand-dark/80 leading-relaxed">{ing.desc}</p>
+              <p class="text-sm text-brand-dark leading-relaxed">{ing.desc}</p>
             </div>
           ))}
         </div>
 
         <div class="text-center mt-12">
-          <a href="/composicao/" class="inline-flex items-center gap-2 text-base font-medium text-brand hover:text-accent transition-colors">
+          <a href="/composicao/" class="inline-flex items-center gap-2 text-base font-medium text-brand hover:text-brand transition-colors min-h-[48px]">
             Ver composição completa →
           </a>
         </div>
@@ -183,7 +183,7 @@ import Footer from '../components/Footer.astro';
     <!-- BENEFÍCIOS -->
     <section id="beneficios" class="py-24 lg:py-32 content-visibility">
       <div class="container mx-auto px-6 lg:px-12 max-w-4xl">
-        <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-accent mb-4">O que esperar do uso</span>
+        <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-brand mb-4">O que esperar do uso</span>
         <h2 class="font-display text-3xl md:text-4xl font-bold text-brand-dark leading-tight mb-16">Mounjax Emagrece? 5 Benefícios de Quem Usou</h2>
 
         <div class="space-y-12">
@@ -193,7 +193,7 @@ import Footer from '../components/Footer.astro';
             </div>
             <div>
               <h3 class="font-display text-xl font-bold text-brand-dark mb-2">Saciedade Prolongada e Controle do Apetite</h3>
-              <p class="text-brand-dark/80 leading-relaxed">O <strong>Feno Grego</strong> e a <strong>Inulina</strong> formam uma dupla poderosa na regulação do apetite. As fibras solúveis expandem no trato digestivo, criando uma sensação de plenitude que reduz a fome entre as refeições e evita petiscos desnecessários. <strong>Resultado prático:</strong> finalmente parar de petiscar escondida à noite, sem culpa.</p>
+              <p class="text-brand-dark leading-relaxed">O <strong>Feno Grego</strong> e a <strong>Inulina</strong> formam uma dupla poderosa na regulação do apetite. As fibras solúveis expandem no trato digestivo, criando uma sensação de plenitude que reduz a fome entre as refeições e evita petiscos desnecessários. <strong>Resultado prático:</strong> finalmente parar de petiscar escondida à noite, sem culpa.</p>
             </div>
           </article>
 
@@ -203,7 +203,7 @@ import Footer from '../components/Footer.astro';
             </div>
             <div>
               <h3 class="font-display text-xl font-bold text-brand-dark mb-2">Aceleração do Metabolismo (Termogênese)</h3>
-              <p class="text-brand-dark/80 leading-relaxed">O <strong>DHC (Dihidrocapsiato)</strong> e o <strong>Café Verde</strong> trabalham juntos como termogênicos naturais, aumentando o gasto calórico basal mesmo em repouso. O <strong>DHC</strong> acelera a queima de gordura sem causar ardência, enquanto o ácido clorogênico do café verde reduz a absorção de gorduras. <strong>Resultado prático:</strong> queimar gordura dormindo, não passando fome.</p>
+              <p class="text-brand-dark leading-relaxed">O <strong>DHC (Dihidrocapsiato)</strong> e o <strong>Café Verde</strong> trabalham juntos como termogênicos naturais, aumentando o gasto calórico basal mesmo em repouso. O <strong>DHC</strong> acelera a queima de gordura sem causar ardência, enquanto o ácido clorogênico do café verde reduz a absorção de gorduras. <strong>Resultado prático:</strong> queimar gordura dormindo, não passando fome.</p>
             </div>
           </article>
 
@@ -213,7 +213,7 @@ import Footer from '../components/Footer.astro';
             </div>
             <div>
               <h3 class="font-display text-xl font-bold text-brand-dark mb-2">Redução da Compulsão Alimentar e Ansiedade</h3>
-              <p class="text-brand-dark/80 leading-relaxed">O <strong>Picolinato de Cromo</strong> é essencial para o controle da glicose no sangue. Níveis estáveis de açúcar significam menos desejos súbitos por doces e carboidratos. Combinado à <strong>Colina</strong>, que melhora o humor e a função cognitiva, o Mounjax ajuda a controlar a compulsão alimentar emocional — aquela vontade de comer tudo depois de um dia estressante. <strong>Resultado prático:</strong> não mais abrir a geladeira por ansiedade.</p>
+              <p class="text-brand-dark leading-relaxed">O <strong>Picolinato de Cromo</strong> é essencial para o controle da glicose no sangue. Níveis estáveis de açúcar significam menos desejos súbitos por doces e carboidratos. Combinado à <strong>Colina</strong>, que melhora o humor e a função cognitiva, o Mounjax ajuda a controlar a compulsão alimentar emocional — aquela vontade de comer tudo depois de um dia estressante. <strong>Resultado prático:</strong> não mais abrir a geladeira por ansiedade.</p>
             </div>
           </article>
 
@@ -223,7 +223,7 @@ import Footer from '../components/Footer.astro';
             </div>
             <div>
               <h3 class="font-display text-xl font-bold text-brand-dark mb-2">Limpeza Interna e Saúde Digestiva</h3>
-              <p class="text-brand-dark/80 leading-relaxed">A <strong>Cúrcuma</strong> e a <strong>Inulina</strong> possuem efeito anti-inflamatório e prebiótico, favorecendo a flora intestinal saudável e melhorando a digestão. Uma microbiota equilibrada está diretamente ligada a um metabolismo mais eficiente e à redução de inchaço abdominal. <strong>Resultado prático:</strong> acordar sem parecer "grávida" de tanta barriga estufada.</p>
+              <p class="text-brand-dark leading-relaxed">A <strong>Cúrcuma</strong> e a <strong>Inulina</strong> possuem efeito anti-inflamatório e prebiótico, favorecendo a flora intestinal saudável e melhorando a digestão. Uma microbiota equilibrada está diretamente ligada a um metabolismo mais eficiente e à redução de inchaço abdominal. <strong>Resultado prático:</strong> acordar sem parecer "grávida" de tanta barriga estufada.</p>
             </div>
           </article>
 
@@ -233,13 +233,13 @@ import Footer from '../components/Footer.astro';
             </div>
             <div>
               <h3 class="font-display text-xl font-bold text-brand-dark mb-2">Mais Energia e Imunidade Fortalecida</h3>
-              <p class="text-brand-dark/80 leading-relaxed">As vitaminas <strong>B12</strong> e <strong>D3</strong> atuam como suporte metabólico e imunológico. A B12 combate a fadiga e potencializa a queima de gordura, enquanto a D3 regula hormônios relacionados ao peso e fortalece as defesas do organismo. <strong>Resultado prático:</strong> ter disposição para brincar com os filhos ou simplesmente não desmaiar no sofá depois do almoço.</p>
+              <p class="text-brand-dark leading-relaxed">As vitaminas <strong>B12</strong> e <strong>D3</strong> atuam como suporte metabólico e imunológico. A B12 combate a fadiga e potencializa a queima de gordura, enquanto a D3 regula hormônios relacionados ao peso e fortalece as defesas do organismo. <strong>Resultado prático:</strong> ter disposição para brincar com os filhos ou simplesmente não desmaiar no sofá depois do almoço.</p>
             </div>
           </article>
         </div>
 
         <div class="mt-16 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-          <a href="/beneficios/" class="inline-flex items-center gap-2 text-base font-medium text-brand hover:text-accent transition-colors">
+          <a href="/beneficios/" class="inline-flex items-center gap-2 text-base font-medium text-brand hover:text-brand transition-colors min-h-[48px]">
             Conhecer todos os benefícios em detalhes →
           </a>
           <a href="https://app.monetizze.com.br/r/ATX25785612"
@@ -255,7 +255,7 @@ import Footer from '../components/Footer.astro';
     <!-- COMO USAR -->
     <section id="como-usar" class="py-24 lg:py-32 bg-gradient-to-br from-brand to-brand-dark text-white content-visibility">
       <div class="container mx-auto px-6 lg:px-12 max-w-4xl">
-        <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-accent mb-4">Modo de uso recomendado</span>
+        <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-brand mb-4">Modo de uso recomendado</span>
         <h2 class="font-display text-3xl md:text-4xl font-bold mb-12">Como Usar Mounjax em Gotas — 12 Gotas/Dia</h2>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -295,7 +295,7 @@ import Footer from '../components/Footer.astro';
     <!-- CONTRAINDICAÇÕES -->
     <section id="contraindicacoes" class="py-24 lg:py-32 content-visibility">
       <div class="container mx-auto px-6 lg:px-12 max-w-4xl">
-        <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-accent mb-4">Importante ler antes de usar</span>
+        <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-brand mb-4">Importante ler antes de usar</span>
         <h2 class="font-display text-3xl md:text-4xl font-bold text-brand-dark leading-tight mb-10">Contraindicações do Mounjax — Quem Não Pode Usar</h2>
 
         <div class="bg-danger-bg border-l-4 border-danger p-6 rounded-r-xl mb-8">
@@ -310,17 +310,17 @@ import Footer from '../components/Footer.astro';
 
         <div class="bg-warning-bg border-l-4 border-accent p-6 rounded-r-xl mb-8">
           <div class="flex items-start gap-4">
-            <svg class="w-6 h-6 text-accent flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+            <svg class="w-6 h-6 text-brand flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
             <div>
-              <h3 class="font-semibold text-accent-dark mb-1">Condições de Saúde Pré-existentes</h3>
-              <p class="text-brand-dark/80 text-sm leading-relaxed">Quem possui <strong>problemas cardíacos, renais, doenças crônicas graves, tumores ou pressão arterial descontrolada</strong> deve evitar o uso sem orientação médica. O Mounjax é 100% natural, mas doenças em atividade exigem acompanhamento profissional.</p>
+              <h3 class="font-semibold text-brand-dark mb-1">Condições de Saúde Pré-existentes</h3>
+              <p class="text-brand-dark text-sm leading-relaxed">Quem possui <strong>problemas cardíacos, renais, doenças crônicas graves, tumores ou pressão arterial descontrolada</strong> deve evitar o uso sem orientação médica. O Mounjax é 100% natural, mas doenças em atividade exigem acompanhamento profissional.</p>
             </div>
           </div>
         </div>
 
         <div class="bg-surface-alt p-6 rounded-xl">
           <h3 class="font-display text-xl font-bold text-brand-dark mb-4">Contraindicações Absolutas:</h3>
-          <ul class="space-y-2 text-brand-dark/80">
+          <ul class="space-y-2 text-brand-dark">
             <li class="flex items-center gap-2"><span class="text-danger">✕</span> Crianças e adolescentes menores de 16 anos</li>
             <li class="flex items-center gap-2"><span class="text-danger">✕</span> Gestantes (proibido o uso durante a gravidez)</li>
             <li class="flex items-center gap-2"><span class="text-danger">✕</span> Mulheres lactantes com bebês menores de 6 meses</li>
@@ -329,12 +329,12 @@ import Footer from '../components/Footer.astro';
           </ul>
         </div>
 
-        <p class="text-sm text-brand-dark/70 mt-6 leading-relaxed">
+        <p class="text-sm text-brand-dark/90 mt-6 leading-relaxed">
           O Mounjax é 100% natural e seguro para o consumo da população adulta saudável. As declarações aqui não foram avaliadas pela ANVISA. O produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença. Se estiver em tratamento, consulte seu médico.
         </p>
 
         <div class="mt-10 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-          <a href="/contraindicacoes/" class="inline-flex items-center gap-2 text-base font-medium text-brand hover:text-accent transition-colors">
+          <a href="/contraindicacoes/" class="inline-flex items-center gap-2 text-base font-medium text-brand hover:text-brand transition-colors min-h-[48px]">
             Ver contraindicações completas →
           </a>
           <a href="https://app.monetizze.com.br/r/ATX25785612"
@@ -350,14 +350,14 @@ import Footer from '../components/Footer.astro';
     <!-- DEPOIMENTOS -->
     <section id="depoimentos" class="py-24 lg:py-32 bg-surface-alt content-visibility">
       <div class="container mx-auto px-6 lg:px-12 max-w-4xl">
-        <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-accent mb-4">Resultados reais</span>
+        <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-brand mb-4">Resultados reais</span>
         <h2 class="font-display text-3xl md:text-4xl font-bold text-brand-dark leading-tight mb-12">Mounjax Funciona Mesmo? Depoimentos Reais</h2>
 
         <div class="space-y-8">
           <blockquote class="bg-surface p-8 rounded-2xl border-l-4 border-accent shadow-sm">
             <svg class="w-8 h-8 text-brand/30 mb-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 17h3l2-4V7H5v6h3l-2 4zm8 0h3l2-4V7h-6v6h3l-2 4z"/></svg>
             <p class="font-display text-xl text-brand-dark italic leading-relaxed mb-4">"Eu evitava espelhos. Não tirava foto de perfil há anos porque a barriga aparecia. Cheguei a ficar depressiva por causa do peso. Com o Mounjax, pela primeira vez, não precisei passar fome. Só 12 gotas de manhã. Em 3 meses, vesti uma calça jeans que estava guardada há 2 anos. O grupo VIP me salvou nos dias difíceis."</p>
-            <footer class="text-sm text-brand-dark/80">
+            <footer class="text-sm text-brand-dark">
               <strong class="text-brand-dark">Fernanda Lima</strong> — 34 anos, São Paulo / 3 meses de uso (Kit 3 frascos)
             </footer>
           </blockquote>
@@ -365,7 +365,7 @@ import Footer from '../components/Footer.astro';
           <blockquote class="bg-surface p-8 rounded-2xl border-l-4 border-accent shadow-sm">
             <svg class="w-8 h-8 text-brand/30 mb-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 17h3l2-4V7H5v6h3l-2 4zm8 0h3l2-4V7h-6v6h3l-2 4z"/></svg>
             <p class="font-display text-xl text-brand-dark italic leading-relaxed mb-4">"Depois dos 40, minha barriga dobrava quando eu sentava. Não usava biquíni há 5 verões. Me sentia invisível. O que me conquistou no Mounjax foi a praticidade: pinga na água, bebe, pronto. Não engoli cápsula. A nutricionista do Grupo VIP respondeu todas as minhas dúvidas. Hoje durmo melhor, acordo com energia e finalmente fui pra praia."</p>
-            <footer class="text-sm text-brand-dark/80">
+            <footer class="text-sm text-brand-dark">
               <strong class="text-brand-dark">Patrícia Menezes</strong> — 45 anos, Belo Horizonte / 4 meses de uso (Kit 5 frascos)
             </footer>
           </blockquote>
@@ -373,14 +373,14 @@ import Footer from '../components/Footer.astro';
           <blockquote class="bg-surface p-8 rounded-2xl border-l-4 border-accent shadow-sm">
             <svg class="w-8 h-8 text-brand/30 mb-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 17h3l2-4V7H5v6h3l-2 4zm8 0h3l2-4V7h-6v6h3l-2 4z"/></svg>
             <p class="font-display text-xl text-brand-dark italic leading-relaxed mb-4">"Minha filha de 8 anos disse que eu tinha engordado. Dói demais ouvir isso. Eu comia por ansiedade depois do trabalho, escondida. O e-book sobre compulsão alimentar me abriu os olhos. Hoje consigo passar a tarde inteira sem abrir a geladeira. Perdi 6 kg em 2 meses. Melhor de tudo: me sinto bonita de novo."</p>
-            <footer class="text-sm text-brand-dark/80">
+            <footer class="text-sm text-brand-dark">
               <strong class="text-brand-dark">Camila Rocha</strong> — 29 anos, Rio de Janeiro / 2 meses de uso (Kit 3 frascos)
             </footer>
           </blockquote>
         </div>
 
         <div class="mt-10">
-          <a href="/depoimentos/" class="inline-flex items-center gap-2 text-base font-medium text-brand hover:text-accent transition-colors">
+          <a href="/depoimentos/" class="inline-flex items-center gap-2 text-base font-medium text-brand hover:text-brand transition-colors min-h-[48px]">
             Ver todos os depoimentos e resultados →
           </a>
         </div>
@@ -392,7 +392,7 @@ import Footer from '../components/Footer.astro';
              rel="noopener noreferrer nofollow sponsored">
             Site oficial Mounjax com desconto →
           </a>
-          <p class="text-sm text-brand-dark/70 mt-3">Frete Grátis | Garantia 30 Dias | 12x no cartão</p>
+          <p class="text-sm text-brand-dark/90 mt-3">Frete Grátis | Garantia 30 Dias | 12x no cartão</p>
         </div>
       </div>
     </section>
@@ -400,9 +400,9 @@ import Footer from '../components/Footer.astro';
     <!-- ANTES E DEPOIS -->
     <section class="py-16 lg:py-24 bg-gradient-to-br from-brand/5 to-brand-light/5 content-visibility">
       <div class="container mx-auto px-6 lg:px-12 max-w-4xl">
-        <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-accent mb-4">Prova real</span>
+        <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-brand mb-4">Prova real</span>
         <h2 class="font-display text-3xl md:text-4xl font-bold text-brand-dark leading-tight mb-10">Resultados Reais: Antes e Depois do Mounjax</h2>
-        <p class="text-lg text-brand-dark/80 mb-10 leading-relaxed">
+        <p class="text-lg text-brand-dark mb-10 leading-relaxed">
           Mulheres de todas as idades compartilharam suas transformações usando o Mounjax. Veja os resultados reais de quem seguiu o protocolo de 12 gotas por dia.
         </p>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -410,21 +410,21 @@ import Footer from '../components/Footer.astro';
             <img src="/images/antes-depois-1.jpg" alt="Antes e depois Mounjax - Resultado real 1" class="w-full h-64 object-cover" loading="lazy" />
             <div class="p-4 text-center">
               <p class="text-sm font-semibold text-brand-dark">Fernanda Lima, 34 anos</p>
-              <p class="text-xs text-brand-dark/70">3 meses de uso · Kit 3 frascos</p>
+              <p class="text-xs text-brand-dark/90">3 meses de uso · Kit 3 frascos</p>
             </div>
           </div>
           <div class="bg-surface rounded-2xl overflow-hidden shadow-sm border border-brand/5">
             <img src="/images/antes-depois-2.jpg" alt="Antes e depois Mounjax - Resultado real 2" class="w-full h-64 object-cover" loading="lazy" />
             <div class="p-4 text-center">
               <p class="text-sm font-semibold text-brand-dark">Patrícia Menezes, 45 anos</p>
-              <p class="text-xs text-brand-dark/70">4 meses de uso · Kit 5 frascos</p>
+              <p class="text-xs text-brand-dark/90">4 meses de uso · Kit 5 frascos</p>
             </div>
           </div>
           <div class="bg-surface rounded-2xl overflow-hidden shadow-sm border border-brand/5">
             <img src="/images/antes-depois-3.jpg" alt="Antes e depois Mounjax - Resultado real 3" class="w-full h-64 object-cover" loading="lazy" />
             <div class="p-4 text-center">
               <p class="text-sm font-semibold text-brand-dark">Camila Rocha, 29 anos</p>
-              <p class="text-xs text-brand-dark/70">2 meses de uso · Kit 3 frascos</p>
+              <p class="text-xs text-brand-dark/90">2 meses de uso · Kit 3 frascos</p>
             </div>
           </div>
         </div>
@@ -442,23 +442,23 @@ import Footer from '../components/Footer.astro';
     <!-- ONDE COMPRAR -->
     <section id="onde-comprar" class="py-24 lg:py-32 content-visibility">
       <div class="container mx-auto px-6 lg:px-12 max-w-4xl">
-        <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-accent mb-4">Site oficial com desconto</span>
+        <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-brand mb-4">Site oficial com desconto</span>
         <h2 class="font-display text-3xl md:text-4xl font-bold text-brand-dark leading-tight mb-10">Mounjax Preço e Valor — Kits Oficiais com Até 40% OFF</h2>
 
         <div class="flex flex-wrap items-center justify-center gap-6 md:gap-10 mb-10">
-          <span class="inline-flex items-center gap-2 text-sm text-brand-dark/80">
+          <span class="inline-flex items-center gap-2 text-sm text-brand-dark">
             <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
             Site 100% Seguro (SSL)
           </span>
-          <span class="inline-flex items-center gap-2 text-sm text-brand-dark/80">
+          <span class="inline-flex items-center gap-2 text-sm text-brand-dark">
             <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
             Garantia 30 Dias
           </span>
-          <span class="inline-flex items-center gap-2 text-sm text-brand-dark/80">
+          <span class="inline-flex items-center gap-2 text-sm text-brand-dark">
             <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
             Frete Grátis Brasil
           </span>
-          <span class="inline-flex items-center gap-2 text-sm text-brand-dark/80">
+          <span class="inline-flex items-center gap-2 text-sm text-brand-dark">
             <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
             Pagamento em até 12x
           </span>
@@ -469,7 +469,7 @@ import Footer from '../components/Footer.astro';
             <svg class="w-6 h-6 text-brand-light flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path stroke-linecap="round" d="M12 16v-4"/><path stroke-linecap="round" d="M12 8h.01"/></svg>
             <div>
               <h3 class="font-semibold text-brand mb-1">Evite Falsificações</h3>
-              <p class="text-brand-dark/80 text-sm leading-relaxed">O Mounjax original em gotas só é vendido pelo <strong>site oficial</strong> (mounjax.com). Não compre em marketplaces, Shopee, Mercado Livre ou sites de terceiros para evitar produtos falsificados e sem garantia.</p>
+              <p class="text-brand-dark text-sm leading-relaxed">O Mounjax original em gotas só é vendido pelo <strong>site oficial</strong> (mounjax.com). Não compre em marketplaces, Shopee, Mercado Livre ou sites de terceiros para evitar produtos falsificados e sem garantia.</p>
             </div>
           </div>
         </div>
@@ -477,10 +477,10 @@ import Footer from '../components/Footer.astro';
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
           <div class="bg-surface border-2 border-brand/10 p-8 rounded-2xl text-center hover:border-brand/30 transition-all">
             <h4 class="font-display text-xl font-bold text-brand-dark mb-2">1 Frasco — Tratamento Inicial</h4>
-            <p class="text-sm text-brand-dark/70 mb-4">30 dias de uso | 30ml em gotas</p>
-            <p class="font-display text-4xl font-bold text-accent mb-1">12x R$ 14,76</p>
+            <p class="text-sm text-brand-dark/90 mb-4">30 dias de uso | 30ml em gotas</p>
+            <p class="font-display text-4xl font-bold text-brand mb-1">12x R$ 14,76</p>
             <p class="text-xs text-brand-dark/60 mb-4">ou R$ 147,00 à vista</p>
-            <ul class="text-sm text-brand-dark/80 space-y-1 mb-6 text-left inline-block">
+            <ul class="text-sm text-brand-dark space-y-1 mb-6 text-left inline-block">
               <li>✅ Frete Grátis</li>
               <li>✅ 1 E-book Bônus</li>
               <li>✅ Acesso ao App Mounjax</li>
@@ -496,11 +496,11 @@ import Footer from '../components/Footer.astro';
           <div class="bg-gradient-to-br from-brand/5 to-brand-light/5 border-2 border-accent p-8 rounded-2xl text-center relative overflow-hidden">
             <span class="absolute top-0 right-0 bg-danger text-white text-xs font-bold uppercase tracking-wider px-4 py-1 rounded-bl-xl animate-pulse">🔥 Mais Vendido</span>
             <h4 class="font-display text-xl font-bold text-brand-dark mb-2">3 Frascos — Leve 3 Pague 2</h4>
-            <p class="text-sm text-brand-dark/70 mb-2">90 dias de uso | Melhor custo-benefício</p>
+            <p class="text-sm text-brand-dark/90 mb-2">90 dias de uso | Melhor custo-benefício</p>
             <p class="text-xs text-danger font-semibold mb-4">⏰ Economia de R$ 210,00 — desconto aplicado automaticamente</p>
-            <p class="font-display text-4xl font-bold text-accent mb-1">12x R$ 19,78</p>
+            <p class="font-display text-4xl font-bold text-brand mb-1">12x R$ 19,78</p>
             <p class="text-xs text-brand-dark/60 mb-4">ou R$ 197,00 à vista</p>
-            <ul class="text-sm text-brand-dark/80 space-y-1 mb-6 text-left inline-block">
+            <ul class="text-sm text-brand-dark space-y-1 mb-6 text-left inline-block">
               <li>✅ Frete Grátis</li>
               <li>✅ 7 E-books Bônus</li>
               <li>✅ App com 50+ Aulas</li>
@@ -520,10 +520,10 @@ import Footer from '../components/Footer.astro';
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
           <div class="bg-surface border-2 border-brand/10 p-8 rounded-2xl text-center hover:border-brand/30 transition-all">
             <h4 class="font-display text-xl font-bold text-brand-dark mb-2">5 Frascos — Tratamento Completo</h4>
-            <p class="text-sm text-brand-dark/70 mb-4">150 dias de uso | Resultados consistentes</p>
-            <p class="font-display text-4xl font-bold text-accent mb-1">12x R$ 24,80</p>
+            <p class="text-sm text-brand-dark/90 mb-4">150 dias de uso | Resultados consistentes</p>
+            <p class="font-display text-4xl font-bold text-brand mb-1">12x R$ 24,80</p>
             <p class="text-xs text-brand-dark/60 mb-4">ou R$ 247,00 à vista</p>
-            <ul class="text-sm text-brand-dark/80 space-y-1 mb-6 text-left inline-block">
+            <ul class="text-sm text-brand-dark space-y-1 mb-6 text-left inline-block">
               <li>✅ Frete Grátis</li>
               <li>✅ 7 E-books Bônus + Aulas VIP</li>
               <li>✅ Grupo VIP + Suporte Nutricionista</li>
@@ -538,10 +538,10 @@ import Footer from '../components/Footer.astro';
 
           <div class="bg-surface border-2 border-brand/10 p-8 rounded-2xl text-center hover:border-brand/30 transition-all">
             <h4 class="font-display text-xl font-bold text-brand-dark mb-2">8 Frascos — Família ou Revenda</h4>
-            <p class="text-sm text-brand-dark/70 mb-4">240 dias de uso | Maior economia</p>
-            <p class="font-display text-4xl font-bold text-accent mb-1">12x R$ 37,85</p>
+            <p class="text-sm text-brand-dark/90 mb-4">240 dias de uso | Maior economia</p>
+            <p class="font-display text-4xl font-bold text-brand mb-1">12x R$ 37,85</p>
             <p class="text-xs text-brand-dark/60 mb-4">ou R$ 377,00 à vista</p>
-            <ul class="text-sm text-brand-dark/80 space-y-1 mb-6 text-left inline-block">
+            <ul class="text-sm text-brand-dark space-y-1 mb-6 text-left inline-block">
               <li>✅ Frete Grátis</li>
               <li>✅ Todos os Bônus Exclusivos</li>
               <li>✅ App + Grupo VIP</li>
@@ -558,13 +558,13 @@ import Footer from '../components/Footer.astro';
 
         <div class="bg-gradient-to-br from-brand/5 to-brand-light/5 border-2 border-accent p-8 lg:p-12 rounded-2xl text-center">
           <div class="bg-warning-bg border border-warning/20 p-4 rounded-xl mb-6 max-w-xl mx-auto">
-            <p class="text-sm text-brand-dark/80 leading-relaxed">
+            <p class="text-sm text-brand-dark leading-relaxed">
               <strong>Aviso importante:</strong> Este site é um review independente com links de afiliados. O Mounjax é um suplemento alimentar, não um medicamento. Os resultados podem variar de pessoa para pessoa. Consulte um médico antes de iniciar qualquer tratamento.
             </p>
           </div>
 
           <h3 class="font-display text-3xl font-bold text-brand-dark mb-4">Acessar Oferta Oficial do Mounjax</h3>
-          <p class="text-brand-dark/80 mb-8 max-w-xl mx-auto">
+          <p class="text-brand-dark mb-8 max-w-xl mx-auto">
             O desconto especial é aplicado automaticamente no site oficial mounjax.com. Cada kit inclui frete grátis para todo o Brasil, parcelamento em até 12 vezes e acesso imediato aos bônus digitais (App com 50+ aulas + 7 e-books + Grupo VIP).
           </p>
 
@@ -585,7 +585,7 @@ import Footer from '../components/Footer.astro';
 
         <div class="mt-12 text-center">
           <h3 class="font-display text-xl font-bold text-brand-dark mb-4">Garantia de Satisfação de 30 Dias</h3>
-          <p class="text-brand-dark/80 max-w-2xl mx-auto leading-relaxed">
+          <p class="text-brand-dark max-w-2xl mx-auto leading-relaxed">
             O Mounjax oferece uma <strong>garantia de 30 dias de risco zero</strong>. Se você não sentir resultados ou não ficar satisfeita com o produto, basta solicitar o reembolso dentro do prazo. Você recebe 100% do valor pago de volta, sem burocracia. Essa política demonstra a confiança na qualidade e eficácia do Mounjax.
           </p>
         </div>
@@ -595,16 +595,16 @@ import Footer from '../components/Footer.astro';
     <!-- FAQ -->
     <section class="py-24 lg:py-32 bg-surface-alt content-visibility">
       <div class="container mx-auto px-6 lg:px-12 max-w-3xl">
-        <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-accent mb-4">Tire suas dúvidas</span>
+        <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-brand mb-4">Tire suas dúvidas</span>
         <h2 class="font-display text-3xl md:text-4xl font-bold text-brand-dark leading-tight mb-12">Perguntas Frequentes — Mounjax Funciona?</h2>
 
         <div class="space-y-4">
           <details class="bg-surface rounded-xl overflow-hidden shadow-sm group">
             <summary class="flex items-center justify-between p-6 cursor-pointer font-display text-lg font-semibold text-brand-dark list-none">
               Mounjax funciona mesmo?
-              <span class="text-accent text-2xl transition-transform group-open:rotate-45">+</span>
+              <span class="text-brand text-2xl transition-transform group-open:rotate-45">+</span>
             </summary>
-            <div class="px-6 pb-6 text-brand-dark/80 leading-relaxed">
+            <div class="px-6 pb-6 text-brand-dark leading-relaxed">
               Sim. A fórmula do Mounjax foi desenvolvida com 9 ingredientes naturais que atuam em sinergia para acelerar o metabolismo, controlar o apetite e auxiliar na queima de gordura. Diferente de suplementos genéricos, ele combina termogênicos como DHC e Café Verde com fibras como Feno Grego e Inulina, criando uma ação completa no organismo. A maioria dos usuários relata redução de medidas e mais disposição já nas primeiras 2 a 4 semanas de uso contínuo. Além disso, a compra oficial inclui o <strong>App com 50+ aulas</strong> e 7 e-books de apoio.
             </div>
           </details>
@@ -612,9 +612,9 @@ import Footer from '../components/Footer.astro';
           <details class="bg-surface rounded-xl overflow-hidden shadow-sm group">
             <summary class="flex items-center justify-between p-6 cursor-pointer font-display text-lg font-semibold text-brand-dark list-none">
               Mounjax emagrece? Quanto tempo leva para fazer efeito?
-              <span class="text-accent text-2xl transition-transform group-open:rotate-45">+</span>
+              <span class="text-brand text-2xl transition-transform group-open:rotate-45">+</span>
             </summary>
-            <div class="px-6 pb-6 text-brand-dark/80 leading-relaxed">
+            <div class="px-6 pb-6 text-brand-dark leading-relaxed">
               O Mounjax auxilia no emagrecimento ao agir em três frentes: aceleração metabólica (termogênese), controle da compulsão alimentar e saúde intestinal. Os primeiros sinais — saciedade, menos inchaço, mais energia — geralmente aparecem entre a 2ª e 4ª semana. Para resultados mais expressivos de perda de peso, recomenda-se o uso por pelo menos 90 dias (3 frascos), combinado com alimentação equilibrada e atividade física leve.
             </div>
           </details>
@@ -622,9 +622,9 @@ import Footer from '../components/Footer.astro';
           <details class="bg-surface rounded-xl overflow-hidden shadow-sm group">
             <summary class="flex items-center justify-between p-6 cursor-pointer font-display text-lg font-semibold text-brand-dark list-none">
               Mounjax tem efeitos colaterais?
-              <span class="text-accent text-2xl transition-transform group-open:rotate-45">+</span>
+              <span class="text-brand text-2xl transition-transform group-open:rotate-45">+</span>
             </summary>
-            <div class="px-6 pb-6 text-brand-dark/80 leading-relaxed">
+            <div class="px-6 pb-6 text-brand-dark leading-relaxed">
               O Mounjax é composto por ingredientes 100% naturais e é bem tolerado pela maioria das pessoas. Devido à presença de fibras e ativos termogênicos, alguns usuários podem sentir leve desconforto digestivo inicial (gases ou mudança no intestino) nos primeiros dias — isso é normal e costuma passar sozinho. Quem tem condições pré-existentes, alergia a crustáceos ou faz uso de medicamentos contínuos deve consultar um médico antes de iniciar.
             </div>
           </details>
@@ -632,9 +632,9 @@ import Footer from '../components/Footer.astro';
           <details class="bg-surface rounded-xl overflow-hidden shadow-sm group">
             <summary class="flex items-center justify-between p-6 cursor-pointer font-display text-lg font-semibold text-brand-dark list-none">
               Pra que serve o Mounjax em gotas?
-              <span class="text-accent text-2xl transition-transform group-open:rotate-45">+</span>
+              <span class="text-brand text-2xl transition-transform group-open:rotate-45">+</span>
             </summary>
-            <div class="px-6 pb-6 text-brand-dark/80 leading-relaxed">
+            <div class="px-6 pb-6 text-brand-dark leading-relaxed">
               O Mounjax em gotas serve para auxiliar o processo de emagrecimento de forma natural e prática. A apresentação em gotas facilita a absorção sublingual e permite ajustar a dosagem com precisão (12 gotas por dia). A fórmula foi pensada para quem quer perder peso sem passar fome, controlar a ansiedade por doces, acelerar o metabolismo lento e melhorar a qualidade de vida — tudo isso com uma dosagem simples de manhã.
             </div>
           </details>
@@ -642,9 +642,9 @@ import Footer from '../components/Footer.astro';
           <details class="bg-surface rounded-xl overflow-hidden shadow-sm group">
             <summary class="flex items-center justify-between p-6 cursor-pointer font-display text-lg font-semibold text-brand-dark list-none">
               Onde comprar Mounjax com desconto e qual o preço?
-              <span class="text-accent text-2xl transition-transform group-open:rotate-45">+</span>
+              <span class="text-brand text-2xl transition-transform group-open:rotate-45">+</span>
             </summary>
-            <div class="px-6 pb-6 text-brand-dark/80 leading-relaxed">
+            <div class="px-6 pb-6 text-brand-dark leading-relaxed">
               O desconto oficial e os kits promocionais do Mounjax estão disponíveis apenas no <strong>site oficial</strong> (mounjax.com). Os preços atualizados são: 1 frasco por R$ 147,00 (12x R$ 14,76); kit com 3 frascos por R$ 197,00 (12x R$ 19,78); kit com 5 frascos por R$ 247,00 (12x R$ 24,80); e kit com 8 frascos por R$ 377,00 (12x R$ 37,85). Todos incluem frete grátis, parcelamento em até 12x e acesso ao <strong>App com 50+ aulas</strong> e 7 e-books digitais. Não compre em marketplaces para evitar falsificações.
             </div>
           </details>
@@ -652,9 +652,9 @@ import Footer from '../components/Footer.astro';
           <details class="bg-surface rounded-xl overflow-hidden shadow-sm group">
             <summary class="flex items-center justify-between p-6 cursor-pointer font-display text-lg font-semibold text-brand-dark list-none">
               Mounjax é aprovado pela Anvisa?
-              <span class="text-accent text-2xl transition-transform group-open:rotate-45">+</span>
+              <span class="text-brand text-2xl transition-transform group-open:rotate-45">+</span>
             </summary>
-            <div class="px-6 pb-6 text-brand-dark/80 leading-relaxed">
+            <div class="px-6 pb-6 text-brand-dark leading-relaxed">
               O Mounjax é um suplemento alimentar, não um medicamento. Por isso, ele é isento de registro obrigatório na Anvisa, conforme a legislação brasileira vigente para suplementos. O produto é fabricado em instalações certificadas e segue todas as normas de qualidade e segurança alimentar.
             </div>
           </details>
@@ -662,9 +662,9 @@ import Footer from '../components/Footer.astro';
           <details class="bg-surface rounded-xl overflow-hidden shadow-sm group">
             <summary class="flex items-center justify-between p-6 cursor-pointer font-display text-lg font-semibold text-brand-dark list-none">
               Mounjax tem efeito rebote?
-              <span class="text-accent text-2xl transition-transform group-open:rotate-45">+</span>
+              <span class="text-brand text-2xl transition-transform group-open:rotate-45">+</span>
             </summary>
-            <div class="px-6 pb-6 text-brand-dark/80 leading-relaxed">
+            <div class="px-6 pb-6 text-brand-dark leading-relaxed">
               Não. Como o Mounjax é composto por ingredientes naturais que ajudam a regular o apetite e o metabolismo, não há efeito rebote ao parar o uso. Recomenda-se, no entanto, manter hábitos alimentares saudáveis após o tratamento para consolidar os resultados.
             </div>
           </details>
@@ -672,9 +672,9 @@ import Footer from '../components/Footer.astro';
           <details class="bg-surface rounded-xl overflow-hidden shadow-sm group">
             <summary class="flex items-center justify-between p-6 cursor-pointer font-display text-lg font-semibold text-brand-dark list-none">
               Mounjax funciona para homens também?
-              <span class="text-accent text-2xl transition-transform group-open:rotate-45">+</span>
+              <span class="text-brand text-2xl transition-transform group-open:rotate-45">+</span>
             </summary>
-            <div class="px-6 pb-6 text-brand-dark/80 leading-relaxed">
+            <div class="px-6 pb-6 text-brand-dark leading-relaxed">
               Sim. A fórmula do Mounjax foi desenvolvida para ambos os sexos. Homens e mulheres podem usar o produto e obter benefícios no controle do apetite, aceleração do metabolismo e queima de gordura.
             </div>
           </details>
@@ -682,9 +682,9 @@ import Footer from '../components/Footer.astro';
           <details class="bg-surface rounded-xl overflow-hidden shadow-sm group">
             <summary class="flex items-center justify-between p-6 cursor-pointer font-display text-lg font-semibold text-brand-dark list-none">
               Posso usar Mounjax se tenho diabetes?
-              <span class="text-accent text-2xl transition-transform group-open:rotate-45">+</span>
+              <span class="text-brand text-2xl transition-transform group-open:rotate-45">+</span>
             </summary>
-            <div class="px-6 pb-6 text-brand-dark/80 leading-relaxed">
+            <div class="px-6 pb-6 text-brand-dark leading-relaxed">
               Pessoas com diabetes ou outras condições de saúde pré-existentes devem consultar um médico antes de iniciar o uso do Mounjax. O produto contém ingredientes que podem afetar os níveis de glicose, como o Cromo.
             </div>
           </details>
@@ -692,9 +692,9 @@ import Footer from '../components/Footer.astro';
           <details class="bg-surface rounded-xl overflow-hidden shadow-sm group">
             <summary class="flex items-center justify-between p-6 cursor-pointer font-display text-lg font-semibold text-brand-dark list-none">
               O que acontece se eu parar de usar Mounjax?
-              <span class="text-accent text-2xl transition-transform group-open:rotate-45">+</span>
+              <span class="text-brand text-2xl transition-transform group-open:rotate-45">+</span>
             </summary>
-            <div class="px-6 pb-6 text-brand-dark/80 leading-relaxed">
+            <div class="px-6 pb-6 text-brand-dark leading-relaxed">
               Ao parar de usar o Mounjax, a sensação de saciedade pode diminuir gradualmente. Não há riscos à saúde na interrupção. Para manter os resultados, é recomendado continuar com uma alimentação equilibrada e atividade física regular.
             </div>
           </details>
@@ -707,7 +707,7 @@ import Footer from '../components/Footer.astro';
              rel="noopener noreferrer nofollow sponsored">
             Acessar Oferta Exclusiva com Desconto
           </a>
-          <p class="text-sm text-brand-dark/80 mt-3">Mais de 10.000 unidades vendidas</p>
+          <p class="text-sm text-brand-dark mt-3">Mais de 10.000 unidades vendidas</p>
         </div>
       </div>
     </section>
@@ -716,29 +716,52 @@ import Footer from '../components/Footer.astro';
   <Footer />
 
   <style>
-    @keyframes orb {
-      0%, 100% { opacity: 0.5; transform: scale(1); }
-      50% { opacity: 0.8; transform: scale(1.05); }
-    }
-    .animate-orb {
-      animation: orb 8s ease-in-out infinite;
-      will-change: transform, opacity;
-    }
-    .animate-orb-delay {
-      animation-delay: 4s;
+    .hero-section {
+      contain: layout paint;
     }
     .hero-orb {
+      position: absolute;
+      border-radius: 9999px;
+      filter: blur(100px);
+      pointer-events: none;
       transform: translate3d(0, 0, 0);
+      will-change: transform, opacity;
       backface-visibility: hidden;
       -webkit-backface-visibility: hidden;
-      perspective: 1000px;
+    }
+    .hero-orb-top {
+      top: -10%;
+      right: -5%;
+      width: 500px;
+      height: 500px;
+      background-color: rgba(81, 63, 126, 0.1);
+    }
+    .hero-orb-bottom {
+      bottom: -5%;
+      left: -5%;
+      width: 400px;
+      height: 400px;
+      background-color: rgba(238, 53, 47, 0.1);
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .hero-orb-top {
+        animation: orb-float 8s ease-in-out infinite;
+      }
+      .hero-orb-bottom {
+        animation: orb-float 8s ease-in-out infinite;
+        animation-delay: 4s;
+      }
+    }
+    @keyframes orb-float {
+      0%, 100% { opacity: 0.5; transform: translate3d(0, 0, 0) scale(1); }
+      50% { opacity: 0.8; transform: translate3d(0, 0, 0) scale(1.05); }
     }
     .content-visibility {
       content-visibility: auto;
       contain-intrinsic-size: 0 500px;
     }
     @media (prefers-reduced-motion: reduce) {
-      .animate-orb {
+      .hero-orb {
         animation: none;
       }
     }

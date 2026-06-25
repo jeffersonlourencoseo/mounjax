@@ -1,0 +1,13 @@
+/* Font metrics override para Cormorant Garamond vs Georgia fallback */
+@font-face {
+  font-family: 'Cormorant Garamond Fallback';
+  src: local('Georgia'), local('Times New Roman');
+  ascent-override: 90%;
+  descent-override: 22%;
+  line-gap-override: 5%;
+  size-adjust: 107%;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Cormorant Garamond', 'Cormorant Garamond Fallback', Georgia, 'Times New Roman', serif;
+}
