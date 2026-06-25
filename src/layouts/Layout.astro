@@ -113,6 +113,8 @@ const {
 
     body {
       font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      /* Evita layout shift quando web fonts carregam tardiamente */
+      font-synthesis: none;
     }
 
     h1, h2, h3, h4 {

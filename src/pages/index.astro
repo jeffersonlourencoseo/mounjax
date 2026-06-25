@@ -31,8 +31,8 @@ import Footer from '../components/Footer.astro';
     <!-- HERO -->
     <section class="relative min-h-[90vh] flex items-center justify-center overflow-hidden" style="contain: layout paint;">
       <div class="absolute inset-0 bg-gradient-to-br from-brand/5 via-surface to-brand-light/5"></div>
-      <div class="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-brand/10 rounded-full blur-[100px] animate-orb"></div>
-      <div class="absolute bottom-[-5%] left-[-5%] w-[400px] h-[400px] bg-accent/10 rounded-full blur-[100px] animate-orb animate-orb-delay"></div>
+      <div class="hero-orb absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-brand/10 rounded-full blur-[100px] animate-orb"></div>
+      <div class="hero-orb absolute bottom-[-5%] left-[-5%] w-[400px] h-[400px] bg-accent/10 rounded-full blur-[100px] animate-orb animate-orb-delay"></div>
 
       <div class="relative z-10 container mx-auto px-6 lg:px-12 text-center max-w-4xl">
         <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-accent mb-6">
@@ -103,7 +103,7 @@ import Footer from '../components/Footer.astro';
             O uso é simples: apenas <strong>12 gotas ao dia</strong>, preferencialmente no mesmo horário, combinadas com água e uma rotina equilibrada. E diferente de cápsulas, a apresentação em gotas oferece absorção mais rápida e dosagem precisa — sem engolir comprimidos grandes.
           </p>
           <div class="bg-brand/5 border-l-4 border-brand p-5 rounded-r-xl mb-6">
-            <h4 class="font-display text-lg font-bold text-brand-dark mb-2">🎁 Ecossistema Mounjax incluso na compra oficial:</h4>
+            <h3 class="font-display text-lg font-bold text-brand-dark mb-2">🎁 Ecossistema Mounjax incluso na compra oficial:</h3>
             <ul class="text-brand-dark/80 space-y-1 text-base">
               <li>📱 <strong>App Mounjax</strong> — 50+ videoaulas (nutricionista, psicóloga e personal)</li>
               <li>📚 <strong>7 E-books digitais</strong> (receitas low carb, anti-flacidez, compulsão, marmitas, celulite, exercícios, plano 30 dias)</li>
@@ -262,24 +262,24 @@ import Footer from '../components/Footer.astro';
           <div class="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">
             <div class="w-10 h-10 flex items-center justify-center bg-accent text-white font-display text-xl font-bold rounded-full mb-4">1</div>
             <h3 class="font-display text-xl font-bold mb-2">Dosagem</h3>
-            <p class="text-white/90 leading-relaxed">A dosagem recomendada é de <strong>12 gotas por dia</strong>. Use o conta-gotas do frasco para medir a quantidade exata. A consistência no horário potencializa a ação dos 9 componentes ativos ao longo do dia.</p>
+            <p class="text-white leading-relaxed">A dosagem recomendada é de <strong>12 gotas por dia</strong>. Use o conta-gotas do frasco para medir a quantidade exata. A consistência no horário potencializa a ação dos 9 componentes ativos ao longo do dia.</p>
           </div>
 
           <div class="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">
             <div class="w-10 h-10 flex items-center justify-center bg-accent text-white font-display text-xl font-bold rounded-full mb-4">2</div>
             <h3 class="font-display text-xl font-bold mb-2">Como tomar</h3>
-            <p class="text-white/90 leading-relaxed">Aplique as 12 gotas diretamente na boca ou dilua em um copo de água. O ideal é tomar sempre no <strong>mesmo horário</strong>, preferencialmente pela manhã ou antes da principal refeição do dia, para manter níveis estáveis dos ativos no organismo.</p>
+            <p class="text-white leading-relaxed">Aplique as 12 gotas diretamente na boca ou dilua em um copo de água. O ideal é tomar sempre no <strong>mesmo horário</strong>, preferencialmente pela manhã ou antes da principal refeição do dia, para manter níveis estáveis dos ativos no organismo.</p>
           </div>
 
           <div class="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">
             <div class="w-10 h-10 flex items-center justify-center bg-accent text-white font-display text-xl font-bold rounded-full mb-4">3</div>
             <h3 class="font-display text-xl font-bold mb-2">Ecossistema Mounjax</h3>
-            <p class="text-white/90 leading-relaxed">Além das 12 gotas, você recebe o <strong>App Mounjax</strong> com 50+ aulas, 7 e-books de bônus e acesso ao <strong>Grupo VIP</strong> no Facebook com mais de 1.400 mulheres e suporte de nutricionista de segunda a sexta.</p>
+            <p class="text-white leading-relaxed">Além das 12 gotas, você recebe o <strong>App Mounjax</strong> com 50+ aulas, 7 e-books de bônus e acesso ao <strong>Grupo VIP</strong> no Facebook com mais de 1.400 mulheres e suporte de nutricionista de segunda a sexta.</p>
           </div>
         </div>
 
         <div class="mt-12 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-          <a href="/como-usar/" class="inline-flex items-center gap-2 text-base font-medium text-white/80 hover:text-white transition-colors">
+          <a href="/como-usar/" class="inline-flex items-center gap-2 text-base font-medium text-white hover:text-white transition-colors">
             Guia completo de uso das gotas →
           </a>
           <a href="https://app.monetizze.com.br/r/ATX25785612"
@@ -303,7 +303,7 @@ import Footer from '../components/Footer.astro';
             <svg class="w-6 h-6 text-danger flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path stroke-linecap="round" d="M12 8v4"/><path stroke-linecap="round" d="M12 16h.01"/></svg>
             <div>
               <h3 class="font-semibold text-danger mb-1">Alergia a Crustáceos e Componentes</h3>
-              <p class="text-danger/80 text-sm leading-relaxed">Pessoas com <strong>alergia a crustáceos</strong> ou hipersensibilidade a qualquer componente da fórmula devem evitar o uso. Sempre leia o rótulo e consulte um médico caso tenha histórico de reações alérgicas a suplementos.</p>
+              <p class="text-danger-dark text-sm leading-relaxed">Pessoas com <strong>alergia a crustáceos</strong> ou hipersensibilidade a qualquer componente da fórmula devem evitar o uso. Sempre leia o rótulo e consulte um médico caso tenha histórico de reações alérgicas a suplementos.</p>
             </div>
           </div>
         </div>
@@ -726,6 +726,12 @@ import Footer from '../components/Footer.astro';
     }
     .animate-orb-delay {
       animation-delay: 4s;
+    }
+    .hero-orb {
+      transform: translate3d(0, 0, 0);
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      perspective: 1000px;
     }
     .content-visibility {
       content-visibility: auto;
