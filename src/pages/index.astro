@@ -48,18 +48,20 @@ import Footer from '../components/Footer.astro';
         </p>
 
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6">
-          <a
-            href="#onde-comprar"
-            class="inline-flex items-center justify-center gap-2 text-base font-semibold uppercase tracking-wider text-white bg-gradient-to-r from-brand to-brand-light px-8 py-4 rounded-full hover:shadow-xl hover:-translate-y-0.5 transition-all h-14"
+          <button
+            type="button"
+            onclick="window.location.href='#onde-comprar'"
+            class="flex items-center justify-center gap-2 text-base font-semibold uppercase tracking-wider text-white bg-gradient-to-r from-brand to-brand-light px-8 rounded-full hover:shadow-xl hover:-translate-y-0.5 transition-all h-14 w-full sm:w-auto"
           >
             Garantir Meu Kit com 40% OFF
-          </a>
-          <a
-            href="#o-que-e"
-            class="inline-flex items-center justify-center gap-2 text-base font-medium text-brand border-2 border-brand px-8 py-4 rounded-full hover:bg-brand hover:text-white transition-all h-14"
+          </button>
+          <button
+            type="button"
+            onclick="window.location.href='#o-que-e'"
+            class="flex items-center justify-center gap-2 text-base font-medium text-brand border-2 border-brand px-8 rounded-full hover:bg-brand hover:text-white transition-all h-14 w-full sm:w-auto"
           >
             Conhecer o Produto
-          </a>
+          </button>
         </div>
 
         <p class="text-sm text-brand-dark mb-10 max-w-xl mx-auto">
