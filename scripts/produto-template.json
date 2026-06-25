@@ -1,0 +1,159 @@
+{
+  "produto": {
+    "nome": "NOME_DO_PRODUTO",
+    "nomeSlug": "nome-do-produto",
+    "categoria": "Suplemento Alimentar em Gotas",
+    "formato": "gotas",
+    "volumeFrasco": "30ml",
+    "dosagem": "12 gotas por dia",
+    "quantidadeIngredientes": "9",
+    "siteOficial": "https://siteoficial.com",
+    "linkAfiliado": "https://app.monetizze.com.br/r/SEU_CODIGO",
+    "precoPopular": "197.00",
+    "precoAvista1": "147.00",
+    "precoParcelado1": "14,76",
+    "precoAvista3": "197.00",
+    "precoParcelado3": "19,78",
+    "precoAvista5": "247.00",
+    "precoParcelado5": "24,90",
+    "precoAvista8": "377.00",
+    "precoParcelado8": "37,90",
+    "sku": "PRODUTO-30ML-GOTAS",
+    "corTema": "#513F7E",
+    "dominio": "https://novo-produto.vercel.app",
+    "siteName": "Blog Novo Produto",
+    "tagline": "Análise Independente do Suplemento Novo Produto",
+    "expertNome": "Dra. Ana Luiza Mendes",
+    "expertCargo": "Nutricionista Funcional e Especialista em Suplementação Natural",
+    "expertDescricao": "Nutricionista funcional com mais de 12 anos de experiência em suplementação natural.",
+    "email": "contato@blognovoproduto.com.br",
+    "ogImage": "https://novo-produto.vercel.app/images/og-default.jpg",
+    "productImage": "https://novo-produto.vercel.app/images/produto.jpg",
+    "reviewCount": "2157",
+    "ratingValue": "4.8",
+    "socialProofNumero": "1.400",
+    "socialProofTexto": "mulheres",
+    "bonusApp": "App com 50+ aulas",
+    "bonusEbooks": "7 E-books digitais",
+    "bonusGrupo": "Grupo VIP Facebook",
+    "tempoGarantiaDias": "30",
+    "palavrasChave": [
+      "NOME_DO_PRODUTO funciona",
+      "NOME_DO_PRODUTO funciona mesmo",
+      "NOME_DO_PRODUTO emagrece",
+      "NOME_DO_PRODUTO preço",
+      "NOME_DO_PRODUTO onde comprar",
+      "NOME_DO_PRODUTO site oficial",
+      "NOME_DO_PRODUTO desconto",
+      "o que é NOME_DO_PRODUTO",
+      "NOME_DO_PRODUTO composição",
+      "NOME_DO_PRODUTO benefícios",
+      "NOME_DO_PRODUTO depoimentos",
+      "NOME_DO_PRODUTO antes e depois",
+      "NOME_DO_PRODUTO reclame aqui"
+    ]
+  },
+  "conteudo": {
+    "oQueE": {
+      "resumo": "O NOME_DO_PRODUTO é um suplemento alimentar natural em gotas desenvolvido com fórmula exclusiva.",
+      "beneficiosList": [
+        "Acelerar o metabolismo",
+        "Controlar o apetite",
+        "Auxiliar na queima de gordura",
+        "Reduzir a compulsão alimentar",
+        "Melhorar a digestão e reduzir o inchaço"
+      ],
+      "problemasTabela": [
+        { "problema": "Metabolismo lento", "solucao": "Termogênicos naturais aceleram a queima" },
+        { "problema": "Fome entre refeições", "solucao": "Fibras solúveis promovem saciedade" },
+        { "problema": "Compulsão por doces", "solucao": "Cromo estabiliza glicose e reduz desejos" },
+        { "problema": "Barriga estufada", "solucao": "Ingredientes melhoram digestão" },
+        { "problema": "Cansaço excessivo", "solucao": "Vitaminas aumentam energia" }
+      ],
+      "ecossistema": [
+        "📱 App com videoaulas (nutricionista, psicóloga e personal)",
+        "📚 E-books digitais (receitas, exercícios, plano 30 dias)",
+        "👥 Grupo VIP com suporte de nutricionista"
+      ]
+    },
+    "composicao": {
+      "ingredientes": [
+        { "nome": "Ingrediente 1", "emoji": "🔥", "acao": "Ação metabólica" },
+        { "nome": "Ingrediente 2", "emoji": "🍃", "acao": "Ação digestiva" },
+        { "nome": "Ingrediente 3", "emoji": "⚡", "acao": "Ação energética" }
+      ],
+      "sinergia": "Texto sobre sinergia dos ingredientes."
+    },
+    "beneficios": {
+      "itens": [
+        {
+          "titulo": "Saciedade Prolongada",
+          "emoji": "🍽️",
+          "descricao": "Texto emocional sobre saciedade.",
+          "resultadoPratico": "Você come naturalmente menos, sem passar fome."
+        },
+        {
+          "titulo": "Aceleração do Metabolismo",
+          "emoji": "🔥",
+          "descricao": "Texto sobre metabolismo.",
+          "resultadoPratico": "Você queima gordura dormindo."
+        }
+      ]
+    },
+    "comoUsar": {
+      "passos": [
+        { "nome": "Dosagem", "texto": "Use o conta-gotas para medir a dose correta por dia." },
+        { "nome": "Como tomar", "texto": "Aplique diretamente na boca ou dilua em água." },
+        { "nome": "Duração", "texto": "Para resultados consistentes, recomenda-se o uso por pelo menos 90 dias." }
+      ],
+      "timeline": [
+        { "tempo": "Semana 1-2", "efeito": "Primeiros sinais de saciedade e disposição" },
+        { "tempo": "Mês 1-2", "efeito": "Redução de medidas e mais energia" },
+        { "tempo": "Mês 3+", "efeito": "Resultados expressivos e consolidados" }
+      ]
+    },
+    "contraindicacoes": {
+      "quemNaoPode": [
+        "Gestantes e lactantes",
+        "Crianças menores de 18 anos",
+        "Pessoas com hipersensibilidade a qualquer componente"
+      ],
+      "interacoes": [
+        "Medicamentos para diabetes",
+        "Anticoagulantes",
+        "Remédios para tireoide"
+      ],
+      "efeitos": "Alguns usuários podem sentir leve desconforto digestivo inicial."
+    },
+    "depoimentos": [
+      {
+        "nome": "Maria S.",
+        "idade": "34",
+        "cidade": "São Paulo",
+        "tempoUso": "3 meses",
+        "kit": "3 frascos",
+        "texto": "Depoimento emocional do usuário."
+      }
+    ],
+    "ondeComprar": {
+      "aviso": "O NOME_DO_PRODUTO original só é vendido pelo site oficial.",
+      "kits": [
+        { "nome": "1 Frasco — Tratamento Inicial (30 dias)", "parcelado": "12x R$ 14,76", "avista": "R$ 147,00", "popular": false },
+        { "nome": "3 Frascos — Leve 3 Pague 2 (90 dias) ⭐ Mais Popular", "parcelado": "12x R$ 19,78", "avista": "R$ 197,00", "popular": true },
+        { "nome": "5 Frascos — Kit Família (150 dias)", "parcelado": "12x R$ 24,90", "avista": "R$ 247,00", "popular": false },
+        { "nome": "8 Frascos — Transformação Total (240 dias)", "parcelado": "12x R$ 37,90", "avista": "R$ 377,00", "popular": false }
+      ],
+      "naoComprar": ["Mercado Livre", "Shopee", "Amazon Marketplace", "Sites de descontos não autorizados", "Revendedores em redes sociais"]
+    },
+    "faq": [
+      { "pergunta": "NOME_DO_PRODUTO funciona mesmo?", "resposta": "Resposta sobre funcionamento." },
+      { "pergunta": "NOME_DO_PRODUTO emagrece?", "resposta": "Resposta sobre emagrecimento." },
+      { "pergunta": "Pra que serve o NOME_DO_PRODUTO?", "resposta": "Resposta sobre finalidade." },
+      { "pergunta": "Quanto tempo leva para fazer efeito?", "resposta": "Resposta sobre prazo de resultados." },
+      { "pergunta": "NOME_DO_PRODUTO tem efeitos colaterais?", "resposta": "Resposta sobre segurança." },
+      { "pergunta": "Qual o preço do NOME_DO_PRODUTO?", "resposta": "Resposta sobre preços." },
+      { "pergunta": "Onde comprar NOME_DO_PRODUTO com desconto?", "resposta": "Resposta sobre compra oficial." },
+      { "pergunta": "NOME_DO_PRODUTO é aprovado pela Anvisa?", "resposta": "Resposta sobre registro Anvisa." }
+    ]
+  }
+}

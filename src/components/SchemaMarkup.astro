@@ -100,9 +100,10 @@ const productSchema = {
       merchantReturnDays: 30,
       returnMethod: 'https://schema.org/ReturnByMail',
       returnFees: 'https://schema.org/FreeReturn',
+      applicableCountry: 'BR',
     },
     shippingDetails: {
-      '@type': 'ShippingDetails',
+      '@type': 'OfferShippingDetails',
       shippingRate: {
         '@type': 'MonetaryAmount',
         value: '0',
