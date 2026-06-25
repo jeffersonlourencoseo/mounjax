@@ -29,10 +29,7 @@ import Footer from '../components/Footer.astro';
 
   <main class="pt-[72px]">
     <!-- HERO -->
-    <section class="hero-section relative min-h-[90vh] flex items-center justify-center overflow-hidden" style="contain: layout paint;">
-      <div class="absolute inset-0 bg-gradient-to-br from-brand/5 via-surface to-brand-light/5"></div>
-      <div class="hero-orb hero-orb-top" aria-hidden="true"></div>
-      <div class="hero-orb hero-orb-bottom" aria-hidden="true"></div>
+    <section class="relative min-h-[90vh] flex items-center justify-center overflow-hidden hero-gradient">
 
       <div class="relative z-10 container mx-auto px-6 lg:px-12 text-center max-w-4xl">
         <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-brand mb-6">
@@ -46,7 +43,7 @@ import Footer from '../components/Footer.astro';
           Mounjax em gotas: a fórmula natural que já ajudou mais de <strong>1.400 mulheres</strong> a vestir o biquíni de novo. Só <strong>12 gotas por dia</strong> + App com 50+ aulas + 7 e-books de bônus.
         </p>
 
-        <p class="text-base md:text-lg text-brand-dark/90 max-w-2xl mx-auto mb-10 leading-relaxed">
+        <p class="text-base md:text-lg text-brand-dark max-w-2xl mx-auto mb-10 leading-relaxed">
           Se você evita espelhos, não tira foto de perfil e já tentou de tudo — descubra por que 12 gotas de manhã podem ser o que faltava para o metabolismo reagir, sem dietas malucas.
         </p>
 
@@ -156,7 +153,7 @@ import Footer from '../components/Footer.astro';
                 </div>
                 <div>
                   <h3 class="font-display text-xl font-bold text-brand">{ing.name}</h3>
-                  <span class="text-xs italic text-brand-dark/90">{ing.sci}</span>
+                  <span class="text-xs italic text-brand-dark">{ing.sci}</span>
                 </div>
               </div>
               <p class="text-sm text-brand-dark leading-relaxed">{ing.desc}</p>
@@ -172,7 +169,7 @@ import Footer from '../components/Footer.astro';
         <div class="text-center mt-8">
           <a href="https://app.monetizze.com.br/r/ATX25785612"
              target="_blank"
-             class="inline-flex items-center gap-2 text-base font-semibold uppercase tracking-wider text-white bg-accent px-8 py-4 rounded-full hover:shadow-xl hover:-translate-y-0.5 transition-all"
+             class="inline-flex items-center gap-2 text-base font-semibold uppercase tracking-wider text-white bg-brand-light px-8 py-4 rounded-full hover:shadow-xl hover:-translate-y-0.5 transition-all"
              rel="noopener noreferrer nofollow sponsored">
             Site oficial Mounjax com desconto →
           </a>
@@ -260,19 +257,19 @@ import Footer from '../components/Footer.astro';
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">
-            <div class="w-10 h-10 flex items-center justify-center bg-accent text-white font-display text-xl font-bold rounded-full mb-4">1</div>
+            <div class="w-10 h-10 flex items-center justify-center bg-brand-light text-white font-display text-xl font-bold rounded-full mb-4">1</div>
             <h3 class="font-display text-xl font-bold mb-2">Dosagem</h3>
             <p class="text-white leading-relaxed">A dosagem recomendada é de <strong>12 gotas por dia</strong>. Use o conta-gotas do frasco para medir a quantidade exata. A consistência no horário potencializa a ação dos 9 componentes ativos ao longo do dia.</p>
           </div>
 
           <div class="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">
-            <div class="w-10 h-10 flex items-center justify-center bg-accent text-white font-display text-xl font-bold rounded-full mb-4">2</div>
+            <div class="w-10 h-10 flex items-center justify-center bg-brand-light text-white font-display text-xl font-bold rounded-full mb-4">2</div>
             <h3 class="font-display text-xl font-bold mb-2">Como tomar</h3>
             <p class="text-white leading-relaxed">Aplique as 12 gotas diretamente na boca ou dilua em um copo de água. O ideal é tomar sempre no <strong>mesmo horário</strong>, preferencialmente pela manhã ou antes da principal refeição do dia, para manter níveis estáveis dos ativos no organismo.</p>
           </div>
 
           <div class="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">
-            <div class="w-10 h-10 flex items-center justify-center bg-accent text-white font-display text-xl font-bold rounded-full mb-4">3</div>
+            <div class="w-10 h-10 flex items-center justify-center bg-brand-light text-white font-display text-xl font-bold rounded-full mb-4">3</div>
             <h3 class="font-display text-xl font-bold mb-2">Ecossistema Mounjax</h3>
             <p class="text-white leading-relaxed">Além das 12 gotas, você recebe o <strong>App Mounjax</strong> com 50+ aulas, 7 e-books de bônus e acesso ao <strong>Grupo VIP</strong> no Facebook com mais de 1.400 mulheres e suporte de nutricionista de segunda a sexta.</p>
           </div>
@@ -284,7 +281,7 @@ import Footer from '../components/Footer.astro';
           </a>
           <a href="https://app.monetizze.com.br/r/ATX25785612"
              target="_blank"
-             class="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-white bg-accent px-6 py-3 rounded-full hover:shadow-lg hover:-translate-y-0.5 transition-all"
+             class="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-white bg-brand-light px-6 py-3 rounded-full hover:shadow-lg hover:-translate-y-0.5 transition-all"
              rel="noopener noreferrer nofollow sponsored">
             Site oficial Mounjax com desconto →
           </a>
@@ -329,7 +326,7 @@ import Footer from '../components/Footer.astro';
           </ul>
         </div>
 
-        <p class="text-sm text-brand-dark/90 mt-6 leading-relaxed">
+        <p class="text-sm text-brand-dark mt-6 leading-relaxed">
           O Mounjax é 100% natural e seguro para o consumo da população adulta saudável. As declarações aqui não foram avaliadas pela ANVISA. O produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença. Se estiver em tratamento, consulte seu médico.
         </p>
 
@@ -392,7 +389,7 @@ import Footer from '../components/Footer.astro';
              rel="noopener noreferrer nofollow sponsored">
             Site oficial Mounjax com desconto →
           </a>
-          <p class="text-sm text-brand-dark/90 mt-3">Frete Grátis | Garantia 30 Dias | 12x no cartão</p>
+          <p class="text-sm text-brand-dark mt-3">Frete Grátis | Garantia 30 Dias | 12x no cartão</p>
         </div>
       </div>
     </section>
@@ -410,28 +407,28 @@ import Footer from '../components/Footer.astro';
             <img src="/images/antes-depois-1.jpg" alt="Antes e depois Mounjax - Resultado real 1" class="w-full h-64 object-cover" loading="lazy" />
             <div class="p-4 text-center">
               <p class="text-sm font-semibold text-brand-dark">Fernanda Lima, 34 anos</p>
-              <p class="text-xs text-brand-dark/90">3 meses de uso · Kit 3 frascos</p>
+              <p class="text-xs text-brand-dark">3 meses de uso · Kit 3 frascos</p>
             </div>
           </div>
           <div class="bg-surface rounded-2xl overflow-hidden shadow-sm border border-brand/5">
             <img src="/images/antes-depois-2.jpg" alt="Antes e depois Mounjax - Resultado real 2" class="w-full h-64 object-cover" loading="lazy" />
             <div class="p-4 text-center">
               <p class="text-sm font-semibold text-brand-dark">Patrícia Menezes, 45 anos</p>
-              <p class="text-xs text-brand-dark/90">4 meses de uso · Kit 5 frascos</p>
+              <p class="text-xs text-brand-dark">4 meses de uso · Kit 5 frascos</p>
             </div>
           </div>
           <div class="bg-surface rounded-2xl overflow-hidden shadow-sm border border-brand/5">
             <img src="/images/antes-depois-3.jpg" alt="Antes e depois Mounjax - Resultado real 3" class="w-full h-64 object-cover" loading="lazy" />
             <div class="p-4 text-center">
               <p class="text-sm font-semibold text-brand-dark">Camila Rocha, 29 anos</p>
-              <p class="text-xs text-brand-dark/90">2 meses de uso · Kit 3 frascos</p>
+              <p class="text-xs text-brand-dark">2 meses de uso · Kit 3 frascos</p>
             </div>
           </div>
         </div>
         <div class="text-center mt-10">
           <a href="https://app.monetizze.com.br/r/ATX25785612"
              target="_blank"
-             class="inline-flex items-center gap-2 text-base font-semibold uppercase tracking-wider text-white bg-accent px-8 py-4 rounded-full hover:shadow-xl hover:-translate-y-0.5 transition-all"
+             class="inline-flex items-center gap-2 text-base font-semibold uppercase tracking-wider text-white bg-brand-light px-8 py-4 rounded-full hover:shadow-xl hover:-translate-y-0.5 transition-all"
              rel="noopener noreferrer nofollow sponsored">
             Quero Começar Minha Transformação
           </a>
@@ -477,9 +474,9 @@ import Footer from '../components/Footer.astro';
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
           <div class="bg-surface border-2 border-brand/10 p-8 rounded-2xl text-center hover:border-brand/30 transition-all">
             <h4 class="font-display text-xl font-bold text-brand-dark mb-2">1 Frasco — Tratamento Inicial</h4>
-            <p class="text-sm text-brand-dark/90 mb-4">30 dias de uso | 30ml em gotas</p>
+            <p class="text-sm text-brand-dark mb-4">30 dias de uso | 30ml em gotas</p>
             <p class="font-display text-4xl font-bold text-brand mb-1">12x R$ 14,76</p>
-            <p class="text-xs text-brand-dark/60 mb-4">ou R$ 147,00 à vista</p>
+            <p class="text-xs text-brand mb-4">ou R$ 147,00 à vista</p>
             <ul class="text-sm text-brand-dark space-y-1 mb-6 text-left inline-block">
               <li>✅ Frete Grátis</li>
               <li>✅ 1 E-book Bônus</li>
@@ -496,10 +493,10 @@ import Footer from '../components/Footer.astro';
           <div class="bg-gradient-to-br from-brand/5 to-brand-light/5 border-2 border-accent p-8 rounded-2xl text-center relative overflow-hidden">
             <span class="absolute top-0 right-0 bg-danger text-white text-xs font-bold uppercase tracking-wider px-4 py-1 rounded-bl-xl animate-pulse">🔥 Mais Vendido</span>
             <h4 class="font-display text-xl font-bold text-brand-dark mb-2">3 Frascos — Leve 3 Pague 2</h4>
-            <p class="text-sm text-brand-dark/90 mb-2">90 dias de uso | Melhor custo-benefício</p>
+            <p class="text-sm text-brand-dark mb-2">90 dias de uso | Melhor custo-benefício</p>
             <p class="text-xs text-danger font-semibold mb-4">⏰ Economia de R$ 210,00 — desconto aplicado automaticamente</p>
             <p class="font-display text-4xl font-bold text-brand mb-1">12x R$ 19,78</p>
-            <p class="text-xs text-brand-dark/60 mb-4">ou R$ 197,00 à vista</p>
+            <p class="text-xs text-brand mb-4">ou R$ 197,00 à vista</p>
             <ul class="text-sm text-brand-dark space-y-1 mb-6 text-left inline-block">
               <li>✅ Frete Grátis</li>
               <li>✅ 7 E-books Bônus</li>
@@ -511,7 +508,7 @@ import Footer from '../components/Footer.astro';
             <a href="https://app.monetizze.com.br/r/ATX25785612"
                target="_blank"
                rel="noopener noreferrer nofollow sponsored"
-               class="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-white bg-accent px-6 py-3 rounded-full hover:shadow-lg hover:-translate-y-0.5 transition-all w-full justify-center">
+               class="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-white bg-brand-light px-6 py-3 rounded-full hover:shadow-lg hover:-translate-y-0.5 transition-all w-full justify-center">
               Comprar Kit 3 Frascos →
             </a>
           </div>
@@ -520,9 +517,9 @@ import Footer from '../components/Footer.astro';
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
           <div class="bg-surface border-2 border-brand/10 p-8 rounded-2xl text-center hover:border-brand/30 transition-all">
             <h4 class="font-display text-xl font-bold text-brand-dark mb-2">5 Frascos — Tratamento Completo</h4>
-            <p class="text-sm text-brand-dark/90 mb-4">150 dias de uso | Resultados consistentes</p>
+            <p class="text-sm text-brand-dark mb-4">150 dias de uso | Resultados consistentes</p>
             <p class="font-display text-4xl font-bold text-brand mb-1">12x R$ 24,80</p>
-            <p class="text-xs text-brand-dark/60 mb-4">ou R$ 247,00 à vista</p>
+            <p class="text-xs text-brand mb-4">ou R$ 247,00 à vista</p>
             <ul class="text-sm text-brand-dark space-y-1 mb-6 text-left inline-block">
               <li>✅ Frete Grátis</li>
               <li>✅ 7 E-books Bônus + Aulas VIP</li>
@@ -538,9 +535,9 @@ import Footer from '../components/Footer.astro';
 
           <div class="bg-surface border-2 border-brand/10 p-8 rounded-2xl text-center hover:border-brand/30 transition-all">
             <h4 class="font-display text-xl font-bold text-brand-dark mb-2">8 Frascos — Família ou Revenda</h4>
-            <p class="text-sm text-brand-dark/90 mb-4">240 dias de uso | Maior economia</p>
+            <p class="text-sm text-brand-dark mb-4">240 dias de uso | Maior economia</p>
             <p class="font-display text-4xl font-bold text-brand mb-1">12x R$ 37,85</p>
-            <p class="text-xs text-brand-dark/60 mb-4">ou R$ 377,00 à vista</p>
+            <p class="text-xs text-brand mb-4">ou R$ 377,00 à vista</p>
             <ul class="text-sm text-brand-dark space-y-1 mb-6 text-left inline-block">
               <li>✅ Frete Grátis</li>
               <li>✅ Todos os Bônus Exclusivos</li>
@@ -572,12 +569,12 @@ import Footer from '../components/Footer.astro';
             href="https://app.monetizze.com.br/r/ATX25785612"
             target="_blank"
             rel="noopener noreferrer nofollow sponsored"
-            class="inline-flex items-center gap-2 text-base font-semibold uppercase tracking-wider text-white bg-accent px-10 py-4 rounded-full hover:bg-accent-dark transition-colors shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+            class="inline-flex items-center gap-2 text-base font-semibold uppercase tracking-wider text-white bg-brand-light px-10 py-4 rounded-full hover:bg-brand-light-dark transition-colors shadow-lg hover:shadow-xl hover:-translate-y-0.5"
           >
             Acessar Site Oficial do Mounjax
           </a>
-          <p class="text-sm text-brand-dark/90 mt-4">Garantia de 30 dias de risco zero | Pagamento Seguro | Frete Grátis</p>
-          <p class="text-xs text-brand-dark/60 text-center mt-4 flex items-center justify-center gap-2">
+          <p class="text-sm text-brand-dark mt-4">Garantia de 30 dias de risco zero | Pagamento Seguro | Frete Grátis</p>
+          <p class="text-xs text-brand text-center mt-4 flex items-center justify-center gap-2">
             <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd"/></svg>
             Ambiente 100% seguro. Seus dados estão protegidos.
           </p>
@@ -716,54 +713,14 @@ import Footer from '../components/Footer.astro';
   <Footer />
 
   <style>
-    .hero-section {
-      contain: layout paint;
-    }
-    .hero-orb {
-      position: absolute;
-      border-radius: 9999px;
-      filter: blur(100px);
-      pointer-events: none;
-      transform: translate3d(0, 0, 0);
-      will-change: transform, opacity;
-      backface-visibility: hidden;
-      -webkit-backface-visibility: hidden;
-    }
-    .hero-orb-top {
-      top: -10%;
-      right: -5%;
-      width: 500px;
-      height: 500px;
-      background-color: rgba(81, 63, 126, 0.1);
-    }
-    .hero-orb-bottom {
-      bottom: -5%;
-      left: -5%;
-      width: 400px;
-      height: 400px;
-      background-color: rgba(238, 53, 47, 0.1);
-    }
-    @media (prefers-reduced-motion: no-preference) {
-      .hero-orb-top {
-        animation: orb-float 8s ease-in-out infinite;
-      }
-      .hero-orb-bottom {
-        animation: orb-float 8s ease-in-out infinite;
-        animation-delay: 4s;
-      }
-    }
-    @keyframes orb-float {
-      0%, 100% { opacity: 0.5; transform: translate3d(0, 0, 0) scale(1); }
-      50% { opacity: 0.8; transform: translate3d(0, 0, 0) scale(1.05); }
+    .hero-gradient {
+      background: radial-gradient(ellipse 80% 50% at 90% -20%, rgba(81, 63, 126, 0.12), transparent),
+                  radial-gradient(ellipse 60% 40% at 10% 110%, rgba(238, 53, 47, 0.08), transparent),
+                  linear-gradient(135deg, rgba(81, 63, 126, 0.05) 0%, #ffffff 50%, rgba(115, 97, 174, 0.05) 100%);
     }
     .content-visibility {
       content-visibility: auto;
       contain-intrinsic-size: 0 500px;
-    }
-    @media (prefers-reduced-motion: reduce) {
-      .hero-orb {
-        animation: none;
-      }
     }
   </style>
 </Layout>

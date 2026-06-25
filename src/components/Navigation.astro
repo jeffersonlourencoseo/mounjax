@@ -22,11 +22,11 @@ const currentPath = Astro.url.pathname;
       </a>
 
       <!-- Mobile: link simples para página do menu -->
-      <a href="/menu/" class="lg:hidden flex flex-col items-center justify-center w-12 h-12 gap-[6px]" aria-label="Abrir menu">
+      <button type="button" class="lg:hidden flex flex-col items-center justify-center w-12 h-12 gap-[6px]" aria-label="Abrir menu" onclick="window.location.href='/menu/'">
         <span class="block w-6 h-[2px] bg-brand"></span>
         <span class="block w-6 h-[2px] bg-brand"></span>
         <span class="block w-6 h-[2px] bg-brand"></span>
-      </a>
+      </button>
 
       <!-- Desktop: menu horizontal -->
       <ul class="hidden lg:flex items-center gap-8 list-none m-0 p-0">
