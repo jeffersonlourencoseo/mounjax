@@ -25,6 +25,8 @@
     "zod": "^4.4.3"
   },
   "devDependencies": {
+    "chrome-launcher": "^1.2.1",
+    "lighthouse": "^13.4.0",
     "puppeteer": "^25.2.1"
   }
 }
