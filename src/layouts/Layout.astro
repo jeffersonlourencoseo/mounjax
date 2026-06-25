@@ -92,18 +92,34 @@ const {
       min-height: 44px;
       min-width: 44px;
     }
+
+    /* Reserva espaço para o CTA sticky mobile e evita CLS */
+    body {
+      padding-bottom: 80px;
+    }
+    @media (min-width: 1024px) {
+      body {
+        padding-bottom: 0;
+      }
+    }
   </style>
 </head>
 
 <body class="bg-surface text-brand-dark antialiased">
   <slot />
 
-  <!-- CTA Sticky Mobile -->
-  <div class="fixed bottom-0 left-0 right-0 bg-white border-t border-brand/10 p-3 z-50 lg:hidden shadow-[0_-4px_20px_rgba(0,0,0,0.1)]">
+  <!-- CTA Sticky Mobile: altura fixa e posição reservada para evitar CLS -->
+  <div
+    class="fixed bottom-0 left-0 right-0 bg-white border-t border-brand/10 p-3 z-50 lg:hidden shadow-[0_-4px_20px_rgba(0,0,0,0.1)]"
+    aria-label="Oferta mobile"
+    role="complementary"
+    style="height: 80px;"
+  >
     <a href="https://app.monetizze.com.br/r/ATX25785612"
        target="_blank"
-       class="flex items-center justify-center gap-2 text-sm font-bold uppercase tracking-wider text-white bg-brand w-full py-3 rounded-full"
+       class="flex items-center justify-center gap-2 text-sm font-bold uppercase tracking-wider text-white bg-brand w-full h-14 rounded-full"
        rel="noopener noreferrer nofollow sponsored"
+       aria-label="Comprar Mounjax com desconto no site oficial"
     >
       Comprar com Desconto
     </a>

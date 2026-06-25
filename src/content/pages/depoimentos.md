@@ -34,21 +34,21 @@ Veja as transformações de mulheres que usaram o Mounjax seguindo o protocolo d
 <div class="text-center my-8">
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem;">
     <div style="background:#fff;border-radius:1rem;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06);border:1px solid rgba(45,156,219,0.1);">
-      <img src="/images/antes-depois-1.jpg" alt="Antes e depois Mounjax - Fernanda" style="width:100%;height:250px;object-fit:cover;" loading="lazy" />
+      <img src="/images/antes-depois-1.jpg" alt="Antes e depois Mounjax - Fernanda" style="width:100%;height:250px;object-fit:cover;" loading="lazy" width="400" height="250" decoding="async" />
       <div style="padding:1rem;text-align:center;">
         <p style="font-weight:600;color:#1a1a2e;margin:0;">Fernanda Lima, 34 anos</p>
         <p style="font-size:0.8rem;color:rgba(26,26,46,0.6);margin:0.25rem 0 0;">3 meses · Kit 3 frascos</p>
       </div>
     </div>
     <div style="background:#fff;border-radius:1rem;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06);border:1px solid rgba(45,156,219,0.1);">
-      <img src="/images/antes-depois-2.jpg" alt="Antes e depois Mounjax - Patrícia" style="width:100%;height:250px;object-fit:cover;" loading="lazy" />
+      <img src="/images/antes-depois-2.jpg" alt="Antes e depois Mounjax - Patrícia" style="width:100%;height:250px;object-fit:cover;" loading="lazy" width="400" height="250" decoding="async" />
       <div style="padding:1rem;text-align:center;">
         <p style="font-weight:600;color:#1a1a2e;margin:0;">Patrícia Menezes, 45 anos</p>
         <p style="font-size:0.8rem;color:rgba(26,26,46,0.6);margin:0.25rem 0 0;">4 meses · Kit 5 frascos</p>
       </div>
     </div>
     <div style="background:#fff;border-radius:1rem;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06);border:1px solid rgba(45,156,219,0.1);">
-      <img src="/images/antes-depois-3.jpg" alt="Antes e depois Mounjax - Camila" style="width:100%;height:250px;object-fit:cover;" loading="lazy" />
+      <img src="/images/antes-depois-3.jpg" alt="Antes e depois Mounjax - Camila" style="width:100%;height:250px;object-fit:cover;" loading="lazy" width="400" height="250" decoding="async" />
       <div style="padding:1rem;text-align:center;">
         <p style="font-weight:600;color:#1a1a2e;margin:0;">Camila Rocha, 29 anos</p>
         <p style="font-size:0.8rem;color:rgba(26,26,46,0.6);margin:0.25rem 0 0;">2 meses · Kit 3 frascos</p>

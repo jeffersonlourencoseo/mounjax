@@ -133,7 +133,7 @@ Veja abaixo fotos reais de mulheres que transformaram seus corpos com a fórmula
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;margin:2rem 0;">
 
   <div style="border-radius:12px;overflow:hidden;box-shadow:0 4px 15px rgba(0,0,0,0.1);">
-    <img src="/images/antes-depois-4.png" alt="Antes e depois Mounjax - Resultado real 4" style="width:100%;height:250px;object-fit:cover;" loading="lazy" />
+    <img src="/images/antes-depois-4.png" alt="Antes e depois Mounjax - Resultado real 4" style="width:100%;height:250px;object-fit:cover;" loading="lazy" width="400" height="250" decoding="async" />
     <div style="padding:1rem;background:#fff;text-align:center;">
       <p style="margin:0;font-weight:600;color:#1a1a2e;">Resultado em 3 meses</p>
       <p style="margin:0.25rem 0 0;font-size:0.85rem;color:rgba(26,26,46,0.6);">Redução de medidas visível, barriga mais lisa</p>
@@ -141,7 +141,7 @@ Veja abaixo fotos reais de mulheres que transformaram seus corpos com a fórmula
   </div>
 
   <div style="border-radius:12px;overflow:hidden;box-shadow:0 4px 15px rgba(0,0,0,0.1);">
-    <img src="/images/antes-depois-5.jpg" alt="Antes e depois Mounjax - Resultado real 5" style="width:100%;height:250px;object-fit:cover;" loading="lazy" />
+    <img src="/images/antes-depois-5.jpg" alt="Antes e depois Mounjax - Resultado real 5" style="width:100%;height:250px;object-fit:cover;" loading="lazy" width="400" height="250" decoding="async" />
     <div style="padding:1rem;background:#fff;text-align:center;">
       <p style="margin:0;font-weight:600;color:#1a1a2e;">Transformação em 4 meses</p>
       <p style="margin:0.25rem 0 0;font-size:0.85rem;color:rgba(26,26,46,0.6);">Voltou a usar roupas de antes da gravidez</p>
