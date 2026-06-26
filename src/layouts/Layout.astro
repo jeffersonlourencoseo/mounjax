@@ -154,5 +154,44 @@ const {
     breadcrumbs={breadcrumbs}
     howToData={schemaHowTo}
   />
+
+  <!-- GTag carregado sob demanda após interação ou após 8s — evita JS não usado no primeiro paint -->
+  <script is:inline>
+    (function() {
+      var loaded = false;
+      function loadGtag() {
+        if (loaded) return;
+        loaded = true;
+        var s = document.createElement('script');
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-44Y4HNY57K';
+        s.async = true;
+        s.defer = true;
+        s.fetchPriority = 'low';
+        document.head.appendChild(s);
+      }
+      window.addEventListener('scroll', loadGtag, { once: true, passive: true });
+      window.addEventListener('click', loadGtag, { once: true, passive: true });
+      window.addEventListener('keydown', loadGtag, { once: true, passive: true });
+      window.addEventListener('touchstart', loadGtag, { once: true, passive: true });
+      setTimeout(loadGtag, 8000);
+    })();
+  </script>
+
+  <!-- Event tracking para cliques em afiliado -->
+  <script is:inline>
+    document.body.addEventListener('click', function(e) {
+      var el = e.target.closest('a[href*="app.monetizze.com.br/r/ATX25785612"]');
+      if (!el) return;
+      var location = 'generic';
+      if (el.closest('#onde-comprar')) location = 'onde-comprar';
+      else if (el.closest('footer')) location = 'footer';
+      else if (el.closest('section#o-que-e')) location = 'o-que-e';
+      else if (el.closest('section.relative.min-h-\[90vh\]')) location = 'cta-hero';
+      else if (el.closest('main')) location = 'homepage';
+      if (typeof gtag === 'function') {
+        gtag('event', 'click_afiliado', { location: location });
+      }
+    });
+  </script>
 </body>
 </html>
