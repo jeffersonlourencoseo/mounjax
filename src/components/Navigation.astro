@@ -13,46 +13,40 @@ const navItems = [
 const currentPath = Astro.url.pathname;
 ---
 
-<!-- Skip link para acessibilidade e navegação agêntica -->
+<!-- Skip link para acessibilidade e navegacao agentica -->
 <a href="#conteudo-principal" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[60] focus:bg-brand focus:text-white focus:px-4 focus:py-2 focus:rounded-md">
-  Pular para o conteúdo principal
+  Pular para o conteudo principal
 </a>
 
-<nav class="fixed top-0 left-0 right-0 z-50 bg-surface/95 backdrop-blur-md border-b border-brand/5" aria-label="Navegação principal">
+<nav class="fixed top-0 left-0 right-0 z-50 bg-surface/95 backdrop-blur-md border-b border-brand/5" aria-label="Navegacao principal">
   <div class="container mx-auto px-6 lg:px-12">
     <div class="flex items-center justify-between h-[72px]">
-      <a href="/" class="flex flex-col leading-none" aria-label="Blog Mounjax - Página inicial">
+      <a href="/" class="flex flex-col leading-none" aria-label="Blog Mounjax - Pagina inicial">
         <span class="font-display text-2xl font-bold text-brand tracking-tight">Mounjax</span>
         <span class="text-[0.65rem] font-semibold text-brand-dark uppercase tracking-[0.15em] mt-0.5">Review</span>
       </a>
 
-      <!-- Mobile: link semântico para página do menu -->
-      <a
-        href="/menu/"
-        class="lg:hidden flex flex-col items-center justify-center w-12 h-12 gap-[6px]"
-        aria-label="Abrir menu de navegação"
-      >
+      <!-- Mobile: link simples para pagina do menu -->
+      <button type="button" class="lg:hidden flex flex-col items-center justify-center w-12 h-12 gap-[6px]" aria-label="Abrir menu" onclick="window.location.href='/menu/'">
         <span class="block w-6 h-[2px] bg-brand"></span>
         <span class="block w-6 h-[2px] bg-brand"></span>
         <span class="block w-6 h-[2px] bg-brand"></span>
-      </a>
+      </button>
 
       <!-- Desktop: menu horizontal -->
-      <ul class="hidden lg:flex items-center gap-8 list-none m-0 p-0" role="menubar">
+      <ul class="hidden lg:flex items-center gap-8 list-none m-0 p-0">
         {navItems.map(item => (
-          <li role="none">
+          <li>
             <a
               href={item.href}
-              role="menuitem"
               class={`text-sm font-medium transition-colors hover:text-brand ${currentPath === item.href ? 'text-brand' : 'text-brand-dark/90'}`}
-              aria-current={currentPath === item.href ? 'page' : undefined}
             >
               {item.label}
             </a>
           </li>
         ))}
-        <li role="none">
-          <a href="/onde-comprar/" role="menuitem" class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-white bg-gradient-to-r from-brand to-brand-light px-5 py-2.5 rounded-full hover:shadow-lg hover:-translate-y-0.5 transition-all">
+        <li>
+          <a href="/onde-comprar/" class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-white bg-gradient-to-r from-brand to-brand-light px-5 py-2.5 rounded-full hover:shadow-lg hover:-translate-y-0.5 transition-all">
             Oferta Especial
           </a>
         </li>
