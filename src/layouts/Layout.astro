@@ -53,6 +53,41 @@ const {
     ogAlt={ogAlt}
   />
 
+  <!-- CSS crítico inline: previne CLS enquanto o Tailwind carrega de forma async -->
+  <style is:inline>
+    *,*::before,*::after{box-sizing:border-box}
+    body{margin:0;line-height:1.5}
+    nav{display:block}
+    a{color:inherit;text-decoration:inherit}
+    button{cursor:pointer;background-color:transparent;background-image:none}
+    .fixed{position:fixed}
+    .absolute{position:absolute}
+    .relative{position:relative}
+    .top-0{top:0}
+    .left-0{left:0}
+    .right-0{right:0}
+    .bottom-0{bottom:0}
+    .z-50{z-index:50}
+    .z-\[60\]{z-index:60}
+    .container{width:100%;margin-left:auto;margin-right:auto;padding-left:1.5rem;padding-right:1.5rem}
+    .mx-auto{margin-left:auto;margin-right:auto}
+    .flex{display:flex}
+    .hidden{display:none}
+    .items-center{align-items:center}
+    .justify-between{justify-content:space-between}
+    .h-\[72px\]{height:72px}
+    .pt-\[72px\]{padding-top:72px}
+    .w-12{width:3rem}
+    .h-12{height:3rem}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}
+    .sr-only:focus{position:static;width:auto;height:auto;padding:0;margin:0;overflow:visible;clip:auto;white-space:normal}
+    @media(min-width:1024px){
+      .lg\:px-12{padding-left:3rem;padding-right:3rem}
+      .lg\:flex{display:flex}
+      .lg\:hidden{display:none}
+    }
+  </style>
+
   <style is:global>
     html {
       scroll-behavior: smooth;
@@ -92,25 +127,18 @@ const {
       min-height: 44px;
       min-width: 44px;
     }
-
   </style>
 </head>
 
 <body class="bg-surface text-brand-dark antialiased">
   <slot />
 
-  <!-- CTA Sticky Mobile: altura fixa e posição reservada para evitar CLS -->
-  <div
-    class="fixed bottom-0 left-0 right-0 bg-white border-t border-brand/10 p-3 z-50 lg:hidden shadow-[0_-4px_20px_rgba(0,0,0,0.1)]"
-    aria-label="Oferta mobile"
-    role="complementary"
-    style="height: 80px;"
-  >
+  <!-- CTA Sticky Mobile -->
+  <div class="fixed bottom-0 left-0 right-0 bg-white border-t border-brand/10 p-3 z-50 lg:hidden shadow-[0_-4px_20px_rgba(0,0,0,0.1)]">
     <a href="https://app.monetizze.com.br/r/ATX25785612"
        target="_blank"
-       class="flex items-center justify-center gap-2 text-sm font-bold uppercase tracking-wider text-white bg-brand w-full h-14 rounded-full"
+       class="flex items-center justify-center gap-2 text-sm font-bold uppercase tracking-wider text-white bg-brand w-full py-3 rounded-full"
        rel="noopener noreferrer nofollow sponsored"
-       aria-label="Comprar Mounjax com desconto no site oficial"
     >
       Comprar com Desconto
     </a>

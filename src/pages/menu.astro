@@ -29,8 +29,7 @@ import Layout from '../layouts/Layout.astro';
 
       <h1 class="font-display text-3xl font-bold text-brand-dark mb-8">Menu</h1>
 
-      <nav aria-label="Menu mobile">
-      <ul class="flex flex-col gap-3 list-none m-0 p-0" role="menu">
+      <ul class="flex flex-col gap-3 list-none m-0 p-0">
         {navItems.map(item => (
           <li>
             <a
@@ -75,7 +74,6 @@ import Layout from '../layouts/Layout.astro';
           </a>
         </li>
       </ul>
-      </nav>
     </div>
-  </main>
+  </div>
 </Layout>
