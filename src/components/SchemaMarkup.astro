@@ -104,6 +104,21 @@ const productSchema = {
     },
     shippingDetails: {
       '@type': 'OfferShippingDetails',
+      deliveryTime: {
+        '@type': 'ShippingDeliveryTime',
+        handlingTime: {
+          '@type': 'QuantitativeValue',
+          minValue: 0,
+          maxValue: 1,
+          unitText: 'Dia',
+        },
+        transitTime: {
+          '@type': 'QuantitativeValue',
+          minValue: 3,
+          maxValue: 10,
+          unitText: 'Dia',
+        },
+      },
       shippingRate: {
         '@type': 'MonetaryAmount',
         value: '0',
